@@ -1,9 +1,10 @@
 <!-- TOC -->
 
 - [Introduzione](#introduzione)
-    - [Ricette](#ricette)
+- [Ricette](#ricette)
     - [Selezionare righe con spazio iniziale](#selezionare-righe-con-spazio-iniziale)
     - [Selezionare righe con spazio finale](#selezionare-righe-con-spazio-finale)
+- [Siti utili](#siti-utili)
 
 <!-- /TOC -->
 
@@ -29,7 +30,7 @@ CARATTERE|SIGNIFICATO|ESEMPIO
 
 piccola guida alle [regex](https://www.evemilano.com/come-funzionano-le-espressioni-regolari-regex/)
 
-## Ricette
+# Ricette
 
 ## Selezionare righe con spazio iniziale
 
@@ -44,3 +45,7 @@ Vedi issue [#1](https://github.com/opendatasicilia/tansignari/issues/1)
 * `(.+?)( +)$` - uno o più spazi finali; [test](https://regex101.com/r/Qn4BTb/4)
 
 Vedi issue [#2](https://github.com/opendatasicilia/tansignari/issues/2)
+
+# Siti utili
+
+- **regex101**, per testare espressioni regolari e imparare a usarle [https://regex101.com/](https://regex101.com/)
