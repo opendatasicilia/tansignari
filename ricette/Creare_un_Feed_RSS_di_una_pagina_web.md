@@ -1,4 +1,4 @@
-
+![image](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/40px-Feed-icon.svg.png)
 Per **creare un Feed RSS di una pagina web** ci sono diversi modi.
 
 Uno, il più semplice è usare **Feedburner** https://feedburner.google.com/fb/a/myfeeds.
