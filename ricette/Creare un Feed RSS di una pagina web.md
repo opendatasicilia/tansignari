@@ -3,7 +3,9 @@ Per creare un Feed RSS di una pagina web ci sono diversi modi.
 
 Uno, il più semplice è usare https://feedburner.google.com/fb/a/myfeeds.
 Ma a volte per alcune pagine web può non funzionare. Si rende necessario usare altri strumenti online.
-Uno molto efficace è https://feed43.com/
+Uno molto efficace è https://feed43.com/.
+
+Prendiamo ad esempio questa pagina dalla quale vogliamo creare un feed RSS: https://www.lafeltrinelli.it/fcom/it/home/pages/puntivendita/negozi/trova/sicilia/RicordiMediaStores-Palermo.html
 
 Per creare un feed RSS con feed43, devi partire dall'analizzare il codice HTML della pagina web sorgente, e cercare l’elemento che si ripete. Tasto destro sulla parte di pagina con un elemento da trasformare in feed e poi ispeziona il codice.
 Devi cercare l’intero blocco di codice che si ripete per ogni elemento. Qui ad esempio è
