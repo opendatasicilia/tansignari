@@ -1,5 +1,6 @@
 
 Per creare un Feed RSS di una pagina web ci sono diversi modi.
+
 Uno, il più semplice è usare https://feedburner.google.com/fb/a/myfeeds.
 Ma a volte per alcune pagine web può non funzionare. Si rende necessario usare altri strumenti online.
 Uno molto efficace è https://feed43.com/
