@@ -40,4 +40,4 @@ sito utilizzato: https://regex101.com/
 
 ## Licenza sui contenuti di T'ansignari
 
-Tutti i contenuti di questo _repository_ sono pubblicati con la licenza  [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.it).
+Tutti i contenuti di questo _repository_ sono pubblicati con licenza  [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.it).
