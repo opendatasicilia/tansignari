@@ -7,7 +7,7 @@
 
 Molto spesso **disperdiamo richieste di aiuto** ("Come faccio a ...") e le relative risposte in _chat_, _social network_ ed email a due. Sono informazioni che una volta messe in circolo, dopo pochi minuti sono già perse, perché **confinate in spazi ristretti** che non si prestano a una condivisione di conoscenza e inoltre quasi **mai indicizzati dai motori di ricerca**.
 
-Questo repository nasce per **mettere a fattore comune questi scambi di conoscenza/esperienza**.
+Questo repository nasce per **mettere a fattore comune scambi di conoscenza/esperienza** sui temi di dati aperti, trasparenza, _Linked Open Data_, analisi e trasformazione di dati.
 
 ## Il nome di questo spazio
 
