@@ -1,3 +1,8 @@
+![](https://img.shields.io/github/last-commit/opendatasicilia/tansignari.svg?style=flat)
+![](https://img.shields.io/github/issues/opendatasicilia/tansignari.svg?style=flat)
+
+---
+
 ## Benvenuti
 
 Molto spesso **disperdiamo richieste di aiuto** ("Come faccio a ...") e le relative risposte in _chat_, _social network_ ed email a due. Sono informazioni che una volta messe in circolo, dopo pochi minuti sono già perse, perché **confinate in spazi ristretti** che non si prestano a una condivisione di conoscenza e inoltre quasi **mai indicizzati dai motori di ricerca**.
@@ -23,6 +28,3 @@ Da una [proposta](https://groups.google.com/d/msg/opendatasicilia/chsV6FZg1qI/dF
 
 Tutti i contenuti di questo _repository_ sono pubblicati con licenza  [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.it).
 
----
-![](https://img.shields.io/github/last-commit/opendatasicilia/tansignari.svg?style=flat)
-![](https://img.shields.io/github/issues/opendatasicilia/tansignari.svg?style=flat)
