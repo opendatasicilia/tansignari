@@ -1,5 +1,5 @@
-![](https://img.shields.io/github/last-commit/opendatasicilia/tansignari.svg?style=flat)
-![](https://img.shields.io/github/issues/opendatasicilia/tansignari.svg?style=flat)
+[![](https://img.shields.io/github/last-commit/opendatasicilia/tansignari.svg?style=flat)](https://github.com/opendatasicilia/tansignari/commits/master)
+[![](https://img.shields.io/github/issues/opendatasicilia/tansignari.svg?style=flat)](https://github.com/opendatasicilia/tansignari/issues)
 
 ---
 
@@ -27,4 +27,3 @@ Da una [proposta](https://groups.google.com/d/msg/opendatasicilia/chsV6FZg1qI/dF
 ## Licenza sui contenuti di T'ansignari
 
 Tutti i contenuti di questo _repository_ sono pubblicati con licenza  [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.it).
-
