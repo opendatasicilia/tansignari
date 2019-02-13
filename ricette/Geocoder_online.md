@@ -8,8 +8,6 @@ http://school.dataninja.it/tools/geocoder-trova-le-coordinate/ con Openstreetmap
 
 http://www.apposta.biz/prove/geocoder.php con Openstreetmap
 
-http://mygeoposition.com/ con Googlemap
-
 https://coseerobe.gbvitrano.it/geocodifica-il-tuo-indirizzo-utility.html by GBVitrano con API Google
 
 https://siciliahub.github.io/mappe/geolocation/geolocation.html by GBVitrano con API Google
