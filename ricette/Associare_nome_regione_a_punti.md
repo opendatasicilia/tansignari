@@ -44,7 +44,7 @@ mapshaper opendemanio_3857.shp -join regioni_3857.shp fields=COD_REG,DEN_REG -o 
 
 ## Cosa fa questa ricetta
 
-Associa il nome delle regioni italiane ISTAT ai punti (demanio) che vi ricadono dentro; la query spaziale si puo' usare sia in [`spatialite_gui`](http://www.gaia-gis.it/gaia-sins/windows-bin-NEXTGEN-amd64/) che nella riga di comando, mentre la ricetta di `mapshaper` solo da riga di comando.
+Associa il nome delle regioni italiane ISTAT ai punti (demanio) che vi ricadono dentro; la query spaziale si puo' usare sia in [`spatialite_gui`](http://www.gaia-gis.it/gaia-sins/windows-bin-NEXTGEN-amd64/) che nella riga di comando, mentre la ricetta di [`mapshaper`](https://github.com/mbloch/mapshaper/wiki/Command-Reference) solo da riga di comando.
 
 ## Installare mapshaper
 
