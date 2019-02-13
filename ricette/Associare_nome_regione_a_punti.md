@@ -5,8 +5,8 @@
   - [Procedimento](#procedimento)
   - [Query spaziale](#query-spaziale)
   - [Mapshaper](#mapshaper)
+    - [Installare mapshaper](#installare-mapshaper)
   - [Cosa fa questa ricetta](#cosa-fa-questa-ricetta)
-  - [Installare mapshaper](#installare-mapshaper)
 
 <!-- /TOC -->
 # Associare il nome delle regioni ISTAT a dei punti demanio
@@ -42,11 +42,7 @@ AND a.rowid IN (SELECT rowid
 mapshaper opendemanio_3857.shp -join regioni_3857.shp fields=COD_REG,DEN_REG -o opendemanio_v01.csv
 ```
 
-## Cosa fa questa ricetta
-
-Associa il nome delle regioni italiane ISTAT ai punti (demanio) che vi ricadono dentro; la query spaziale si puo' usare sia in [`spatialite_gui`](http://www.gaia-gis.it/gaia-sins/windows-bin-NEXTGEN-amd64/) che nella riga di comando, mentre la ricetta di [`mapshaper`](https://github.com/mbloch/mapshaper/wiki/Command-Reference) solo da riga di comando.
-
-## Installare mapshaper
+### Installare mapshaper
 
 ```
 ## per installarlo
@@ -60,3 +56,8 @@ sudo npm install -g mapshaper
 
 sudo npm update -g mapshaper
 ```
+
+## Cosa fa questa ricetta
+
+Associa il nome delle regioni italiane ISTAT ai punti (demanio) che vi ricadono dentro; la query spaziale si puo' usare sia in [`spatialite_gui`](http://www.gaia-gis.it/gaia-sins/windows-bin-NEXTGEN-amd64/) che nella riga di comando, mentre la ricetta di [`mapshaper`](https://github.com/mbloch/mapshaper/wiki/Command-Reference) solo da riga di comando.
+
