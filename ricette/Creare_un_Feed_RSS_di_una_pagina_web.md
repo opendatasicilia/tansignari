@@ -1,3 +1,9 @@
+## Creare un feed RSS a partire da una pagina web
+
+- issue correlata: [#5](https://github.com/opendatasicilia/tansignari/issues/5)
+- autore: [Ciro Spataro](https://github.com/cirospat)
+---
+
 ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/40px-Feed-icon.svg.png)
 Per **creare un Feed RSS di una pagina web** ci sono diversi modi.
 
