@@ -8,7 +8,7 @@ http://school.dataninja.it/tools/geocoder-trova-le-coordinate/ con Openstreetmap
 
 http://www.apposta.biz/prove/geocoder.php con Openstreetmap
 
-http://it.mygeoposition.com/ con Googlemap
+http://mygeoposition.com/ con Googlemap
 
 https://coseerobe.gbvitrano.it/geocodifica-il-tuo-indirizzo-utility.html by GBVitrano con API Google
 
