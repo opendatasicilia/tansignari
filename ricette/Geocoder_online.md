@@ -16,5 +16,5 @@ http://www.gpsvisualizer.com/geocode (google e bing)
 
 http://www.gpsvisualizer.com/geocoder/ con API di Mapquest
 
-Awesome Table plug in come componente aggiuntivo da installare su spreadsheet di Google. 
+`Awesome Table` plug in come componente aggiuntivo da installare su spreadsheet di Google.
 Sfrutta API di Google e quindi i dati delle coordinate geografiche sono riusabili solo su mappe Google.
