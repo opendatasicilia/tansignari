@@ -1,6 +1,6 @@
 [![](https://img.shields.io/github/last-commit/opendatasicilia/tansignari.svg?style=flat)](https://github.com/opendatasicilia/tansignari/commits/master)
 [![](https://img.shields.io/github/issues/opendatasicilia/tansignari.svg?style=flat)](https://github.com/opendatasicilia/tansignari/issues)
-[![Join the chat at https://gitter.im/opendatasicilia/tansignari](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/opendatasicilia/tansignari)
+[![chat https://gitter.im/opendatasicilia/tansignari](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/opendatasicilia/tansignari)
 
 ---
 
