@@ -4,7 +4,6 @@
 - [Ricette](#ricette)
   - [Selezionare righe con spazio iniziale](#selezionare-righe-con-spazio-iniziale)
   - [Selezionare righe con spazio finale](#selezionare-righe-con-spazio-finale)
-  - [Selezionare parte di un testo](#selezionare-parte-di-un-testo)
 - [Siti utili](#siti-utili)
 
 <!-- /TOC -->
@@ -46,11 +45,6 @@ Vedi issue [#1](https://github.com/opendatasicilia/tansignari/issues/1)
 * `(.+?)( +)$` - uno o più spazi finali; [test](https://regex101.com/r/Qn4BTb/4)
 
 Vedi issue [#2](https://github.com/opendatasicilia/tansignari/issues/2)
-
-## Selezionare parte di un testo
-
-* `(\[)(.*)(\])(.*)` - testo tra parentesi quadre; [test](https://regex101.com/r/CJIy2e/2)
-* `$2` per ottenere solo il testo tra le parentesi quadre
 
 # Siti utili
 
