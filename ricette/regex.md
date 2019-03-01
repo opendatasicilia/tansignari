@@ -46,6 +46,11 @@ Vedi issue [#1](https://github.com/opendatasicilia/tansignari/issues/1)
 
 Vedi issue [#2](https://github.com/opendatasicilia/tansignari/issues/2)
 
+## Trovo e sostituisco un testo tra parentesi quadre
+
+* `(\[)(.*)(\])(.*)` - testo tra parentesi quadre (ad inizio stringa); [test](https://regex101.com/r/CJIy2e/2/)
+* `$2` per la sostituzione dell'intera stringa con la solo parola entra parentesi quadre
+
 # Siti utili
 
 - **regex101**, per testare espressioni regolari e imparare a usarle [https://regex101.com/](https://regex101.com/)
