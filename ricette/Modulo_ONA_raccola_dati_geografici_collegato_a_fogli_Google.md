@@ -2,6 +2,18 @@
 ## (e avere dati agiornati al minuto)
 
 
+<!-- TOC -->
+
+- [Creare moduli di raccolta dati geografici online con ONA e metterli in collegamento automatico con fogli Google](#creare-moduli-di-raccolta-dati-geografici-online-con-ona-e-metterli-in-collegamento-automatico-con-fogli-google)
+    - [(e avere dati agiornati al minuto)](#e-avere-dati-agiornati-al-minuto)
+    - [1 - Creare un modulo per raccolta dati in mobilità](#1---creare-un-modulo-per-raccolta-dati-in-mobilità)
+        - [Alcune poche cose importanti da sapere sul database generato dalla compilazione del modulo di "ONA":](#alcune-poche-cose-importanti-da-sapere-sul-database-generato-dalla-compilazione-del-modulo-di-ona)
+    - [2 - Le API di ONA](#2---le-api-di-ona)
+    - [3 - Ottenere un foglio dati di Google con i dati aggiornati ad 1 minuto da quando vengono raccolti con il modulo ONA](#3---ottenere-un-foglio-dati-di-google-con-i-dati-aggiornati-ad-1-minuto-da-quando-vengono-raccolti-con-il-modulo-ona)
+
+<!-- /TOC -->
+
+
 ## 1 - Creare un modulo per raccolta dati in mobilità
 
 
