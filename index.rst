@@ -9,13 +9,18 @@ Tansignari
     
     Questo progetto è curato dalla comunità `Opendatasicilia <http://www.opendatasicilia>`_.
     
-  
+    
+    
+.. toctree::
+  :maxdepth: 2
+
+  Home <https://tansignari.readthedocs.io>
+
 
 .. toctree::  
     :maxdepth: 3
     :caption: indice delle ricette
 
-    Home <https://tansignari.readthedocs.io> 
     ricette/Associare_nome_regione_a_punti
     ricette/Correzione_dati_usando_script
     ricette/Creare_database_spaziale_da_CLI
