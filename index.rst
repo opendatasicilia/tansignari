@@ -1,4 +1,5 @@
-# Tansignari
+Tansignari
+==========
 
 ``cultura della documentazione`` 
 
@@ -29,13 +30,13 @@ Altre impostazioni di visualizzazione grafica del documento su Read the Docs pos
     :caption: indice delle ricette
 
     Home <https://tansignari.readthedocs.io> 
-    ricette/Associare_nome_regione_a_punti.md
-    ricette/Correzione_dati_usando_script.md
-    ricette/Creare_database_spaziale_da_CLI.md
-    ricette/Creare_un_Feed_RSS_di_una_pagina_web.md
-    ricette/Geocoder.md
-    ricette/Geocoder_online.md
-    ricette/Modulo_ONA_raccola_dati_geografici_collegato_a_fogli_Google.md
-    ricette/regex.md
-    ricette/uMap.md
+    ricette/Associare_nome_regione_a_punti
+    ricette/Correzione_dati_usando_script
+    ricette/Creare_database_spaziale_da_CLI
+    ricette/Creare_un_Feed_RSS_di_una_pagina_web
+    ricette/Geocoder
+    ricette/Geocoder_online
+    ricette/Modulo_ONA_raccola_dati_geografici_collegato_a_fogli_Google
+    ricette/regex
+    ricette/uMap
     
