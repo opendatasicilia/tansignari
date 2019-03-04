@@ -6,8 +6,11 @@ Questa ricetta nasce dalla necessità di disporre di un modulo di raccolta dati/
 Tra i vari servizi online gratuiti di raccolta dati grazie ad un modulo va menzionato https://ona.io/.
 Dopo essersi registrati, creando un account, si accede ad una sezione in cui è possibile costruire un modulo. 
 
-Possiamo scegliere un progetto pubblico, con dati visibili a tutti, oppure privato, con dati visibili solo a noi creatori del modulo.
+Possiamo scegliere un progetto pubblico, con dati visibili a tutti, oppure privato, con dati visibili solo a noi creatori del modulo. 
 
-Cliccando su new project si sceglie un nome per il progetto e si comincia ad inserire singoli elementi nel modulo:
+Cliccando su "new project" si sceglie un nome ed appare una pagina in cui si può scegliere tra diverse opzioni per cominciare ad inserire elementi. Scegliamo quello interno al sito che prend il nome di "Form builder". 
+![image](https://raw.githubusercontent.com/opendatasicilia/tansignari/master/static/ricette/Ona-Google_sheet/formbuilder.JPG)
+Qui possiamo inserire:
+
 - 
 
