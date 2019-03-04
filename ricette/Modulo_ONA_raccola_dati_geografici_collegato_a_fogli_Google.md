@@ -71,7 +71,7 @@ Fino a qui ci siamo concentrati su quello che è possibile fare sulla (e con la)
 
 ONA ha le API, [qui](https://api.ona.io/static/docs/index.html) la documentazione per l'uso.
 
-Qui un primo esempio di uso delle API: Con https://api.ona.io/api/v1/data?owner=nomeutente si ha la lista dei progetti pubblici del signor "nomeutente".
+Qui un primo esempio di uso delle API: con https://api.ona.io/api/v1/data?owner=nomeutente si ha la lista dei progetti pubblici del signor "nomeutente".
 
 Nel caso del modulo che abbiamo usato come test sopra abbiamo: https://api.ona.io/api/v1/data/387318.csv, in pratica dopo `data` abbiamo il numero del progetto che abbiamo creato su ONA, seguito dal suffisso `.csv`.
 Abbastanza semplice.
@@ -82,6 +82,25 @@ Abbastanza semplice.
 
 3 - Ottenere un foglio dati di Google con i dati aggiornati ad 1 minuto da quando vengono raccolti con il modulo ONA
 --------------------------------------------------------------------------------------------------------------------
+
+Dopo avercreato un foglio Google andiamo sulla barra degli strumenti in alto e clicchiamo su "**strumenti**" e dopo su "**< > editor di script**". Si aprirà lo strumento per creare uno **script**. Si tratta di un piccolo servizio che svolge una determinata funzione all'interno del foglio Google. La funzione la stabiliamo noi con le istruzioni che diamo con la sintassi del codice.
+
+Diamo innanzitutto un nome allo script (io ho dato "updateCSVeveryminute"). Poi nello spazio dedicato alla sintassi scriviamo l seguente codice:
+
+`
+function importData() 
+{
+  var csvUrl = "https://api.ona.io/api/v1/data/387318.csv";
+  var csvContent = UrlFetchApp.fetch(csvUrl).getContentText();
+  var csvData = Utilities.parseCsv(csvContent);
+  
+  var sheet = SpreadsheetApp.getActive().getSheetByName('Foglio1')
+  sheet.getRange(1, 1, csvData.length, csvData[0].length).setValues(csvData);
+}
+`
+
+
+
 
 
 
