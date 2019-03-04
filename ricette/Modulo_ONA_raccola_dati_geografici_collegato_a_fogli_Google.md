@@ -87,7 +87,7 @@ Dopo avercreato un foglio Google andiamo sulla barra degli strumenti in alto e c
 
 Diamo innanzitutto un nome allo script (io ho dato "updateCSVeveryminute"). Poi nello spazio dedicato alla sintassi scriviamo l seguente codice:
 
-`
+```
 function importData() 
 {
   var csvUrl = "https://api.ona.io/api/v1/data/387318.csv";
@@ -97,7 +97,7 @@ function importData()
   var sheet = SpreadsheetApp.getActive().getSheetByName('Foglio1')
   sheet.getRange(1, 1, csvData.length, csvData[0].length).setValues(csvData);
 }
-`
+```
 
 
 
