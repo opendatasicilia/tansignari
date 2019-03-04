@@ -3,20 +3,6 @@ Tansignari
 
 ``cultura della documentazione`` 
 
-.. raw:: html
-
-    <strong><span style="background-color: #126da5; color: #ffffff; display: inline-block; padding: 1px 3px; border-radius: 7px;">Tansignari</span></strong>
-    <p></p>
-
-Il repository del progetto **Tansignari** si trova a questo  `link <https://github.com/opendatasicilia/tansignari>`_.
-
-Altre impostazioni di visualizzazione grafica del documento su Read the Docs possono essere effettuate sui seguenti file, all'interno della cartella ``_templates``:
-
-- ``breadcrumbs.html``
-- ``footer.html``
-- ``layout.html``
-- ``searchbox.html``
-- ``versions.html``
 
 
 ..  Important:: 
