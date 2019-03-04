@@ -1,5 +1,4 @@
-# Creare moduli di raccolta dati geografici online con ONA e metterli in collegamento automatico con fogli Google
-## (e avere dati aggiornati al minuto)
+# Creare moduli di raccolta dati geografici online con ONA e metterli in collegamento automatico con fogli Google (e avere dati aggiornati al minuto)
 
 
 <!-- TOC -->
@@ -57,7 +56,6 @@ Abbiamo creato un modulo online pronto da usare per raccogliere dati in mobilit�
 
 
 
-
 ### Alcune poche cose importanti da sapere sul database generato dalla compilazione del modulo di "ONA":
 
 - i dati generati dalla compialzione del modulo confluiscono in un database ospitato nei server della piattaforma ONA: [qui](https://ona.io/cirospat/81378/387318#/table) possiamo vedere il database generato dalla compilazione (è solo un test) di questo [modulo](https://enketo.ona.io/x/#iuYQFAYj). 
@@ -75,7 +73,7 @@ Questi esempi di disponibilità dei dati su altre piattaforme, esterne al serviz
 Fino a qui ci siamo concentrati su quello che è possibile fare sulla (e con la) piattaforma di https://ona.io/ (costruire il modulo raccolta dati e visualizzare i dati su un database interno a ONA).
 
 
-|
+
 
 
 ## 2 - Le API di ONA
@@ -89,7 +87,7 @@ Nel caso del modulo che abbiamo usato come test sopra abbiamo: https://api.ona.i
 Abbastanza semplice.
 
 
-|
+
 
 
 ## 3 - Ottenere un foglio dati di Google con i dati aggiornati ad 1 minuto da quando vengono raccolti con il modulo ONA
