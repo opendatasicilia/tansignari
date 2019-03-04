@@ -116,7 +116,7 @@ In questa maniera lo script attiverà una verifica di presenza di nuovi dati (da
 
 Arivato a questo punto il lavoro che consente al foglio Google di aggiornarsi in tempo quasi reale grazie alle API di ONA e allo script creato è completato.
 
-**Una cosa che noterete**: nella cella **A1** del foglio Google dove avevamo inizialmente impostato la funzione =importdata("https://api.ona.io/api/v1/data/387318.csv") se ora andiamo a controllare non ci sarà più. Questa verifica sarà la conferma che lo script funziona. 
+**Una cosa che noterete**: [nella cella **A1** del foglio Google](https://docs.google.com/spreadsheets/d/1JaaG60FgQZf8Z2zaQzyEFbyQJ11yQVinrmV1QpZ1YLg/edit#gid=0) dove avevamo inizialmente impostato la funzione =importdata("https://api.ona.io/api/v1/data/387318.csv") se ora andiamo a controllare non ci sarà più. Questa verifica sarà la conferma che lo script funziona. 
 
 
 
