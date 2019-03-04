@@ -1,0 +1,139 @@
+.wy-table-responsive table td, .wy-table-responsive table th {
+   white-space: inherit;
+}
+
+.wy-table-responsive table th {
+   background-color: #f0f0f0;
+}
+
+.line-block, .docutils.footnote {
+    line-height: 24px;
+}
+
+.admonition {
+    margin-bottom: 20px;
+    line-height:24px;
+}
+
+.admonition > *:not(:first-child){
+    /* draw a boder around a admonition */
+    border-left: solid 0px #b59e9e;
+    border-right: solid 0px #b59e9e;
+    padding: 12px;
+    margin: -12px -12px -12px -12px;
+    margin-bottom: -12px !important;
+}
+.admonition > .last, .admonition- > .last{
+    /* draw a boder around a admonition */
+    border-bottom: solid 0px #b59e9e !important;
+}
+
+
+/* #51d9bb colore verdino dei social di addthis nella colonna laterale sx e della freccia */
+/* #ff5a00 colore arancione originario */
+
+
+/* pagina avanti/indietro */
+.btn-neutral {
+    background-color: #119b56 !important;
+    color: #fff !important;
+}
+
+
+/* settare i colori dei titoli dei capitoli, paragrafi, ecc. */
+h1, h2, h3 {
+    color: #126da5 !important;
+}
+
+
+/* area reattangolo in alto a sinistra dove c'è il logo e il titolo del RTD */
+.wy-side-nav-search {
+    background-color: #739e90;   
+}
+
+
+/* testo caption menu sx - setta i colori dell'indice nel menu a sx (quello originale)
+   .wy-nav-side {
+    color: #51d9bb;
+} 
+*/
+
+
+/* settare il colore del testo caption menu sx, cioè dare colore all'indice nel menu a sx */
+.wy-menu-vertical p.caption {
+color: #51d9bb;
+} 
+
+
+
+/* wy-nav-side backround color (colore sfondo menù a sinistra inlcusa pubblicità RTD) */
+.wy-nav-side {background: #49634e;}  
+
+
+
+
+
+
+/* background colore della colonna sx (dove c'è il menù) */
+/* .wy-side-scroll {background: #1c300f;} */
+
+
+/* adatta il nav-content a fullhd e si elimina lo spazio vuoto piccolo a destra */
+.wy-nav-content {max-width: 1920px;} 
+
+
+/* disattiva il testo "latest"  menu a sx sotto il search */
+.wy-side-nav-search>div.version {    display: none;}
+
+
+/* colore pannello sx in basso VERSION */
+.rst-versions .rst-current-version {background: #193a33;}
+
+
+/* disativa il testo "edit on Github" in alto a destra */
+.wy-breadcrumbs li.wy-breadcrumbs-aside {
+    float: right;
+    display: none;
+}
+
+
+/* #ccd8ab colore deciso per appattarlo al verdino della freccia, per versione mobile */
+/* .wy-nav-top {background: linear-gradient(#ffaf05, #ffd105); } */
+
+/* mobile settings */
+.wy-nav-top {background: #5c788a; }
+
+/* lo sfondo a dx dopo il testo, ma con il settaggio full-hd non si applica */
+.wy-body-for-nav {background: #ffffff; }
+
+
+/* 
+vedi vari stili di formattazione a questo link: 
+   https://github.com/gbvitrano/HfcQGIS/blob/master/static/theme_overrides.css 
+*/
+
+
+/* 
+formattare la barra del codice [`` ... ``] quella inclusa tra i doppi apici 
+code {
+white-space: normal !important;
+border: 0px !important;
+background-color: #f2f2f2 !important;
+}  
+*/
+
+
+/* dare il colore di sfondo al blocco pubblicità */
+.wy-body-for-nav .keep-us-sustainable {color: #404040; background-color: #404040;}
+
+
+
+/* spegne numero revisione nel footer */
+span.commit {display: none;}
+
+
+ /* testo sphinx footer */
+.footer_small {font-size: small!important;}
+.footer_small {font-size: small!important;}
+.footer_small a:visited {font-size: small!important;}
+.footer_small a:hover {font-size: small!important;}
