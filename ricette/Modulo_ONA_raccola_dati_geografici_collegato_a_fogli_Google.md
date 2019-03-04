@@ -83,7 +83,9 @@ Abbastanza semplice.
 3 - Ottenere un foglio dati di Google con i dati aggiornati ad 1 minuto da quando vengono raccolti con il modulo ONA
 --------------------------------------------------------------------------------------------------------------------
 
-Dopo avercreato un foglio Google andiamo sulla barra degli strumenti in alto e clicchiamo su "**strumenti**" e dopo su "**< > editor di script**". Si aprirà lo strumento per creare uno **script**. Si tratta di un piccolo servizio che svolge una determinata funzione all'interno del foglio Google. La funzione la stabiliamo noi con le istruzioni che diamo con la sintassi del codice.
+Dopo aver creato un foglio Google sulla prima cella (A1) impostiamo la funzione =importdata("https://api.ona.io/api/v1/data/387318.csv") e avremo i dati direttamente da ONA, grazie alle API.
+
+Ora andiamo sulla barra degli strumenti in alto e clicchiamo su "**strumenti**" e dopo su "**< > editor di script**". Si aprirà lo strumento per creare uno **script**. Si tratta di un piccolo servizio che svolge una determinata funzione all'interno del foglio Google. La funzione la stabiliamo noi con le istruzioni che diamo con la sintassi del codice.
 
 Diamo innanzitutto un nome allo script (io ho dato "updateCSVeveryminute"). Poi nello spazio dedicato alla sintassi scriviamo il seguente codice:
 
@@ -110,17 +112,11 @@ A questo punto abbiamo una pagina in cui dobbiamo settare le seguenti impostazio
 - Seleziona intervallo in minuti: **ogni minuto**
 - Impostazioni di notifica di errore: **invia una notifica immediatamente** (opzionale, serve solo ad essere informati tramite notifica in caso di errori
 
-In questa maniera lo script attiverà una verifica di presenza di nuovi dati (dalla fonte CSV pre impostata nel trigger, cioè da https://api.ona.io/api/v1/data/387318.csv) con una frequenza temporale del singolo minuto. Abbiamo ottenuto, così, una sorta di database (foglio Google) con dati provenienti dal modulo ONA in tempo quasi reale!
+In questa maniera lo script attiverà una verifica di presenza di nuovi dati (dalla fonte CSV pre impostata nello script, cioè da https://api.ona.io/api/v1/data/387318.csv) con una frequenza temporale del singolo minuto. Abbiamo ottenuto, così, una sorta di database (foglio Google) con dati provenienti dal modulo ONA in tempo quasi reale!
+
+Arivato a questo punto il lavoro che consente al foglio Google di aggiornarsi in tempo quasi reale grazie alle API di ONA e allo script creato è completato.
+
+**Una cosa che noterete**: nella cella **A1** del foglio Google dove avevamo inizialmente impostato la funzione =importdata("https://api.ona.io/api/v1/data/387318.csv") se ora andiamo a controllare non ci sarà più. Questa verifica sarà la conferma che lo script funziona. 
 
 
 
-
-
-
-
-
-
-
-
-...
-to-be-continued
