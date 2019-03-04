@@ -1,3 +1,10 @@
+
+
+# Correzione dati usando uno script
+
+* autore: _Totò Fiandaca_
+* issue: [#8](https://github.com/opendatasicilia/tansignari/issues/8)
+
 <!-- TOC -->
 
 - [Correzione dati usando uno script](#correzione-dati-usando-uno-script)
@@ -5,11 +12,6 @@
   - [obiettivo](#obiettivo)
 
 <!-- /TOC -->
-
-# Correzione dati usando uno script
-
-* autore: _Totò Fiandaca_
-* issue: [#8](https://github.com/opendatasicilia/tansignari/issues/8)
 
 ---
 
