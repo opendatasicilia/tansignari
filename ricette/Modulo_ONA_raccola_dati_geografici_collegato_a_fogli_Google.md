@@ -10,7 +10,14 @@ Possiamo scegliere un progetto pubblico, con dati visibili a tutti, oppure priva
 
 Cliccando su "new project" si sceglie un nome ed appare una pagina in cui si può scegliere tra diverse opzioni per cominciare ad inserire elementi. Scegliamo quello interno al sito che prend il nome di "Form builder". 
 ![image](https://raw.githubusercontent.com/opendatasicilia/tansignari/master/static/ricette/Ona-Google_sheet/formbuilder.JPG)
-Qui possiamo inserire:
 
-- 
+Qui possiamo inserire vari elementi che rappresentano le domande da porre nel modulo online:
+
+- domande a risposta multipla
+- note 
+- dati geografici (qui si apre una mappa nel modulo online)
+- possibilità di inserire, foto, video, audio
+- data
+- orario
+- ecc.
 
