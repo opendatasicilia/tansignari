@@ -1,4 +1,5 @@
 # Creare moduli di raccolta dati geografici online con ONA e metterli in collegamento automatico con fogli Google
+## (e avere dati agiornati al minuto)
 
 
 ## 1 - Creare un modulo per raccolta dati in mobilità
