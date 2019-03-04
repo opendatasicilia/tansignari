@@ -43,10 +43,9 @@ in cui leggiamo il link al modulo che è pronto per essere usato online. Vediamo
 Abbiamo creato un modulo online pronto da usare per raccogliere dati in mobilità.
 
 
-|
 
 
-**Alcune poche cose importanti da sapere sul database generato dalla compilazione del modulo di "ONA"**:
+### Alcune poche cose importanti da sapere sul database generato dalla compilazione del modulo di "ONA":
 
 - i dati generati dalla compialzione del modulo confluiscono in un database ospitato nei server della piattaforma ONA: [qui](https://ona.io/cirospat/81378/387318#/table) possiamo vedere il database generato dalla compilazione (è solo un test) di questo [modulo](https://enketo.ona.io/x/#iuYQFAYj). 
 - la piattaforma ONA espone le cosiddette API [Application Programming Interfaces](https://it.wikipedia.org/wiki/Application_programming_interface#Finalit%C3%A0), interfaccie che consentono di fare dialogare i dati raccolti con i moduli ONA con altri servizi e software online di terze parti. E come dice Andrea Borruso (!), quando un servizio online espone le API [ci si può fare la guerra](https://github.com/opendatasicilia/tansignari/issues/25#issuecomment-468945094), in termini di riutilizzo dei dati. 
