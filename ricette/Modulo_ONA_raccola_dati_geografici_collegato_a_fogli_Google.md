@@ -6,7 +6,7 @@ Creare moduli di raccolta dati geografici con ONA e metterlo in collegamento aut
 
 Questa ricetta nasce dalla necessità di disporre di un modulo di raccolta dati/informazioni online, dove fosse possibile inserire dati geografici, quindi ad esempio dati di latitudine e longitudine per un determinato punto. Pensiamo ad un modulo, ad esempio, in cui è possbile censire elementi di arredo urbano, casi di tombini otturati, marcipiedi dissestati o buche su strada, barriere architettoniche varie, o anche per censire semplicemente luoghi di interesse.
 
-Precedentemente alla realizzazione di questa ricetta è stata aperta questa [issue](https://github.com/opendatasicilia/tansignari/issues/25) in cui sono seguite alcune procedure per capire come collegare i dati derivanti dalla compilazione del modulo fornito dal servizio "ONA" con i fogli di Google, comodo strumento per costruire ad esempio mappe online. Ed in particolare **come fare in modo che, dopo aver inserito i dati nel modulo ONA, un minuto dopo questi dati possano essere già disponibili nel foglio Google**.
+Precedentemente alla realizzazione di questa ricetta è stata aperta questa [**issue**](https://github.com/opendatasicilia/tansignari/issues/25) in cui sono seguite alcune procedure per capire come collegare i dati derivanti dalla compilazione del modulo fornito dal servizio "ONA" con i fogli di Google, comodo strumento per costruire ad esempio mappe online. Ed in particolare **come fare in modo che, dopo aver inserito i dati nel modulo ONA, un minuto dopo questi dati possano essere già disponibili nel foglio Google**.
 
 Tra i vari servizi online gratuiti di raccolta dati grazie ad un modulo va menzionato https://ona.io/. Molto interessante perchè semplice da utilizzare (a portata di mano di chi non ha competenze da sviluppatore) e perchè il modulo generato è responsive quindi comodamente fruibile su dispositivi mobili.
 Dopo essersi registrati sulla piattaforma, creando un account, si accede ad una sezione in cui è possibile costruire un modulo. 
@@ -118,5 +118,5 @@ Arivato a questo punto il lavoro che consente al foglio Google di aggiornarsi in
 
 **Una cosa che noterete**: [nella cella **A1** del foglio Google](https://docs.google.com/spreadsheets/d/1JaaG60FgQZf8Z2zaQzyEFbyQJ11yQVinrmV1QpZ1YLg/edit#gid=0) dove avevamo inizialmente impostato la funzione `=importdata("https://api.ona.io/api/v1/data/387318.csv")` se ora andiamo a controllare non ci sarà più. Questa verifica sarà la conferma che lo script funziona. 
 
-
+Un grazie ad Andrea Borruso per la realizzazione dello script e a Gianni Vitrano per il supporto (e per sopportarmi) che mi ha dato per la comprensione dell'intero processo appena illustrato in questa ricetta. 
 
