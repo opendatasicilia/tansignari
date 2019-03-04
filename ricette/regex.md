@@ -1,3 +1,7 @@
+
+# Regex - Introduzione
+
+
 <!-- TOC -->
 
 - [Introduzione](#introduzione)
@@ -8,7 +12,6 @@
 
 <!-- /TOC -->
 
-# Introduzione
 
 Qui le ricette a tema "**Espressioni Regolari**", che verranno fuori dalle issue di progetto
 
@@ -30,22 +33,22 @@ CARATTERE|SIGNIFICATO|ESEMPIO
 
 piccola guida alle [regex](https://www.evemilano.com/come-funzionano-le-espressioni-regolari-regex/)
 
-# Ricette
+## Ricette
 
-## Selezionare righe con spazio iniziale
+### Selezionare righe con spazio iniziale
 
 * `^( )(.+)` - solo uno spazio iniziale; [test](https://regex101.com/r/Qn4BTb/1)
 * `^( +)(.+)` - uno o più spazi iniziali; [test](https://regex101.com/r/Qn4BTb/2)
 
 Vedi issue [#1](https://github.com/opendatasicilia/tansignari/issues/1)
 
-## Selezionare righe con spazio finale
+### Selezionare righe con spazio finale
 
 * `(.+)( )$` - solo uno spazio finali; [test](https://regex101.com/r/Qn4BTb/3)
 * `(.+?)( +)$` - uno o più spazi finali; [test](https://regex101.com/r/Qn4BTb/4)
 
 Vedi issue [#2](https://github.com/opendatasicilia/tansignari/issues/2)
 
-# Siti utili
+## Siti utili
 
 - **regex101**, per testare espressioni regolari e imparare a usarle [https://regex101.com/](https://regex101.com/)
