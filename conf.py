@@ -40,9 +40,7 @@ source_parsers = {
 
 source_suffix = ['.rst', '.md']
 
-extensions = ['sphinx.ext.ifconfig','sphinx_markdown_tables']
-#extensions = ['sphinx.ext.ifconfig','sphinx_markdown_tables','sphinxcontrib.newsfeed']
-#extensions.append('sphinxcontrib.newsfeed')
+
 
     
 """
