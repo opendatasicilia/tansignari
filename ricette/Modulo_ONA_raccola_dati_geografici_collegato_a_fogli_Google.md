@@ -46,9 +46,9 @@ Abbiamo creato un modulo online pronto sa usare.
 
 Quindi se i dati raccolti col modulo sono supportati dalle API, allora ce li possiamo trattare in tanti modi:
 
-1- sulla piattaforma/repository di [DataWorld](https://data.world/cirospat/importfromona/workspace/file?filename=387318.csv)
++ 1  sulla piattaforma/repository di [DataWorld](https://data.world/cirospat/importfromona/workspace/file?filename=387318.csv)
 
-2- oppure sui [fogli di Google](https://docs.google.com/spreadsheets/d/1JaaG60FgQZf8Z2zaQzyEFbyQJ11yQVinrmV1QpZ1YLg/edit#gid=0) (vedi "Foglio1").
+- 2 oppure sui [fogli di Google](https://docs.google.com/spreadsheets/d/1JaaG60FgQZf8Z2zaQzyEFbyQJ11yQVinrmV1QpZ1YLg/edit#gid=0) (vedi "Foglio1").
 
 Questi esempi di disponibilità dei dati su altre piattaforme ...
 
