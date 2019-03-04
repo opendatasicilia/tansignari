@@ -37,7 +37,9 @@ Una volta slavato il modulo, andando nella sezione della piatatforma dove sono i
 
 in cui leggiamo il link al modulo che è pronto per essere usato online. Vediamo questo che ho creato come prova: https://enketo.ona.io/x/#iuYQFAYj.
 
-Abbiamo creato un modulo online pronto sa usare.
+Abbiamo creato un modulo online pronto da usare.
+
+|
 
 **Alcune poche cose importanti da sapere sul database generato dalla compilazione del modulo di "ONA"**:
 
