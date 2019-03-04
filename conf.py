@@ -32,6 +32,17 @@ def setup(app):
     app.add_stylesheet('theme_overrides.css') # path relative to static
   
 
+from recommonmark.parser import CommonMarkParser
+
+source_parsers = {
+    '.md': 'recommonmark.parser.CommonMarkParser',
+}
+
+source_suffix = ['.rst', '.md']
+
+extensions = ['sphinx.ext.ifconfig','sphinx_markdown_tables']
+#extensions = ['sphinx.ext.ifconfig','sphinx_markdown_tables','sphinxcontrib.newsfeed']
+#extensions.append('sphinxcontrib.newsfeed')
 
     
 """
