@@ -30,12 +30,12 @@ Altre impostazioni di visualizzazione grafica del documento su Read the Docs pos
     :caption: indice delle ricette
 
     Home <https://tansignari.readthedocs.io> 
-    Associare_nome_regione_a_punti
-    Correzione_dati_usando_script
-    Creare_database_spaziale_da_CLI
-    Creare_un_Feed_RSS_di_una_pagina_web
-    Geocoder
-    Geocoder_online
-    Modulo_ONA_raccola_dati_geografici_collegato_a_fogli_Google
-    regex
-    uMap
+    ricette/Associare_nome_regione_a_punti
+    ricette/Correzione_dati_usando_script
+    ricette/Creare_database_spaziale_da_CLI
+    ricette/Creare_un_Feed_RSS_di_una_pagina_web
+    ricette/Geocoder
+    ricette/Geocoder_online
+    ricette/Modulo_ONA_raccola_dati_geografici_collegato_a_fogli_Google
+    ricette/regex
+    ricette/uMap
