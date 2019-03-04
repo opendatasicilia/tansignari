@@ -3,7 +3,7 @@ Creare moduli di raccolta dati geografici con ONA e metterlo in collegamento aut
 
 Questa ricetta nasce dalla necessità di disporre di un modulo di raccolta dati/informazioni online, dove fosse possibile inserire dati geografici, quindi ad esempio dati di latitudine e longitudine per un determinato punto. Pensiamo ad un modulo, ad esempio, in cui è possbile censire elementi di arredo urbano, casi di tombini otturati, marcipiedi dissestati o buche su strada, barriere architettoniche varie, o anche per censire semplicemente luoghi.
 
-Precedentemente ala realizzazione di questa ricetta è stata aperta questa [issue](https://github.com/opendatasicilia/tansignari/issues/25) in cui sono seguite alcune procedure per capire come collegare i dati derivanti dalla compilazione del modulo ONA con i fogli di Google, comodo strumento per costruire ad esempio mappe online.
+Precedentemente ala realizzazione di questa ricetta è stata aperta questa [issue](https://github.com/opendatasicilia/tansignari/issues/25) in cui sono seguite alcune procedure per capire come collegare i dati derivanti dalla compilazione del modulo ONA con i fogli di Google, comodo strumento per costruire ad esempio mappe online. Ed in particolare **come fare in modo che dopo aver inserito i dati nel modulo ONA, dopo un minuto questi dati possano essere già disponibili nel foglio Google**.
 
 Tra i vari servizi online gratuiti di raccolta dati grazie ad un modulo va menzionato https://ona.io/.
 Dopo essersi registrati, creando un account, si accede ad una sezione in cui è possibile costruire un modulo. 
