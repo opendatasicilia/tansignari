@@ -1,8 +1,8 @@
-Creare moduli di raccolta dati geografici con ONA e metterlo in collegamento automatico con Google sheet
-========================================================================================================
+# Creare moduli di raccolta dati geografici online con ONA e metterli in collegamento automatico con fogli Google
 
-1 - Creare un modulo per raccolta dati in mobilità
---------------------------------------------------
+
+## 1 - Creare un modulo per raccolta dati in mobilità
+
 
 Questa ricetta nasce dalla necessità di disporre di un modulo di raccolta dati/informazioni online, dove fosse possibile inserire dati geografici, quindi ad esempio dati di latitudine e longitudine per un determinato punto. Pensiamo ad un modulo, ad esempio, in cui è possbile censire elementi di arredo urbano, casi di tombini otturati, marcipiedi dissestati o buche su strada, barriere architettoniche varie, o anche per censire semplicemente luoghi di interesse.
 
@@ -65,8 +65,8 @@ Fino a qui ci siamo concentrati su quello che è possibile fare sulla (e con la)
 |
 
 
-2 - Le API di ONA
------------------
+## 2 - Le API di ONA
+
 
 ONA ha le API, [qui](https://api.ona.io/static/docs/index.html) la documentazione per l'uso.
 
@@ -79,8 +79,7 @@ Abbastanza semplice.
 |
 
 
-3 - Ottenere un foglio dati di Google con i dati aggiornati ad 1 minuto da quando vengono raccolti con il modulo ONA
---------------------------------------------------------------------------------------------------------------------
+## 3 - Ottenere un foglio dati di Google con i dati aggiornati ad 1 minuto da quando vengono raccolti con il modulo ONA
 
 Dopo aver creato un foglio Google sulla prima cella (A1) impostiamo la funzione =importdata("https://api.ona.io/api/v1/data/387318.csv") e avremo i dati direttamente da ONA, grazie alle API.
 
