@@ -7,7 +7,7 @@ Tansignari
 
 ..  Important:: 
     
-    Questo progetto è curato dalla comunità `Opendatasicilia <http://opendatasicilia>`_.
+    Questo progetto è curato dalla comunità `Opendatasicilia <http://www.opendatasicilia>`_.
     
   
 
