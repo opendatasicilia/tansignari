@@ -13,8 +13,8 @@ __version__ = '1.0'
 
 source_suffix = '.rst'
 master_doc = 'index'
-project = 'schema tipo Read the Docs'
-copyright = 'change-me'
+project = 'Tansignari'
+copyright = 'by Opendatasicilia, licenza CC BY'
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -40,8 +40,8 @@ def setup(app):
 """
 #latex_documents = []
 
-latex_logo = "static/help.jpg"
-html_logo = "static/help.jpg"
+latex_logo = ""
+html_logo = ""
 
 
 # Adding Custom CSS or JavaScript to a Sphinx Project: al seguente link ci sono esempi
