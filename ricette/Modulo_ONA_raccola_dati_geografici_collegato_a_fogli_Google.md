@@ -42,7 +42,9 @@ in cui leggiamo il link al modulo che è pronto per essere usato online. Vediamo
 
 Abbiamo creato un modulo online pronto da usare per raccogliere dati in mobilità.
 
+
 |
+
 
 **Alcune poche cose importanti da sapere sul database generato dalla compilazione del modulo di "ONA"**:
 
@@ -61,7 +63,24 @@ Questi esempi di disponibilità dei dati su altre piattaforme, esterne al serviz
 Fino a qui ci siamo concentrati su quello che è possibile fare sulla (e con la) piattaforma di https://ona.io/ (costruire il modulo raccolta dati e visualizzare i dati su un database interno a ONA).
 
 
-2 - Ottenere un foglio dati di Google con i dati aggiornati ad 1 minuto da quando vengono raccolti con il modulo ONA
+|
+
+
+2 - Le API di ONA
+-----------------
+
+ONA ha le API, [qui](https://api.ona.io/static/docs/index.html) la documentazione per l'uso.
+
+Qui un primo esempio di uso delle API: Con https://api.ona.io/api/v1/data?owner=nomeutente si ha la lista dei progetti pubblici del signor "nomeutente".
+
+Nel caso del modulo che abbiamo usato come test sopra abbiamo: https://api.ona.io/api/v1/data/387318.csv, in pratica dopo `data` abbiamo il numero del progetto che abbiamo creato su ONA, seguito dal suffisso `.csv`.
+Abbastanza semplice.
+
+
+|
+
+
+3 - Ottenere un foglio dati di Google con i dati aggiornati ad 1 minuto da quando vengono raccolti con il modulo ONA
 --------------------------------------------------------------------------------------------------------------------
 
 
