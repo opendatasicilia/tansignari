@@ -32,7 +32,9 @@ Una volta terminata la procedura di inserimento elementi nel modulo si salva att
 Durante le fasi di inserimento degli elementi, cliccando sull'icona a forma di occhio nella barra in alto degli strumenti, è possibile visualizzare che aspetto avrà il modulo che stiamo preparando.
 
 Una volta slavato il modulo, andando nella sezione della piatatforma dove sono i nostri progetti, troveremo il primo progetto generato e cliccandoci sopra si aprirà un pannello di visualizzazione dati in cui c'è anche "**submit data**"
+
 ![image](https://raw.githubusercontent.com/opendatasicilia/tansignari/master/static/ricette/Ona-Google_sheet/linkmodulo.JPG) 
+
 in cui leggiamo il link al modulo che è pronto per essere usato online. Vediamo questo che ho creato come prova: https://enketo.ona.io/x/#iuYQFAYj.
 
 
