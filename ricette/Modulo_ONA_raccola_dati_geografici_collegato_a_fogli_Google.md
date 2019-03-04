@@ -22,7 +22,9 @@ Qui possiamo inserire vari elementi che rappresentano le domande da porre nel mo
 - orario
 - ecc.
 
-Una cosa **importante** per l'elemento "mappa" è 
+Una cosa **importante** per l'elemento "mappa" è dare all'elemento "mappa" il seguente codice nel campo "**Appearance (Advanced):**" 
+`maps hide-input`. Questo permetterà a chi usa il modulo di posizionare il puntatore anche manualmente sulla mappa per una localizzazione precisa, nel caso in cui il gps dello smartphone/tablet/dispositivo mobile non dovesse localizzare il punto oggetto di interesse in maniera precisa!
+
 
 
 
