@@ -37,7 +37,7 @@ Una volta slavato il modulo, andando nella sezione della piatatforma dove sono i
 
 in cui leggiamo il link al modulo che è pronto per essere usato online. Vediamo questo che ho creato come prova: https://enketo.ona.io/x/#iuYQFAYj.
 
-Abbiamo creato un modulo online pronto da usare.
+Abbiamo creato un modulo online pronto da usare per raccogliere dati in mobilità.
 
 |
 
@@ -46,6 +46,7 @@ Abbiamo creato un modulo online pronto da usare.
 - i dati generati dalla compialzione del modulo confluiscono in un database ospitato nei server della piattaforma ONA: [qui](https://ona.io/cirospat/81378/387318#/table) possiamo vedere il database generato dalla compilazione (è solo un test) di questo [modulo](https://enketo.ona.io/x/#iuYQFAYj). 
 - la piattaforma ONA espone le cosiddette API [Application Programming Interfaces](https://it.wikipedia.org/wiki/Application_programming_interface#Finalit%C3%A0), interfaccie che consentono di fare dialogare i dati raccolti con i moduli ONA con altri servizi e software online di terze parti. E come dice Andrea Borruso (!), quando un servizio online espone le API [ci si può fare la guerra](https://github.com/opendatasicilia/tansignari/issues/25#issuecomment-468945094), in termini di riutilizzo dei dati. 
 
+
 Quindi se i dati raccolti col modulo sono supportati dalle API, allora ce li possiamo trattare in tanti modi, ad esempio:
 
 - sulla piattaforma/repository di [**Data.World**](https://data.world/cirospat/importfromona/workspace/file?filename=387318.csv);
@@ -53,6 +54,9 @@ Quindi se i dati raccolti col modulo sono supportati dalle API, allora ce li pos
 - oppure sui [**Fogli di Google**](https://docs.google.com/spreadsheets/d/1JaaG60FgQZf8Z2zaQzyEFbyQJ11yQVinrmV1QpZ1YLg/edit#gid=0) (vedi "Foglio1").
 
 Questi esempi di disponibilità dei dati su altre piattaforme, esterne al servizio web di ONA, sono estremamente importanti per chi vuole riusare i dati per diversi scopi, ad esempio per fare mappe che filtrano gli stessi dati per criteri specifici (ad esempio fammi vedere un livello di mappa con i tombini otturati o fammi vedere un livello di mappa con le sole buche nelle strade, ecc, oppure per realizzare infografiche).
+
+Fino a qui ci siamo concentrati su quello che è possibile fare sulla (e con la) piattaforma di https://ona.io/ (costruire il modulo raccolta dati e visualizzare i dati su un database interno a ONA).
+
 
 
 
