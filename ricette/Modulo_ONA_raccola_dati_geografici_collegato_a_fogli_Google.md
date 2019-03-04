@@ -23,3 +23,8 @@ Qui possiamo inserire vari elementi che rappresentano le domande da porre nel mo
 - ecc.
 
 Una cosa **importante** per l'elemento "mappa" è 
+
+
+
+...
+to-be-continued
