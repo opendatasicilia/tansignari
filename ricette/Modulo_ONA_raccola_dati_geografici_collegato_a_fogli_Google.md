@@ -129,5 +129,5 @@ Arivato a questo punto il lavoro che consente al foglio Google di aggiornarsi in
 
 **Una cosa che noterete**: [nella cella **A1** del foglio Google](https://docs.google.com/spreadsheets/d/1JaaG60FgQZf8Z2zaQzyEFbyQJ11yQVinrmV1QpZ1YLg/edit#gid=0) dove avevamo inizialmente impostato la funzione `=importdata("https://api.ona.io/api/v1/data/387318.csv")` se ora andiamo a controllare non ci sarà più. Questa verifica sarà la conferma che lo script funziona. 
 
-Un grazie ad **Andrea Borruso** per la realizzazione dello script e a **Gianni Vitrano** per il supporto (e per sopportarmi) che mi ha dato per la comprensione dell'intero processo appena illustrato in questa ricetta. E anche a **Totò Fiandaca** perchè ormai per fare certe cose insieme partiamo sempre in 4 !!!
+Un grazie ad **Andrea Borruso** per la realizzazione dello script e a **Gianni Vitrano** per il supporto (e per sopportarmi) che mi ha dato per la comprensione dell'intero processo appena illustrato in questa ricetta. E anche a **Totò Fiandaca** per i suoi input su MD  e perchè ormai per fare certe cose insieme partiamo sempre in 4 !!!
 
