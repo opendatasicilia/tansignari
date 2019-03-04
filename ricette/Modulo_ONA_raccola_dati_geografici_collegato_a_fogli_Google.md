@@ -85,7 +85,7 @@ Abbastanza semplice.
 
 Dopo avercreato un foglio Google andiamo sulla barra degli strumenti in alto e clicchiamo su "**strumenti**" e dopo su "**< > editor di script**". Si aprirà lo strumento per creare uno **script**. Si tratta di un piccolo servizio che svolge una determinata funzione all'interno del foglio Google. La funzione la stabiliamo noi con le istruzioni che diamo con la sintassi del codice.
 
-Diamo innanzitutto un nome allo script (io ho dato "updateCSVeveryminute"). Poi nello spazio dedicato alla sintassi scriviamo l seguente codice:
+Diamo innanzitutto un nome allo script (io ho dato "updateCSVeveryminute"). Poi nello spazio dedicato alla sintassi scriviamo il seguente codice:
 
 ```
 function importData() 
@@ -98,6 +98,20 @@ function importData()
   sheet.getRange(1, 1, csvData.length, csvData[0].length).setValues(csvData);
 }
 ```
+
+Successivamente clicchiamo sull'icona a forma di cerchio di orologio (passando sopra il mouse leggiamo: "**trigger del progetto corrente**"). Clicchiamo sul nome dello script (nel mio caso "Modifica Attivatore per updateCSVeveryminute"). 
+
+A questo punto abbiamo una pagina in cui dobbiamo settare le seguenti impostazioni:
+
+- Scegli quale funzione eseguire: **importdata**
+- Viene eseguito durante il deployment: **head**
+- Seleziona l'origine dell'evento: **evento vincolato a specifiche temporali**
+- Seleziona il tipo di attivatore basato sull'orario: **timer in minuti**
+- Seleziona intervallo in minuti: **ogni minuto**
+- Impostazioni di notifica di errore: **invia una notifica immediatamente** (opzionale, serve solo ad essere informati tramite notifica in caso di errori
+
+In questa maniera lo script attiverà una verifica di presenza di nuovi dati (dalla fonte CSV pre impostata nel trigger, cioè da https://api.ona.io/api/v1/data/387318.csv) con una frequenza temporale del singolo minuto. Abbiamo ottenuto, così, una sorta di database (foglio Google) con dati provenienti dal modulo ONA in tempo quasi reale!
+
 
 
 
