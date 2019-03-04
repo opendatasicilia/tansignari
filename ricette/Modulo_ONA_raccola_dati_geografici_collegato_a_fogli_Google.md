@@ -45,7 +45,9 @@ Abbiamo creato un modulo online pronto sa usare.
 - la piattaforma ONA espone le cosiddette API [Application Programming Interfaces](https://it.wikipedia.org/wiki/Application_programming_interface#Finalit%C3%A0), interfaccie che consentono di fare dialogare i dati raccolti con i moduli ONA con altri servizi e software online di terze parti. E come dice Andrea Borruso (!), quando un servizio online espone le API [ci si può fare la guerra](https://github.com/opendatasicilia/tansignari/issues/25#issuecomment-468945094), in termini di riutilizzo dei dati. 
 
 Quindi se i dati raccolti col modulo sono supportati dalle API, allora ce li possiamo trattare in tanti modi:
+
 1- sulla piattaforma/repository di [DataWorld](https://data.world/cirospat/importfromona/workspace/file?filename=387318.csv)
+
 2- oppure sui [fogli di Google](https://docs.google.com/spreadsheets/d/1JaaG60FgQZf8Z2zaQzyEFbyQJ11yQVinrmV1QpZ1YLg/edit#gid=0) (vedi "Foglio1").
 
 Questi esempi di disponibilità dei dati su altre piattaforme ...
