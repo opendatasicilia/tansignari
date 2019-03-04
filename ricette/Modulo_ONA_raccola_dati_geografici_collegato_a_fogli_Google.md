@@ -1,5 +1,5 @@
 # Creare moduli di raccolta dati geografici online con ONA e metterli in collegamento automatico con fogli Google
-## (e avere dati agiornati al minuto)
+## (e avere dati aggiornati al minuto)
 
 
 <!-- TOC -->
