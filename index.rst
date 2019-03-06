@@ -11,7 +11,7 @@ Tansignari
 Benvenuti
 =========
 
-Molto spesso **disperdiamo richieste di aiuto** ("Come faccio a ...") e le relative **preziose risposte** in _chat_, _social network_, email tra due persone, ecc.. <br>Sono informazioni che una volta messe in circolo, dopo pochi minuti sono già "perdute", **confinate in spazi ristretti** che non si prestano a una condivisione di conoscenza e quasi **mai indicizzati dai motori di ricerca**.
+Molto spesso **disperdiamo richieste di aiuto** ("Come faccio a ...") e le relative **preziose risposte** in chat, social network, email tra due persone, ecc.. <br>Sono informazioni che una volta messe in circolo, dopo pochi minuti sono già "perdute", **confinate in spazi ristretti** che non si prestano a una condivisione di conoscenza e quasi **mai indicizzati dai motori di ricerca**.
 
 Questo repository nasce per **mettere a fattore comune scambi di conoscenza/esperienza** su questi temi: dati aperti, trasparenza, _Linked Open Data_, analisi e trasformazione di dati.
 
@@ -29,17 +29,17 @@ Sarà una sorta di monito per chi frequenterà questo spazio 😉
 Come nasce questo repo
 ----------------------
 
-Da una proposta(https://groups.google.com/d/msg/opendatasicilia/chsV6FZg1qI/dFvHx_u-EAAJ) nella _mailing list_ di OpenData Sicilia.
+Da una proposta(https://groups.google.com/d/msg/opendatasicilia/chsV6FZg1qI/dFvHx_u-EAAJ) nella mailing list di OpenData Sicilia.
 
 Il "galateo" di questo spazio
 -----------------------------
 
-Qui su T'ansignari abbiamo un piccolo [**galateo**](./galateo.md), che stiamo costruendo _on the job_. Se vuoi partecipare, per favore leggilo.
+Qui su T'ansignari abbiamo un piccolo **galateo**, che stiamo costruendo on the job. Se vuoi partecipare, per favore leggilo.
 
 Licenza sui contenuti di T'ansignari
 ------------------------------------
 
-Tutti i contenuti di questo _repository_ sono pubblicati con licenza  [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.it).
+Tutti i contenuti di questo contenitore sono pubblicati con licenza  CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/deed.it.
 
     
 .. toctree::
