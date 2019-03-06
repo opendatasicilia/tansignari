@@ -52,6 +52,7 @@ Licenza sui contenuti di T'ansignari
 Tutti i contenuti di questo contenitore sono pubblicati con licenza  CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/deed.it.
 
 
+--------------
 
     
 .. toctree::
