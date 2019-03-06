@@ -29,7 +29,7 @@ Sarà una sorta di monito per chi frequenterà questo spazio 😉
 Come nasce questo repo
 ----------------------
 
-Da una proposta(https://groups.google.com/d/msg/opendatasicilia/chsV6FZg1qI/dFvHx_u-EAAJ) nella mailing list di OpenData Sicilia.
+Da una proposta (https://groups.google.com/d/msg/opendatasicilia/chsV6FZg1qI/dFvHx_u-EAAJ) nella mailing list di OpenData Sicilia.
 
 Il "galateo" di questo spazio
 -----------------------------
