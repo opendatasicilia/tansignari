@@ -7,7 +7,7 @@ Tansignari
     
     Questo progetto è curato dalla comunità `Opendatasicilia <http://www.opendatasicilia>`_.
     
----
+
 
 Benvenuti
 ---------
@@ -16,7 +16,7 @@ Molto spesso **disperdiamo richieste di aiuto** ("Come faccio a ...") e le relat
 
 Questo repository nasce per **mettere a fattore comune scambi di conoscenza/esperienza** su questi temi: dati aperti, trasparenza, Linked Open Data, analisi e trasformazione di dati.
 
----
+
 
 Il nome di questo spazio
 ------------------------
@@ -30,28 +30,28 @@ Lo dice specialmente quando il/la nipotino/a non applica quanto avrebbe dovuto g
 
 Sarà una sorta di monito per chi frequenterà questo spazio 😉
 
----
+
 
 Come nasce questo contenitore
 -----------------------------
 
 Da una proposta (https://groups.google.com/d/msg/opendatasicilia/chsV6FZg1qI/dFvHx_u-EAAJ) nella mailing list di OpenDataSicilia.
 
----
+
 
 Il "galateo" di questo spazio
 -----------------------------
 
 Qui su T'ansignari abbiamo un piccolo **galateo**, che stiamo costruendo on the job. Se vuoi partecipare, per favore leggilo.
 
----
+
 
 Licenza sui contenuti di T'ansignari
 ------------------------------------
 
 Tutti i contenuti di questo contenitore sono pubblicati con licenza  CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/deed.it.
 
----
+
 
     
 .. toctree::
