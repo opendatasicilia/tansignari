@@ -11,9 +11,9 @@ Tansignari
 Benvenuti
 =========
 
-Molto spesso **disperdiamo richieste di aiuto** ("Come faccio a ...") e le relative **preziose risposte** in chat, social network, email tra due persone, ecc.. <br>Sono informazioni che una volta messe in circolo, dopo pochi minuti sono già "perdute", **confinate in spazi ristretti** che non si prestano a una condivisione di conoscenza e quasi **mai indicizzati dai motori di ricerca**.
+Molto spesso **disperdiamo richieste di aiuto** ("Come faccio a ...") e le relative **preziose risposte** in chat, social network, email tra due persone, ecc.. Sono informazioni che una volta messe in circolo, dopo pochi minuti sono già "perdute", **confinate in spazi ristretti** che non si prestano a una condivisione di conoscenza e quasi **mai indicizzati dai motori di ricerca**.
 
-Questo repository nasce per **mettere a fattore comune scambi di conoscenza/esperienza** su questi temi: dati aperti, trasparenza, _Linked Open Data_, analisi e trasformazione di dati.
+Questo repository nasce per **mettere a fattore comune scambi di conoscenza/esperienza** su questi temi: dati aperti, trasparenza, Linked Open Data, analisi e trasformazione di dati.
 
 Il nome di questo spazio
 ------------------------
