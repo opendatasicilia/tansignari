@@ -1,11 +1,15 @@
 # OpenRefine Geocoding con Nominatim
 
-Una semplice ricetta per estrarre Latitudine e longitudine dai tuoi dati utilizzando il servizio di Nominatim (evitando GoogleMaps). Tale ricetta non è farina del mio sacco, ma frutto della mente geniale di Andrea Borruso
-Apri OpenRefine e carica i tuoi dati tabellari
-Rinomina la colonna contenente le informazioni geografiche (indirizzo, luogo, etc.) come '2geocode'
-Clicca su Undo/Redo
-quindi Clicca Apply
-Incolla questo codice nella finestra che si è aperta (righe 7-113)
+Una semplice ricetta per estrarre Latitudine e longitudine dai tuoi dati utilizzando il servizio di Nominatim (evitando GoogleMaps). Tale ricetta non è farina del mio sacco, ma frutto della mente geniale di Andrea Borruso.
+
+- Apri OpenRefine e carica i tuoi dati tabellari
+- Rinomina la colonna contenente le informazioni geografiche (indirizzo, luogo, etc.) come '2geocode'
+- Clicca su Undo/Redo
+- quindi Clicca Apply
+
+Incolla questo codice nella finestra che si è aperta
+
+```json
 [
 {
 "op": "core/column-addition-by-fetching-urls",
@@ -113,6 +117,8 @@ Incolla questo codice nella finestra che si è aperta (righe 7-113)
 "onError": "set-to-blank"
 }
 ]
+```
 
-lancia 'perform operations'
+- lancia 'perform operations'
+
 Fine
