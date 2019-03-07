@@ -83,6 +83,10 @@ Licenze
   <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="immagonobox_sx " style="border-width: 0;" title="Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA) " src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Licenza Creative Commons" width="88" height="31"  /></a></a></p>
     </embed>	
 	
+Tag Clouds
+~~~~~~~~~~
+L'immagine **HfcQGIS** Tag Cloud (in alto nella home) è stata realizzata con il tools `WordArt`_ che consente di creare incredibili e unici word cloud art con facilità.	
+	
 Mappa del sito   
 ~~~~~~~~~~~~~~
 .. toctree::
