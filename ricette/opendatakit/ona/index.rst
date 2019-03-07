@@ -1,8 +1,7 @@
 Ona
 ===
 
-Elenco Ricette
-~~~~~~~~~~~~~~
+**Elenco Ricette**
 
 
 .. toctree::

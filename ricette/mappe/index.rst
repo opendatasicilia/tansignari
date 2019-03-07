@@ -2,8 +2,7 @@ Mappe
 =====
 
 
-Elenco Ricette
-~~~~~~~~~~~~~~
+**Elenco Ricette**
 
 
 .. toctree::

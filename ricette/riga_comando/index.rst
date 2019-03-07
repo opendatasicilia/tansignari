@@ -1,8 +1,7 @@
 A riga di comando
 =================
 
-Elenco Ricette
-~~~~~~~~~~~~~~
+**Elenco Ricette**
 
 
 .. toctree::

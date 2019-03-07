@@ -1,8 +1,7 @@
 Script
 ======
 
-Elenco Ricette
-~~~~~~~~~~~~~~
+**Elenco Ricette**
 
 
 .. toctree::

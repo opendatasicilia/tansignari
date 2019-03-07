@@ -3,8 +3,7 @@ Umap
 `uMap`_ permette di creare mappe, che fanno uso di OpenStreetMap come sfondo, da inserire nel proprio sito in un minuto.
 
 
-Elenco Ricette
-~~~~~~~~~~~~~~
+**Elenco Ricette**
 
 
 .. toctree::

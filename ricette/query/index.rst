@@ -1,8 +1,7 @@
 Query
 =====
 
-Elenco Ricette
-~~~~~~~~~~~~~~
+**Elenco Ricette**
 
 
 .. toctree::
