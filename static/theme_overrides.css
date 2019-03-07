@@ -7,7 +7,7 @@
 
 body {color: #330000 !important;}
 /* Testo paragrafo giustificto*/
-p {text-align: justify !important;} 
+p {text-align: left !important;} 
 
 span.pre { overflow-x: auto;  }
 
