@@ -3,7 +3,7 @@ Mappe
 
 
 Elenco Ricette
---------------
+~~~~~~~~~~~~~~
 
 
 .. toctree::

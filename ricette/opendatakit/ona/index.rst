@@ -2,7 +2,7 @@ Ona
 ===
 
 Elenco Ricette
---------------
+~~~~~~~~~~~~~~
 
 
 .. toctree::

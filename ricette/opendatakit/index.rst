@@ -6,7 +6,7 @@ La comunità `Open Data Kit`_ (ODK) produce software gratuito e open source per 
 
 
 Elenco Ricette
---------------
+~~~~~~~~~~~~~~
 
 
 .. toctree::
