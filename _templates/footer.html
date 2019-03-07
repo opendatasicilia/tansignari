@@ -1,0 +1,65 @@
+<head>
+<style type="text/css">
+.footer_small {font-size: small;}
+.footer_small a:link {font-size: small;}
+.footer_small a:visited {font-size: small;}
+.footer_small a:hover {font-size: small;}
+</style>
+</head>
+
+<footer>
+  {% if (theme_prev_next_buttons_location == 'bottom' or theme_prev_next_buttons_location == 'both') and (next or prev) %}
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      {% if next %}
+        <a href="{{ next.link|e }}" class="btn btn-neutral float-right" title="{{ next.title|striptags|e }}" accesskey="n" rel="next">{{ _('Next') }} <span class="fa fa-arrow-circle-right"></span></a>
+      {% endif %}
+      {% if prev %}
+        <a href="{{ prev.link|e }}" class="btn btn-neutral" title="{{ prev.title|striptags|e }}" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> {{ _('Previous') }}</a>
+      {% endif %}
+    </div>
+  {% endif %}
+<br>
+  <hr/>  
+<div id="menuft">
+<a href="#" title="Home Page"><strong>Home</strong></a> - <a href="#" title="Calcolatore di campi"><strong>xxx-xx</strong></a> - <a href="#" title="xxx-xx"><strong>xxx-xx</strong></a> - <a href="#" title="xxx-xx"><strong>xxx-xx</strong></a> - <a href="#" title="xxx-xx"><strong>xxx-xx</strong></a></div>  <br><br>
+
+  <div role="contentinfo" class="footer_mobile">
+<p><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">"T’ansignari e t’appeddiri!", ti devo insegnare a fare qualcosa e ti devo perdere.</span> di<a xmlns:cc="http://creativecommons.org/ns#" href="http://opendatasicilia.it/" property="cc:attributionName" rel="cc:attributionURL"> OpenDataSicilia</a> è distribuito con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.<br>
+Questo sito è stato costruito e curato dalla comunità <a href="http://tansignari.opendatasicilia.it/it/latest/ods.html" >OpenDataSicilia</a>.<br>
+Short link di HfcQGIS <a href="#"> bit.ly/tansignari</a>, condividi con <strong>#tansignari @opendatasicilia</strong>
+</p>     
+    <!--  {%- if show_copyright %}
+      {%- if hasdoc('copyright') %}
+        {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
+      {%- else %}
+        {% trans copyright=copyright|e %}&copy; Copyright {{ copyright }}.{% endtrans %} 
+      {%- endif %}
+    {%- endif %}
+
+    {%- if build_id and build_url %}
+      {% trans build_url=build_url, build_id=build_id %}
+        <span class="build">
+          Build
+          <a href="{{ build_url }}">{{ build_id }}</a>.
+        </span>
+      {% endtrans %}
+    {%- elif commit %}
+      {% trans commit=commit %}
+        <span class="commit">
+          Revision <code>{{ commit }}</code>.
+        </span>
+      {% endtrans %}
+    {%- elif last_updated %}
+      {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+    {%- endif %} -->
+   </div>
+
+  {%- if show_sphinx %}
+  {% trans %}<span class="footer_small">T'ansignari è realizzato con <a href="http://sphinx-doc.org/">Sphinx</a> utilizzando il tema <a href="https://github.com/rtfd/sphinx_rtd_theme">Sphinx Theme</a> fornito da <a href="https://readthedocs.org">Read the Docs</a>.
+  <br><br><br></span>
+  {% endtrans %}
+  {%- endif %}
+
+  {%- block extrafooter %} {% endblock %}
+
+</footer>

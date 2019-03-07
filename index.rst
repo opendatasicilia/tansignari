@@ -3,11 +3,6 @@ Tansignari
 
 ``cultura della documentazione`` 
 
-..  Important:: 
-    
-    Questo progetto è curato dalla comunità `Opendatasicilia <http://www.opendatasicilia>`_.
-    
-
 
 Benvenuti
 ---------
@@ -42,35 +37,69 @@ Da una proposta (https://groups.google.com/d/msg/opendatasicilia/chsV6FZg1qI/dFv
 Il "galateo" di questo spazio
 -----------------------------
 
-Qui su T'ansignari abbiamo un piccolo **galateo**, che stiamo costruendo on the job. Se vuoi partecipare, per favore leggilo.
+Qui su T'ansignari abbiamo un piccolo `galateo`_ , che stiamo costruendo on the job. Se vuoi partecipare, per favore leggilo.
 
+.. _galateo: galateo.html
 
-
-Licenza sui contenuti di T'ansignari
-------------------------------------
-
-Tutti i contenuti di questo contenitore sono pubblicati con licenza  CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/deed.it.
-
-
---------------
-
+Contenuti:
+~~~~~~~~~~
     
 .. toctree::
   :maxdepth: 2
 
-  Home <https://tansignari.readthedocs.io>
-
+  Home <https://tansignari-gbtest.readthedocs.io/>
+  
+  .. toctree::
+   :maxdepth: 2
+      
+   galateo
 
 .. toctree::  
-    :maxdepth: 3
-    :caption: indice delle ricette
+    :maxdepth: 2
 
-    ricette/Associare_nome_regione_a_punti
-    ricette/Correzione_dati_usando_script
-    ricette/Creare_database_spaziale_da_CLI
-    ricette/Creare_un_Feed_RSS_di_una_pagina_web
-    ricette/Geocoder
-    ricette/Geocoder_online
-    ricette/Modulo_ONA_raccola_dati_geografici_collegato_a_fogli_Google
-    ricette/regex
-    ricette/uMap
+    ricette/index
+	
+.. toctree::
+   :maxdepth: 2
+
+   parlano_di_noi
+   
+.. toctree::
+   :maxdepth: 2
+   
+   ods
+   
+.. toctree::
+   :maxdepth: 2
+   
+   privacy
+	
+	
+Licenze
+~~~~~~~
+.. raw:: html
+
+    <embed>
+        <p>Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza: <a title="Licenza Creative Commons (CC BY-SA)" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener">Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA)</a><br>
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="immagonobox" style="border-width: 0;" title="Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA) " src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Licenza Creative Commons" width="88" height="31"  /></a></a></p>
+    </embed>	
+	
+	
+Mappa del sito   
+~~~~~~~~~~~~~~
+.. toctree::
+   :maxdepth: 2
+   
+   sitemap  
+
+--------------
+
+| **Per visualizzare e consultare correttamente i contenuti di HfcQGIS
+  sono necessari:**
+| **Risoluzione video desktop:** Pc con scheda video SVGA. Monitor a
+  risoluzione minima di 1024x768 pixel con almeno 65.536 colori.
+| **Mobile:** Risoluzione minima di 360 x 640 px (modello di riferimento
+  Sansung Galaxy S3).
+| **Browser:** HfcQGIS è ottimizzato per Microsoft Internet Explorer
+  Versione 11.0 e successive versioni, Microsoft Edge versione 25.1 e
+  immediatamente successive, Mozilla Firefox versione 50.0 e successive, Chrome versione 40.0 o successiva, Opera versione 48.0 o successiva e Safari versione 9.0 o successiva.

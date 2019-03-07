@@ -28,7 +28,7 @@ $.fn.euCookieLawPopup = (function() {
 	///////////////////////////////////////////////////////////////////////////////////////////////
 	// PARAMETERS (MODIFY THIS PART) //////////////////////////////////////////////////////////////
 	_self.params = {
-		cookiePolicyUrl : 'https://tansignari-gbtest.readthedocs.io/it/latest/privacy.html',
+		cookiePolicyUrl : 'https://tansignari.readthedocs.io/it/latest/privacy.html',
 		popupPosition : 'top',
 		colorStyle : 'default',
 		compactStyle : false,
@@ -253,7 +253,7 @@ $(document).ready( function() {
 	if ($(".eupopup").length > 0) {
 		$(document).euCookieLawPopup().init({
 			'info' : 'YOU_CAN_ADD_MORE_SETTINGS_HERE',
-			'popupTitle' : '<img src="https://raw.githubusercontent.com/gbvitrano/tansignari/master/img/logo_mobile.png" alt="Tansignari" title="Tansignari -  Ti devo insegnare a fare qualcosa e ti devo perdere." width="200" border="0" ><br><br> Questo sito, tansignari.opendatasicilia.it utilizza i cookie, anche di terze parti, per migliorare la vostra esperienza di navigazione web. <br> ',
+			'popupTitle' : '<img src="https://raw.githubusercontent.com/opendatasicilia/tansignari/master/img/logo_mobile.png" alt="Tansignari" title="Tansignari -  Ti devo insegnare a fare qualcosa e ti devo perdere." width="200" border="0" ><br><br> Questo sito, tansignari.opendatasicilia.it utilizza i cookie, anche di terze parti, per migliorare la vostra esperienza di navigazione web. <br> ',
 			'popupText' : 'Chiudendo questo messaggio, scorrendo questa pagina o cliccando su qualunque suo elemento acconsenti all&rsquo;uso dei cookie.<br> Per maggiori informazioni o per negare il consenso a tutti o ad alcuni cookie, consulta l&rsquo;informativa!</a>'
 		});
 	}
