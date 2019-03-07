@@ -1,3 +1,5 @@
+# OpenRefine Geocoding con Nominatim
+
 Una semplice ricetta per estrarre Latitudine e longitudine dai tuoi dati utilizzando il servizio di Nominatim (evitando GoogleMaps). Tale ricetta non è farina del mio sacco, ma frutto della mente geniale di Andrea Borruso
 Apri OpenRefine e carica i tuoi dati tabellari
 Rinomina la colonna contenente le informazioni geografiche (indirizzo, luogo, etc.) come '2geocode'
