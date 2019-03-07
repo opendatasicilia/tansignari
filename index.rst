@@ -26,13 +26,12 @@ Lo dice specialmente quando il/la nipotino/a non applica quanto avrebbe dovuto g
 Sarà una sorta di monito per chi frequenterà questo spazio 😉
 
 
-
 Come nasce questo contenitore
 -----------------------------
 
-Da una proposta (https://groups.google.com/d/msg/opendatasicilia/chsV6FZg1qI/dFvHx_u-EAAJ) nella mailing list di OpenDataSicilia.
+Da una `proposta`_  nella mailing list di OpenDataSicilia.
 
-
+.. _proposta: https://groups.google.com/d/msg/opendatasicilia/chsV6FZg1qI/dFvHx_u-EAAJ
 
 Il "galateo" di questo spazio
 -----------------------------
