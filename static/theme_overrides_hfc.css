@@ -1,13 +1,14 @@
 /* override css */
 
-/* @http://ixmapsdoc.opendatasicilia.it*/
+/* @http://hfcqgis.opendatasicilia.it*/
 
 /*importa i font fontawesome 5.0 per i loghi social*/
  @import url(https://use.fontawesome.com/releases/v5.1.0/css/all.css);
 
-body {color: #330000 !important;}
-/* Testo paragrafo giustificto*/
-p {text-align: justify !important;} 
+.wordart-attribution  {display: none !important;}
+.tagul-attribution  {display: none !important;}
+
+body {color: #344c25 !important;}
 
 span.pre { overflow-x: auto;  }
 
@@ -22,16 +23,28 @@ background-color: rgba(27,31,35,0.05) !important;
       /* !important prevents the common CSS stylesheets from overriding
          this as on RTD they are loaded after this stylesheet */
       white-space: normal !important;
+	  border: 1px solid #e1e4e5 !important;
    }
 
    .wy-table-responsive {
       overflow: visible !important;
    }}
    
+    /* Sfondo e bordi tabelle */
+.wy-table-odd td, .wy-table-striped tr:nth-child(2n-1) td, .rst-content table:not(.field-list).docutils tr:nth-child(2n-1) td {
+    background-color: #e1e4e5;
+}
+
+
+/*.wy-table-bordered-all td, 
+.rst-content table.docutils td {
+	 border: 1px solid #e1e4e5 !important; }*/
+
+
 /* Colore Titolo*/
-h1 {color: #330000 !important; font-size: 145%!important;}
-h2 {color: #330000 !important; font-size: 130%!important;}
-h3 {color: #330000 !important; font-size: 120%!important;}
+h1 {color: #344c25 !important; font-size: 145%!important;}
+h2 {color: #344c25 !important; font-size: 130%!important;}
+h3 {color: #344c25 !important; font-size: 120%!important;}
 h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend { margin-top: 0.25em!important; margin-bottom: 0.257em!important; }
 
  /* disattiva testo latest  menu sx */
@@ -43,12 +56,12 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend { margin
     background: rgba(255,255,255,0); }
 .wy-side-nav-search {margin-top: -20px;}  
    
-
-
-/* @http://ixmapsdoc.opendatasicilia.it*/
+/* Testo paragrafo giustificto*/
+/*p {text-align: justify;} */
+/* @http://hfcqgis.opendatasicilia.it*/
 
 /* adatta il nav-content a fullhd ed inserisce il logo QGIS */
-.wy-nav-content {max-width: 4096px; /*background-image:url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/qsfondo_800.png)!important;*/
+.wy-nav-content {max-width: 4096px; background-image:url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/qsfondo_800.png)!important;
     background-repeat: no-repeat!important;  background-position: center center!important;
     background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background: #efefef; }
 
@@ -58,7 +71,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend { margin
 /* background nav-top sx*/
 .wy-side-nav-search {background:  #ffffff;}
 /* box search sx*/
-.wy-side-nav-search input[type="text"] {border-color: #996; background-image: url(https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/static/search_01.png); background-repeat: no-repeat; 
+.wy-side-nav-search input[type="text"] {border-color: #589632; background-image: url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/static/search_01.png); background-repeat: no-repeat; 
 background-position: 10px; background-size: 15px; font-weight: bold;} 
 .wy-side-nav-search input[type="text"] {padding: 6px 30px;}
 
@@ -70,13 +83,13 @@ background-position: 10px; background-size: 15px; font-weight: bold;}
 /*background  nav-content content-wrap - tutta il contenitore di dx*/
 /*.wy-nav-content-wrap { background: linear-gradient(#efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #dedede);  }*/
 
-/* @http://ixmapsdoc.opendatasicilia.it*/
+/* @http://hfcqgis.opendatasicilia.it*/
 /* testo menu verticale maiuscolo */	
-.wy-menu-vertical {	font-weight: bold; color:#330000!important; }
-.wy-menu-vertical a {color:#330000!important;}
+.wy-menu-vertical {	font-weight: bold; color:#344c25!important; }
+.wy-menu-vertical a {color:#344c25!important;}
 
 /* tutto in maiuscolo prima voce di menu */
-div.wy-menu-vertical > ul > li > a {text-transform: none !important; }
+div.wy-menu-vertical > ul > li > a {text-transform: uppercase !important; }
 /* tutto in maiuscolo prima voce di menu */
 
 /* per applicare underline e colore a voci di menu attive */
@@ -89,56 +102,56 @@ li.current > a:active {    text-decoration: underline;	color: white !important;}
 /* per applicare underline e colore a voci di menu attive */
 
 /* testo menu verticale primo livello */
-.wy-menu-vertical a:hover { background-color: #996!important;  color: #ffffff !important;}
+.wy-menu-vertical a:hover { background-color: rgba(241,141,54,0.8);  color: #ffffff !important;}
 .wy-menu a:hover {color: #fff important;}
 .wy-menu a:visited {color: #fff;}
-.wy-menu-vertical a:visited {color: #330000!important;}
+.wy-menu-vertical a:visited {color: #344c25!}
 .wy-menu-vertical a:current{color: #fff!}
 
-.wy-menu-vertical a span.toctree-expand {color:#330000!important;}
-.wy-menu-vertical a:hover span.toctree-expand {color:#330000!important;}
-.wy-menu-vertical a:visited span.toctree-expand {color:#330000!important;}
+.wy-menu-vertical a span.toctree-expand {color:#344c25!important;}
+.wy-menu-vertical a:hover span.toctree-expand {color:#344c25!important;}
+.wy-menu-vertical a:visited span.toctree-expand {color:#344c25!important;}
 
-.wy-menu-vertical li span.toctree-expand {isplay: block; float: left; margin-left: -1.2em;  font-size: .8em; line-height: 1.6em; color:#333333;}
+.wy-menu-vertical li span.toctree-expand {isplay: block; float: left; margin-left: -1.2em;  font-size: .8em; line-height: 1.6em; color:#344c25;}
 
-/* @http://ixmapsdoc.opendatasicilia.it*/
+/* @http://hfcqgis.opendatasicilia.it*/
 /* testo menu verticale secondo livello */
-.wy-menu-vertical li.hover a {background-color: rgba(102,51,51,0.5); text-transform: none;}
+.wy-menu-vertical li.hover a {background-color: rgba(193,224,69,0.5); text-transform: none;}
 /*.wy-menu-vertical li.current a {background-color: rgba(193,224,69,0.3);}*/
-.wy-menu-vertical li.toctree-l2.current>a { background: rgba(102,51,51,1); text-transform: none; }
+.wy-menu-vertical li.toctree-l2.current>a { background: rgba(193,224,69,0.6); text-transform: none; }
 .wy-menu-vertical li.toctree-l2.hover>a { background: rgba(193,224,69,0.75); text-transform: none; }
-.wy-menu-vertical li.on a, .wy-menu-vertical li.current > a {background: #996; text-transform: none;}
+.wy-menu-vertical li.on a, .wy-menu-vertical li.current > a {background: #c1e045; text-transform: none;}
 .wy-menu-vertical li.toctree-l1.current > a {border-bottom: solid 0 #fff; border-top: solid 0 #fff; text-transform: none; }
-.wy-menu-vertical li.on a:hover, .wy-menu-vertical li.current > a:hover {background: rgba(102,51,51,1); text-transform: none;}
-.wy-menu-vertical li.toctree-l2 a:hover span.toctree-expand {color:#330000!important;}
-.wy-menu-vertical li.toctree-l3 a:hover span.toctree-expand {color:#330000!important;}
-.wy-menu-vertical li.toctree-l4 a:hover span.toctree-expand {color:#330000!important;}
-.wy-menu-vertical li.toctree-l2 a span.toctree-expand {color:#330000!important;}
-.wy-menu-vertical li.toctree-l3 a span.toctree-expand {color:#330000!important;}
-.wy-menu-vertical li.toctree-l4 a span.toctree-expand {color:#330000!important;}
+.wy-menu-vertical li.on a:hover, .wy-menu-vertical li.current > a:hover {background: rgba(193,224,69,0.8); text-transform: none;}
+.wy-menu-vertical li.toctree-l2 a:hover span.toctree-expand {color:#344c25!important;}
+.wy-menu-vertical li.toctree-l3 a:hover span.toctree-expand {color:#344c25!important;}
+.wy-menu-vertical li.toctree-l4 a:hover span.toctree-expand {color:#344c25!important;}
+.wy-menu-vertical li.toctree-l2 a span.toctree-expand {color:#344c25!important;}
+.wy-menu-vertical li.toctree-l3 a span.toctree-expand {color:#344c25!important;}
+.wy-menu-vertical li.toctree-l4 a span.toctree-expand {color:#344c25!important;}
 
 /* testo menu verticale terzo livello */
-.wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a {background: #9F3A3A;}
-.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {background: rgba(120,31,31,0.75);}
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a {background: rgba(73,125,41,0.8)}
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {background: rgba(73,125,41,0.50)}
 /*.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover {text-transform:none;}*/
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:current {color:#fff!important;}
 .wy-menu-vertical li.current a {border-right: solid 0 #c9c9c9;}
-.wy-menu-vertical li.current a:hover {background: #9F3A3A;}
+.wy-menu-vertical li.current a:hover {background: rgba(73,125,41,0.8);}
 .wy-menu-vertical li.current a:current {color: #fff;}
 
 /*link di base*/
-a {color: #9F3A3A; }
-a:hover {color: #9F3A3A; text-decoration:underline; }
-a:visited {color: #781F1F; text-decoration:none; }
+a {color: #f18d36; }
+a:hover {color: #f18d36; text-decoration:underline; }
+a:visited {color: #589632; text-decoration:none; }
 
 /* pagina avanti/indietro */
-.btn { background-color:  #781F1F !important;
+.btn { background-color:  #67b03a !important;
 	color: #ffffff !important;}
 .btn-neutral {
-    background-color:  #781F1F !important;
+    background-color:  #67b03a !important;
     color: #ffffff !important;}
 .btn-neutral:hover {
-    background-color: #9F3A3A !important;
+    background-color: #497d29 !important;
     color: #ffffff !important;
 	text-decoration: none !important;}
 	.btn-neutral:visited  {
@@ -146,12 +159,16 @@ a:visited {color: #781F1F; text-decoration:none; }
 	text-decoration: none !important;}
 	
 /* mobile logo */
-.wy-nav-top { background-image: url(https://raw.githubusercontent.com/gbvitrano/tansignari/master/img/logo_mobile.png);
-background-repeat: no-repeat;background-position: center;background-color: #996; }
+.wy-nav-top { background-image: url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/logo_mobile_01.png);
+background-repeat: no-repeat;background-position: center;background-color: #67b03a; }
 /* aumenta leggerhente lo spazio della pagina inmobile ed inserisce il logo QGIS al centro*/
-@media (min-width: 320px) and (max-width: 1023px) {.wy-nav-content-wrap .wy-nav-content {padding: 1.0em; /*background-image:url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/qsfondo_800.png)!important;  background-repeat: no-repeat!important;  background-position: center center!important;     background-size: 95%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important;*/ background: #efefef; }}
-@media (min-width: 320px) and (max-width: 1023px) {h2 {color: #330000 !important; font-size: 115%!important;} }
-@media (min-width: 320px) and (max-width: 1023px) {h3 {color: #330000 !important; font-size: 105%!important;} }
+@media (min-width: 320px) and (max-width: 1023px) {.wy-nav-content-wrap .wy-nav-content {padding: 1.0em; background-image:url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/qsfondo_800.png)!important;  background-repeat: no-repeat!important;  background-position: center center!important;
+    background-size: 95%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background: #efefef; }}
+@media (min-width: 320px) and (max-width: 1023px) {h2 {color: #344c25 !important; font-size: 115%!important;} }
+@media (min-width: 320px) and (max-width: 1023px) {h3 {color: #344c25 !important; font-size: 105%!important;} }
+
+
+
 
 /* spegne girhub nella breadcrumbs */
 /* .fa.fa-github {display: none;} */
@@ -160,10 +177,10 @@ background-repeat: no-repeat;background-position: center;background-color: #996;
 span.commit {display: none;}
 
 /* hr filetto bicolor dal centro verso l'esterno */
-hr  {border: 0; height: 1px; background:  #330000; background-image: linear-gradient(to right, #996,  #330000, #996);}
+hr  {border: 0; height: 1px; background:  #589632; background-image: linear-gradient(to right, #93b023,  #589632, #93b023);}
 
 /* bordo/ombra immagine */
-.rst-content img {display: block; margin: 0 auto; box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-radius: 5px; -webkit-border-radius: 5px;	border: 1px solid #FFF;	padding: 1px;background-color: #fff;}
+.rst-content img {box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-radius: 5px; -webkit-border-radius: 5px;	border: 1px solid #589632;	padding: 1px;background-color: #fff;}
 
 /* immagine no bordo/ no ombra */
 .immagonobox {	max-width: 100%!important;    height: auto!important;	box-shadow: none !important; border: none !important;	border-radius:  none !important;	moz-border-radius: none !important; -webkit-border-radius: none !important;	background-color: transparent !important;	}
@@ -174,21 +191,21 @@ hr  {border: 0; height: 1px; background:  #330000; background-image: linear-grad
 #social { position:relative; top:500px; left: 10px; z-index: 100;}
 /*@media (min-width: 320px) and (max-width: 1023px) {#social{left: 20px; top: 110px;}}*/
 
- .fa::before, .wy-menu-vertical li span.toctree-expand::before, .wy-menu-vertical li.on a span.toctree-expand::before, .wy-menu-vertical li.current > a span.toctree-expand::before, .rst-content .admonition-title::before, .rst-content h1 .headerlink::before, .rst-content h2 .headerlink::before, .rst-content h3 .headerlink::before, .rst-content h4 .headerlink::before, .rst-content h5 .headerlink::before, .rst-content h6 .headerlink::before, .rst-content dl dt .headerlink::before, .rst-content p.caption .headerlink::before, .rst-content table > caption .headerlink::before, .rst-content tt.download span:first-child::before, .rst-content code.download span:first-child::before, .icon::before, .wy-dropdown .caret::before, .wy-inline-validate.wy-inline-validate-success .wy-input-context::before, .wy-inline-validate.wy-inline-validate-danger .wy-input-context::before, .wy-inline-validate.wy-inline-validate-warning .wy-input-context::before, .wy-inline-validate.wy-inline-validate-info .wy-input-context::before {color: color:#333333;}
+ .fa::before, .wy-menu-vertical li span.toctree-expand::before, .wy-menu-vertical li.on a span.toctree-expand::before, .wy-menu-vertical li.current > a span.toctree-expand::before, .rst-content .admonition-title::before, .rst-content h1 .headerlink::before, .rst-content h2 .headerlink::before, .rst-content h3 .headerlink::before, .rst-content h4 .headerlink::before, .rst-content h5 .headerlink::before, .rst-content h6 .headerlink::before, .rst-content dl dt .headerlink::before, .rst-content p.caption .headerlink::before, .rst-content table > caption .headerlink::before, .rst-content tt.download span:first-child::before, .rst-content code.download span:first-child::before, .icon::before, .wy-dropdown .caret::before, .wy-inline-validate.wy-inline-validate-success .wy-input-context::before, .wy-inline-validate.wy-inline-validate-danger .wy-input-context::before, .wy-inline-validate.wy-inline-validate-warning .wy-input-context::before, .wy-inline-validate.wy-inline-validate-info .wy-input-context::before {color: color:#344c25;}
 
 /* Blocco pbubblicita */
 .wy-body-for-nav .keep-us-sustainable {color: #404040; background-color: #404040;}
 
 /* stile pubblcitià */
-div.ethical-text {color: #330000 !important;}
-.ethical-sidebar .ethical-callout, .ethical-footer .ethical-callout {color: #330000 !important;}
-.ethical-rtd .ethical-sidebar a, .ethical-rtd .ethical-sidebar a:visited, .ethical-rtd .ethical-sidebar a:hover, .ethical-rtd .ethical-sidebar a:active {color: #330000 !important; }
+div.ethical-text {color: #344c25 !important;}
+.ethical-sidebar .ethical-callout, .ethical-footer .ethical-callout {color: #344c25 !important;}
+.ethical-rtd .ethical-sidebar a, .ethical-rtd .ethical-sidebar a:visited, .ethical-rtd .ethical-sidebar a:hover, .ethical-rtd .ethical-sidebar a:active {color: #344c25 !important; }
 
 /* icone social */
 .social {font-style: italic; color: #4E4B4B; font-size: 14px;}
-.social a:link{color: #330000;	text-decoration:none;}
-.social a:visited {	color: #330000; text-decoration:none;}
-.social a:hover {color: #9F3A3A; text-decoration:none; } 
+.social a:link{color: #344c25;	text-decoration:none;}
+.social a:visited {	color: #344c25; text-decoration:none;}
+.social a:hover {color: #f18d36; text-decoration:none; } 
  @media (min-width: 320px) and (max-width: 736px) {.social {font-size: 8.5px;}}
  
  /* testo sphinx footer */
@@ -200,8 +217,8 @@ div.ethical-text {color: #330000 !important;}
 @media (min-width: 320px) and (max-width: 736px) {.footer_small, .footer_small a:link,.footer_small a:visited, .footer_small a:hover   {font-size: 12px!important;}}
 
  /* pannello sx lastest */
-.rst-versions .rst-current-version {background: #781F1F; text-align: center;}
-.wy-nav-side {background: #781F1F;}
+.rst-versions .rst-current-version {background: #344c25; text-align: center;}
+.wy-nav-side {background: #344c25;}
 
 
 /* cambio margini riga intestazione*/
@@ -219,7 +236,7 @@ blockquote {
 position: relative;
 padding-left: 1em;
 margin-left: 32px;
-border-left: 0.2em solid #FF0000;
+border-left: 0.2em solid #589632;
 padding: 20px;
 font-family: 'Roboto', serif;
 font-size: 1.5em;
@@ -227,7 +244,7 @@ line-height: 1.5em;
 font-weight: 100;
 }
 
-blockquote::before, blockquote::after {content: '\201C'; font-family: 'Sanchez'; font-size: 1.7em; color: #FF0000;  top: 5px;}
+blockquote::before, blockquote::after {content: '\201C'; font-family: 'Sanchez'; font-size: 1.7em; color: #589632;  top: 5px;}
 blockquote::after { content: '\201D';}
 
 /* menù footer */
@@ -237,3 +254,5 @@ blockquote::after { content: '\201D';}
   @media (min-width: 600px) and (max-width: 736px) {#menuft {font-size: 14px;}}
 
 .text_red{ color:#FF0000; font-style: italic;}
+
+

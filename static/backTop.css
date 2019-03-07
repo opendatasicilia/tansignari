@@ -1,0 +1,39 @@
+/*Main stylesheet for Backtop jQuery Plugin */
+#backTop {
+    width:22px;
+    height:22px;
+    padding:10px;
+	right:6px;bottom:50px !important;  position:fixed;
+    border-radius:20px;
+    text-indent:-9999px;
+    cursor:pointer;
+    z-index:999999999;
+	display:none;
+	box-sizing:content-box;
+	-webkit-box-sizing:content-box; }
+
+/*@opendatasicilia*/
+@media (min-width: 320px) and (max-width: 1023px) {#backTop {width:10px; height:10px;border-radius:30px;}}
+
+#backTop.white{
+     background:url(qtop.png) no-repeat center center rgba(255,255,255,0.8);
+     /*border:1px solid #ccc;*/
+}
+#backTop.black{
+     background:url(qtop.png) no-repeat center center rgba(0,0,0,0.8); 
+    /*border:1px solid #ccc;*/
+}
+#backTop.red{
+     background:url(https://raw.githubusercontent.com/gbvitrano/tansignari/master/static/tansignari_top.png) no-repeat center center rgba(102,51,51,0.9); 
+	 /*regola la dimesione dell'immagine*/
+	 background-size: 23px;
+	 box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);
+     /*border:1px solid #ccc;*/ }
+
+@media (min-width: 320px) and (max-width: 1023px) {#backTop.red {background-size: 16px;}}
+
+#backTop.green{
+     background:url(qtop.png) no-repeat center center rgba(81,217,187,0.8); 
+     /*border:1px solid #ccc;*/
+}
+

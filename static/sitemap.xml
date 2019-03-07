@@ -1,0 +1,2301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+			
+<!-- hfcqgis.opendatasicilia.it by @opendatasicilia -->			
+
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/</loc>
+  <lastmod>2018-07-22T07:18:10+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/calcolatore_campi/index.html</loc>
+  <lastmod>2018-07-22T07:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/index.html</loc>
+  <lastmod>2018-07-22T07:17:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/release/index.html</loc>
+  <lastmod>2018-07-22T07:18:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/index.html</loc>
+  <lastmod>2018-07-22T07:17:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/contribuire.html</loc>
+  <lastmod>2018-07-22T07:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/da_documentare.html</loc>
+  <lastmod>2018-07-30T07:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/ods.html</loc>
+  <lastmod>2018-07-22T07:18:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/privacy.html</loc>
+  <lastmod>2018-07-22T07:18:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/sitemap.html</loc>
+  <lastmod>2018-07-22T07:18:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/calcolatore_campi/concetti.html</loc>
+  <lastmod>2018-07-22T07:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/calcolatore_campi/interfaccia.html</loc>
+  <lastmod>2018-07-22T07:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/calcolatore_campi/operatori.html</loc>
+  <lastmod>2018-07-22T07:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/add_col_area.html</loc>
+  <lastmod>2018-07-22T07:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/add_coord_xy.html</loc>
+  <lastmod>2018-07-22T07:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/add_campo_virtuale.html</loc>
+  <lastmod>2018-07-22T07:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/add_col_z.html</loc>
+  <lastmod>2018-07-22T07:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/etichette.html</loc>
+  <lastmod>2018-07-22T07:17:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/agg_geom.html</loc>
+  <lastmod>2018-07-22T07:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/conversione.html</loc>
+  <lastmod>2018-07-22T07:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/tematizzare.html</loc>
+  <lastmod>2018-07-22T07:17:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/espressione_regolare.html</loc>
+  <lastmod>2018-07-22T07:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/select_with_aggregate.html</loc>
+  <lastmod>2018-07-22T07:17:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/core_area.html</loc>
+  <lastmod>2018-07-22T07:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/release/novita_3.2.html</loc>
+  <lastmod>2018-07-22T07:18:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/index.html</loc>
+  <lastmod>2018-07-22T07:17:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/index.html</loc>
+  <lastmod>2018-07-22T07:17:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/campi_e_valori/index.html</loc>
+  <lastmod>2018-07-22T07:17:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/index.html</loc>
+  <lastmod>2018-07-22T07:17:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/condizioni/index.html</loc>
+  <lastmod>2018-07-22T07:17:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/conversioni/index.html</loc>
+  <lastmod>2018-07-22T07:17:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/corrispondenza_fuzzy/index.html</loc>
+  <lastmod>2018-07-22T07:17:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/custom/index.html</loc>
+  <lastmod>2018-07-22T07:17:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/index.html</loc>
+  <lastmod>2018-07-22T07:17:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/generale/index.html</loc>
+  <lastmod>2018-07-22T07:17:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/index.html</loc>
+  <lastmod>2018-07-22T07:17:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/layer_della_mappa/index.html</loc>
+  <lastmod>2018-07-22T07:17:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/maps/index.html</loc>
+  <lastmod>2018-07-22T07:17:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/index.html</loc>
+  <lastmod>2018-07-22T07:17:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/index.html</loc>
+  <lastmod>2018-07-22T07:17:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/recente/index.html</loc>
+  <lastmod>2018-07-22T07:17:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/record_e_attributi/index.html</loc>
+  <lastmod>2018-07-22T07:17:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/index.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/index.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/timemanager/index.html</loc>
+  <lastmod>2018-07-22T07:18:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/index.html</loc>
+  <lastmod>2018-07-22T07:18:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/autore.html</loc>
+  <lastmod>2018-07-22T07:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/index.html</loc>
+  <lastmod>2018-07-22T07:18:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/aggregate.html</loc>
+  <lastmod>2018-07-22T07:17:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/array_agg.html</loc>
+  <lastmod>2018-07-22T07:17:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/collect.html</loc>
+  <lastmod>2018-07-22T07:17:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/concatenate.html</loc>
+  <lastmod>2018-07-22T07:17:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/count.html</loc>
+  <lastmod>2018-07-22T07:17:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/count_distinct.html</loc>
+  <lastmod>2018-07-22T07:17:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/count_missing.html</loc>
+  <lastmod>2018-07-22T07:17:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/iqr.html</loc>
+  <lastmod>2018-07-22T07:17:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/majority.html</loc>
+  <lastmod>2018-07-22T07:17:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/max_length.html</loc>
+  <lastmod>2018-07-22T07:17:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/maximum.html</loc>
+  <lastmod>2018-07-22T07:17:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/mean.html</loc>
+  <lastmod>2018-07-22T07:17:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/median.html</loc>
+  <lastmod>2018-07-22T07:17:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/min_length.html</loc>
+  <lastmod>2018-07-22T07:17:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/minimum.html</loc>
+  <lastmod>2018-07-22T07:17:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/minority.html</loc>
+  <lastmod>2018-07-22T07:17:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/q1.html</loc>
+  <lastmod>2018-07-22T07:17:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/q3.html</loc>
+  <lastmod>2018-07-22T07:17:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/range.html</loc>
+  <lastmod>2018-07-22T07:17:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/relation_aggregate.html</loc>
+  <lastmod>2018-07-22T07:17:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/stdev.html</loc>
+  <lastmod>2018-07-22T07:17:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/aggregates/sum.html</loc>
+  <lastmod>2018-07-22T07:17:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array.html</loc>
+  <lastmod>2018-07-22T07:17:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_append.html</loc>
+  <lastmod>2018-07-22T07:17:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_avg.html</loc>
+  <lastmod>2018-07-22T07:17:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_cat.html</loc>
+  <lastmod>2018-07-22T07:17:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_contains.html</loc>
+  <lastmod>2018-07-22T07:17:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_count.html</loc>
+  <lastmod>2018-07-22T07:17:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_distinct.html</loc>
+  <lastmod>2018-07-22T07:17:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_find.html</loc>
+  <lastmod>2018-07-22T07:17:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_get.html</loc>
+  <lastmod>2018-07-22T07:17:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_insert.html</loc>
+  <lastmod>2018-07-22T07:17:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_intersect.html</loc>
+  <lastmod>2018-07-22T07:17:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_lambda.html</loc>
+  <lastmod>2018-07-22T07:17:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_last.html</loc>
+  <lastmod>2018-07-22T07:17:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_length.html</loc>
+  <lastmod>2018-07-22T07:17:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_majority.html</loc>
+  <lastmod>2018-07-22T07:17:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_max.html</loc>
+  <lastmod>2018-07-22T07:17:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_min.html</loc>
+  <lastmod>2018-07-22T07:17:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_minority.html</loc>
+  <lastmod>2018-07-22T07:17:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_prepend.html</loc>
+  <lastmod>2018-07-22T07:17:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_prioritize.html</loc>
+  <lastmod>2018-07-22T07:17:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_remove_all.html</loc>
+  <lastmod>2018-07-22T07:17:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_remove_at.html</loc>
+  <lastmod>2018-07-22T07:17:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_replace.html</loc>
+  <lastmod>2018-07-22T07:17:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_reverse.html</loc>
+  <lastmod>2018-07-22T07:17:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_slice.html</loc>
+  <lastmod>2018-07-22T07:17:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_sort.html</loc>
+  <lastmod>2018-07-22T07:17:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_sum.html</loc>
+  <lastmod>2018-07-22T07:17:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_to_string.html</loc>
+  <lastmod>2018-07-22T07:17:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/regexp_matches.html</loc>
+  <lastmod>2018-07-22T07:17:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/string_to_array.html</loc>
+  <lastmod>2018-07-22T07:17:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/array_first.html</loc>
+  <lastmod>2018-07-22T07:17:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/campi_e_valori/campi_e_valori.html</loc>
+  <lastmod>2018-07-22T07:17:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/color_cmyk.html</loc>
+  <lastmod>2018-07-22T07:17:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/color_cmyka.html</loc>
+  <lastmod>2018-07-22T07:17:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/color_grayscale_average.html</loc>
+  <lastmod>2018-07-22T07:17:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/color_hsl.html</loc>
+  <lastmod>2018-07-22T07:17:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/color_hsla.html</loc>
+  <lastmod>2018-07-22T07:17:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/color_hsv.html</loc>
+  <lastmod>2018-07-22T07:17:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/color_hsva.html</loc>
+  <lastmod>2018-07-22T07:17:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/color_mix_rgb.html</loc>
+  <lastmod>2018-07-22T07:17:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/color_part.html</loc>
+  <lastmod>2018-07-22T07:17:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/color_rgb.html</loc>
+  <lastmod>2018-07-22T07:17:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/color_rgba.html</loc>
+  <lastmod>2018-07-22T07:17:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/create_ramp.html</loc>
+  <lastmod>2018-07-22T07:17:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/darker.html</loc>
+  <lastmod>2018-07-22T07:17:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/lighter.html</loc>
+  <lastmod>2018-07-22T07:17:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/project_color.html</loc>
+  <lastmod>2018-07-22T07:17:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/ramp_color.html</loc>
+  <lastmod>2018-07-22T07:17:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/colore/set_color_part.html</loc>
+  <lastmod>2018-07-22T07:17:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/condizioni/case.html</loc>
+  <lastmod>2018-07-22T07:17:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/condizioni/coalesce.html</loc>
+  <lastmod>2018-07-22T07:17:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/condizioni/if.html</loc>
+  <lastmod>2018-07-22T07:17:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/condizioni/regexp_match.html</loc>
+  <lastmod>2018-07-22T07:17:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/conversioni/to_date.html</loc>
+  <lastmod>2018-07-22T07:17:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/conversioni/to_datetime.html</loc>
+  <lastmod>2018-07-22T07:17:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/conversioni/to_int.html</loc>
+  <lastmod>2018-07-22T07:17:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/conversioni/to_interval.html</loc>
+  <lastmod>2018-07-22T07:17:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/conversioni/to_real.html</loc>
+  <lastmod>2018-07-22T07:17:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/conversioni/to_string.html</loc>
+  <lastmod>2018-07-22T07:17:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/conversioni/to_time.html</loc>
+  <lastmod>2018-07-22T07:17:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/corrispondenza_fuzzy/hamming_distance.html</loc>
+  <lastmod>2018-07-22T07:17:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/corrispondenza_fuzzy/levenshtein.html</loc>
+  <lastmod>2018-07-22T07:17:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/corrispondenza_fuzzy/longest_common_substring.html</loc>
+  <lastmod>2018-07-22T07:17:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/corrispondenza_fuzzy/soundex.html</loc>
+  <lastmod>2018-07-22T07:17:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/custom/controlla_file.html</loc>
+  <lastmod>2018-07-22T07:17:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/custom/my_sum.html</loc>
+  <lastmod>2018-07-22T07:17:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/custom/perimetro_km().html</loc>
+  <lastmod>2018-07-22T07:17:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/custom/reverse_string.html</loc>
+  <lastmod>2018-07-22T07:17:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/age.html</loc>
+  <lastmod>2018-07-22T07:17:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/day.html</loc>
+  <lastmod>2018-07-22T07:17:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/day_of_week.html</loc>
+  <lastmod>2018-07-22T07:17:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/epoch.html</loc>
+  <lastmod>2018-07-22T07:17:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/format_date.html</loc>
+  <lastmod>2018-07-22T07:17:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/hour.html</loc>
+  <lastmod>2018-07-22T07:17:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/minute.html</loc>
+  <lastmod>2018-07-22T07:17:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/month.html</loc>
+  <lastmod>2018-07-22T07:17:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/now.html</loc>
+  <lastmod>2018-07-22T07:17:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/second.html</loc>
+  <lastmod>2018-07-22T07:17:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/to_date.html</loc>
+  <lastmod>2018-07-22T07:17:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/to_datetime.html</loc>
+  <lastmod>2018-07-22T07:17:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/to_interval.html</loc>
+  <lastmod>2018-07-22T07:17:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/to_time.html</loc>
+  <lastmod>2018-07-22T07:17:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/week.html</loc>
+  <lastmod>2018-07-22T07:17:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/data_ora/year.html</loc>
+  <lastmod>2018-07-22T07:17:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/generale/env.html</loc>
+  <lastmod>2018-07-22T07:17:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/generale/eval.html</loc>
+  <lastmod>2018-07-22T07:17:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/generale/layer_property.html</loc>
+  <lastmod>2018-07-22T07:17:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/generale/raster_statistic.html</loc>
+  <lastmod>2018-07-22T07:17:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/generale/var.html</loc>
+  <lastmod>2018-07-22T07:17:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/generale/with_variable.html</loc>
+  <lastmod>2018-07-22T07:17:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/$area.html</loc>
+  <lastmod>2018-07-22T07:17:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/$geometry.html</loc>
+  <lastmod>2018-07-22T07:17:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/$length.html</loc>
+  <lastmod>2018-07-22T07:17:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/$perimeter.html</loc>
+  <lastmod>2018-07-22T07:17:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/$x.html</loc>
+  <lastmod>2018-07-22T07:17:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/$x_at.html</loc>
+  <lastmod>2018-07-22T07:17:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/$y.html</loc>
+  <lastmod>2018-07-22T07:17:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/$y_at.html</loc>
+  <lastmod>2018-07-22T07:17:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/angle_at_vertex.html</loc>
+  <lastmod>2018-07-22T07:17:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/area.html</loc>
+  <lastmod>2018-07-22T07:17:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/azimuth.html</loc>
+  <lastmod>2018-07-22T07:17:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/boundary.html</loc>
+  <lastmod>2018-07-22T07:17:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/bounds.html</loc>
+  <lastmod>2018-07-22T07:17:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/bounds_height.html</loc>
+  <lastmod>2018-07-22T07:17:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/bounds_width.html</loc>
+  <lastmod>2018-07-22T07:17:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/buffer.html</loc>
+  <lastmod>2018-07-22T07:17:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/buffer_by_m.html</loc>
+  <lastmod>2018-07-22T07:17:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/centroid.html</loc>
+  <lastmod>2018-07-22T07:17:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/closest_point.html</loc>
+  <lastmod>2018-07-22T07:17:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/combine.html</loc>
+  <lastmod>2018-07-22T07:17:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/contains.html</loc>
+  <lastmod>2018-07-22T07:17:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/convex_hull.html</loc>
+  <lastmod>2018-07-22T07:17:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/crosses.html</loc>
+  <lastmod>2018-07-22T07:17:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/difference.html</loc>
+  <lastmod>2018-07-22T07:17:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/disjoint.html</loc>
+  <lastmod>2018-07-22T07:17:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/distance.html</loc>
+  <lastmod>2018-07-22T07:17:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/distance_to_vertex.html</loc>
+  <lastmod>2018-07-22T07:17:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/end_point.html</loc>
+  <lastmod>2018-07-22T07:17:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/extend.html</loc>
+  <lastmod>2018-07-22T07:17:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/exterior_ring.html</loc>
+  <lastmod>2018-07-22T07:17:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/extrude.html</loc>
+  <lastmod>2018-07-22T07:17:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/flip_coordinates.html</loc>
+  <lastmod>2018-07-22T07:17:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/geom_from_gml.html</loc>
+  <lastmod>2018-07-22T07:17:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/geom_from_wkt.html</loc>
+  <lastmod>2018-07-22T07:17:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/geom_to_wkt.html</loc>
+  <lastmod>2018-07-22T07:17:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/geometry.html</loc>
+  <lastmod>2018-07-22T07:17:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/geometry_n.html</loc>
+  <lastmod>2018-07-22T07:17:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/hausdorff_distance.html</loc>
+  <lastmod>2018-07-22T07:17:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/inclination.html</loc>
+  <lastmod>2018-07-22T07:17:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/interior_ring_n.html</loc>
+  <lastmod>2018-07-22T07:17:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/intersection.html</loc>
+  <lastmod>2018-07-22T07:17:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/intersects.html</loc>
+  <lastmod>2018-07-22T07:17:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/intersects_bbox.html</loc>
+  <lastmod>2018-07-22T07:17:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/is_closed.html</loc>
+  <lastmod>2018-07-22T07:17:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/length.html</loc>
+  <lastmod>2018-07-22T07:17:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/line_interpolate_angle.html</loc>
+  <lastmod>2018-07-22T07:17:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/line_interpolate_point.html</loc>
+  <lastmod>2018-07-22T07:17:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/line_locate_point.html</loc>
+  <lastmod>2018-07-22T07:17:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/line_merge.html</loc>
+  <lastmod>2018-07-22T07:17:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/m.html</loc>
+  <lastmod>2018-07-22T07:17:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/make_circle.html</loc>
+  <lastmod>2018-07-22T07:17:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/make_ellipse.html</loc>
+  <lastmod>2018-07-22T07:17:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/make_line.html</loc>
+  <lastmod>2018-07-22T07:17:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/make_point.html</loc>
+  <lastmod>2018-07-22T07:17:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/make_point_m.html</loc>
+  <lastmod>2018-07-22T07:17:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/make_polygon.html</loc>
+  <lastmod>2018-07-22T07:17:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/make_regular_polygon.html</loc>
+  <lastmod>2018-07-22T07:17:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/make_triangle.html</loc>
+  <lastmod>2018-07-22T07:17:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/minimal_circle.html</loc>
+  <lastmod>2018-07-22T07:17:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/nodes_to_points.html</loc>
+  <lastmod>2018-07-22T07:17:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/num_geometries.html</loc>
+  <lastmod>2018-07-22T07:17:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/num_interior_rings.html</loc>
+  <lastmod>2018-07-22T07:17:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/num_points.html</loc>
+  <lastmod>2018-07-22T07:17:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/num_rings.html</loc>
+  <lastmod>2018-07-22T07:17:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/offset_curve.html</loc>
+  <lastmod>2018-07-22T07:17:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/order_parts.html</loc>
+  <lastmod>2018-07-22T07:17:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/oriented_bbox.html</loc>
+  <lastmod>2018-07-22T07:17:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/overlaps.html</loc>
+  <lastmod>2018-07-22T07:17:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/perimeter.html</loc>
+  <lastmod>2018-07-22T07:17:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/point_n.html</loc>
+  <lastmod>2018-07-22T07:17:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/point_on_surface.html</loc>
+  <lastmod>2018-07-22T07:17:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/pole_of_inaccessibility.html</loc>
+  <lastmod>2018-07-22T07:17:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/project.html</loc>
+  <lastmod>2018-07-22T07:17:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/relate.html</loc>
+  <lastmod>2018-07-22T07:17:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/reverse.html</loc>
+  <lastmod>2018-07-22T07:17:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/segments_to_lines.html</loc>
+  <lastmod>2018-07-22T07:17:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/shortest_line.html</loc>
+  <lastmod>2018-07-22T07:17:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/simplify.html</loc>
+  <lastmod>2018-07-22T07:17:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/simplify_vw.html</loc>
+  <lastmod>2018-07-22T07:17:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/single_sided_buffer.html</loc>
+  <lastmod>2018-07-22T07:17:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/smooth.html</loc>
+  <lastmod>2018-07-22T07:17:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/start_point.html</loc>
+  <lastmod>2018-07-22T07:17:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/sym_difference.html</loc>
+  <lastmod>2018-07-22T07:17:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/tapered_buffer.html</loc>
+  <lastmod>2018-07-22T07:17:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/touches.html</loc>
+  <lastmod>2018-07-22T07:17:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/transform.html</loc>
+  <lastmod>2018-07-22T07:17:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/translate.html</loc>
+  <lastmod>2018-07-22T07:17:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/union.html</loc>
+  <lastmod>2018-07-22T07:17:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/wedge_buffer.html</loc>
+  <lastmod>2018-07-22T07:17:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/within.html</loc>
+  <lastmod>2018-07-22T07:17:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/x.html</loc>
+  <lastmod>2018-07-22T07:17:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/x_min.html</loc>
+  <lastmod>2018-07-22T07:17:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/x_max.html</loc>
+  <lastmod>2018-07-22T07:17:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/y.html</loc>
+  <lastmod>2018-07-22T07:17:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/y_min.html</loc>
+  <lastmod>2018-07-22T07:17:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/y_max.html</loc>
+  <lastmod>2018-07-22T07:17:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/z.html</loc>
+  <lastmod>2018-07-22T07:17:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/layer_della_mappa/layer_della_mappa.html</loc>
+  <lastmod>2018-07-22T07:17:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/maps/hstore_to_map.html</loc>
+  <lastmod>2018-07-22T07:17:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/maps/json_to_map.html</loc>
+  <lastmod>2018-07-22T07:17:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/maps/map.html</loc>
+  <lastmod>2018-07-22T07:17:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/maps/map_akeys.html</loc>
+  <lastmod>2018-07-22T07:17:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/maps/map_avals.html</loc>
+  <lastmod>2018-07-22T07:17:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/maps/map_concat.html</loc>
+  <lastmod>2018-07-22T07:17:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/maps/map_delete.html</loc>
+  <lastmod>2018-07-22T07:17:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/maps/map_exist.html</loc>
+  <lastmod>2018-07-22T07:17:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/maps/map_get.html</loc>
+  <lastmod>2018-07-22T07:17:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/maps/map_insert.html</loc>
+  <lastmod>2018-07-22T07:17:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/abs.html</loc>
+  <lastmod>2018-07-22T07:17:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/acos.html</loc>
+  <lastmod>2018-07-22T07:17:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/asin.html</loc>
+  <lastmod>2018-07-22T07:17:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/atan.html</loc>
+  <lastmod>2018-07-22T07:17:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/atan2.html</loc>
+  <lastmod>2018-07-22T07:17:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/azimuth.html</loc>
+  <lastmod>2018-07-22T07:17:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/ceil.html</loc>
+  <lastmod>2018-07-22T07:17:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/clamp.html</loc>
+  <lastmod>2018-07-22T07:17:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/cos.html</loc>
+  <lastmod>2018-07-22T07:17:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/degrees.html</loc>
+  <lastmod>2018-07-22T07:17:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/exp.html</loc>
+  <lastmod>2018-07-22T07:17:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/floor.html</loc>
+  <lastmod>2018-07-22T07:17:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/inclination.html</loc>
+  <lastmod>2018-07-22T07:17:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/ln.html</loc>
+  <lastmod>2018-07-22T07:17:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/log.html</loc>
+  <lastmod>2018-07-22T07:17:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/log10.html</loc>
+  <lastmod>2018-07-22T07:17:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/max.html</loc>
+  <lastmod>2018-07-22T07:17:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/min.html</loc>
+  <lastmod>2018-07-22T07:17:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/pi.html</loc>
+  <lastmod>2018-07-22T07:17:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/radians.html</loc>
+  <lastmod>2018-07-22T07:17:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/rand.html</loc>
+  <lastmod>2018-07-22T07:17:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/randf.html</loc>
+  <lastmod>2018-07-22T07:17:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/round.html</loc>
+  <lastmod>2018-07-22T07:17:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/scale_exp.html</loc>
+  <lastmod>2018-07-22T07:17:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/scale_linear.html</loc>
+  <lastmod>2018-07-22T07:17:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/sin.html</loc>
+  <lastmod>2018-07-22T07:17:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/sqrt.html</loc>
+  <lastmod>2018-07-22T07:17:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/matematica/tan.html</loc>
+  <lastmod>2018-07-22T07:17:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/and.html</loc>
+  <lastmod>2018-07-22T07:17:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/diverso.html</loc>
+  <lastmod>2018-07-22T07:17:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/divisione.html</loc>
+  <lastmod>2018-07-22T07:17:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/doppio_pipe.html</loc>
+  <lastmod>2018-07-22T07:17:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/ilike.html</loc>
+  <lastmod>2018-07-22T07:17:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/in.html</loc>
+  <lastmod>2018-07-22T07:17:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/is.html</loc>
+  <lastmod>2018-07-22T07:17:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/like.html</loc>
+  <lastmod>2018-07-22T07:17:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/maggiore.html</loc>
+  <lastmod>2018-07-22T07:17:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/maggioreuguale.html</loc>
+  <lastmod>2018-07-22T07:17:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/meno.html</loc>
+  <lastmod>2018-07-22T07:17:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/minore.html</loc>
+  <lastmod>2018-07-22T07:17:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/minoreuguale.html</loc>
+  <lastmod>2018-07-22T07:17:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/not.html</loc>
+  <lastmod>2018-07-22T07:17:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/or.html</loc>
+  <lastmod>2018-07-22T07:17:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/potenza.html</loc>
+  <lastmod>2018-07-22T07:17:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/prodotto.html</loc>
+  <lastmod>2018-07-22T07:17:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/resto_divisione.html</loc>
+  <lastmod>2018-07-22T07:17:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/somma.html</loc>
+  <lastmod>2018-07-22T07:17:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/tilde.html</loc>
+  <lastmod>2018-07-22T07:17:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/operatori/uguale.html</loc>
+  <lastmod>2018-07-22T07:17:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/record_e_attributi/$currentfeature.html</loc>
+  <lastmod>2018-07-22T07:17:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/record_e_attributi/$id.html</loc>
+  <lastmod>2018-07-22T07:17:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/record_e_attributi/attribute.html</loc>
+  <lastmod>2018-07-22T07:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/record_e_attributi/get_feature.html</loc>
+  <lastmod>2018-07-22T07:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/record_e_attributi/get_feature_by_id.html</loc>
+  <lastmod>2018-07-22T07:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/record_e_attributi/is_selected.html</loc>
+  <lastmod>2018-07-22T07:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/record_e_attributi/num_selected.html</loc>
+  <lastmod>2018-07-22T07:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/record_e_attributi/represent_value.html</loc>
+  <lastmod>2018-07-22T07:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/record_e_attributi/uuid.html</loc>
+  <lastmod>2018-07-22T07:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/char.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/concat.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/format.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/format_date.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/format_number.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/left.html</loc>
+  <lastmod>2018-07-22T07:18:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/length.html</loc>
+  <lastmod>2018-07-22T07:18:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/lower.html</loc>
+  <lastmod>2018-07-22T07:18:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/lpad.html</loc>
+  <lastmod>2018-07-22T07:18:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/regexp_match.html</loc>
+  <lastmod>2018-07-22T07:18:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/regexp_replace.html</loc>
+  <lastmod>2018-07-22T07:18:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/regexp_substr.html</loc>
+  <lastmod>2018-07-22T07:18:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/replace.html</loc>
+  <lastmod>2018-07-22T07:18:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/right.html</loc>
+  <lastmod>2018-07-22T07:18:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/rpad.html</loc>
+  <lastmod>2018-07-22T07:18:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/strpos.html</loc>
+  <lastmod>2018-07-22T07:18:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/substr.html</loc>
+  <lastmod>2018-07-22T07:18:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/title.html</loc>
+  <lastmod>2018-07-22T07:18:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/to_string.html</loc>
+  <lastmod>2018-07-22T07:18:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/trim.html</loc>
+  <lastmod>2018-07-22T07:18:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/upper.html</loc>
+  <lastmod>2018-07-22T07:18:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/stringhe_di_testo/wordwrap.html</loc>
+  <lastmod>2018-07-22T07:18:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/value.html</loc>
+  <lastmod>2018-07-22T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/maps/</loc>
+  <lastmod>2018-07-22T07:17:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/arrays/</loc>
+  <lastmod>2018-07-22T07:17:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/dbquery.html</loc>
+  <lastmod>2018-07-22T07:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/dbsql.html</loc>
+  <lastmod>2018-07-22T07:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/dbvalue.html</loc>
+  <lastmod>2018-07-22T07:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/dbvaluebyid.html</loc>
+  <lastmod>2018-07-22T07:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/geomcontains.html</loc>
+  <lastmod>2018-07-22T07:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/geomcrosses.html</loc>
+  <lastmod>2018-07-22T07:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/geomdistance.html</loc>
+  <lastmod>2018-07-22T07:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/geomequals.html</loc>
+  <lastmod>2018-07-22T07:17:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/geomintersects.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/geomnearest.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/geomoverlaps.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/geomredef.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/geomtouches.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/geomwithin.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/wktarea.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/wktcentroid.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/wktlenght.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/reference/wktpointonsurface.html</loc>
+  <lastmod>2018-07-22T07:18:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/atlas_feature.html</loc>
+  <lastmod>2018-07-22T07:18:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/atlas_featureid.html</loc>
+  <lastmod>2018-07-22T07:18:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/atlas_featurenumber.html</loc>
+  <lastmod>2018-07-22T07:18:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/atlas_filename.html</loc>
+  <lastmod>2018-07-22T07:18:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/atlas_geometry.html</loc>
+  <lastmod>2018-07-22T07:18:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/atlas_layerid.html</loc>
+  <lastmod>2018-07-22T07:18:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/atlas_layername.html</loc>
+  <lastmod>2018-07-22T07:18:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/atlas_pagename.html</loc>
+  <lastmod>2018-07-22T07:18:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/atlas_totalfeatures.html</loc>
+  <lastmod>2018-07-22T07:18:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/cluster_color.html</loc>
+  <lastmod>2018-07-22T07:18:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/cluster_size.html</loc>
+  <lastmod>2018-07-22T07:18:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/geometry_part_count.html</loc>
+  <lastmod>2018-07-22T07:18:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/geometry_part_num.html</loc>
+  <lastmod>2018-07-22T07:18:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/geometry_point_count.html</loc>
+  <lastmod>2018-07-22T07:18:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/geometry_point_num.html</loc>
+  <lastmod>2018-07-22T07:18:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/grid_axis.html</loc>
+  <lastmod>2018-07-22T07:18:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/grid_number.html</loc>
+  <lastmod>2018-07-22T07:18:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/item_id.html</loc>
+  <lastmod>2018-07-22T07:18:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/item_uuid.html</loc>
+  <lastmod>2018-07-22T07:18:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/layer.html</loc>
+  <lastmod>2018-07-22T07:18:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/layer_id.html</loc>
+  <lastmod>2018-07-22T07:18:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/layer_name.html</loc>
+  <lastmod>2018-07-22T07:18:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/layout_dpi.html</loc>
+  <lastmod>2018-07-22T07:18:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/layout_name.html</loc>
+  <lastmod>2018-07-22T07:18:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/layout_numpages.html</loc>
+  <lastmod>2018-07-22T07:18:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/layout_page.html</loc>
+  <lastmod>2018-07-22T07:18:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/layout_pageheight.html</loc>
+  <lastmod>2018-07-22T07:18:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/layout_pagewidth.html</loc>
+  <lastmod>2018-07-22T07:18:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/map_crs.html</loc>
+  <lastmod>2018-07-22T07:18:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/map_crs_definition.html</loc>
+  <lastmod>2018-07-22T07:18:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/map_extent.html</loc>
+  <lastmod>2018-07-22T07:18:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/map_extent_center.html</loc>
+  <lastmod>2018-07-22T07:18:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/map_extent_height.html</loc>
+  <lastmod>2018-07-22T07:18:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/map_extent_width.html</loc>
+  <lastmod>2018-07-22T07:18:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/map_id.html</loc>
+  <lastmod>2018-07-22T07:18:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/map_rotation.html</loc>
+  <lastmod>2018-07-22T07:18:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/map_scale.html</loc>
+  <lastmod>2018-07-22T07:18:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/map_units.html</loc>
+  <lastmod>2018-07-22T07:18:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/parent.html</loc>
+  <lastmod>2018-07-22T07:18:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/project_abstract.html</loc>
+  <lastmod>2018-07-22T07:18:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/project_author.html</loc>
+  <lastmod>2018-07-22T07:18:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/project_creation_date.html</loc>
+  <lastmod>2018-07-22T07:18:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/project_crs.html</loc>
+  <lastmod>2018-07-22T07:18:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/project_crs_definition.html</loc>
+  <lastmod>2018-07-22T07:18:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/project_filename.html</loc>
+  <lastmod>2018-07-22T07:18:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/project_folder.html</loc>
+  <lastmod>2018-07-22T07:18:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/project_identifier.html</loc>
+  <lastmod>2018-07-22T07:18:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/project_keywords.html</loc>
+  <lastmod>2018-07-22T07:18:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/project_path.html</loc>
+  <lastmod>2018-07-22T07:18:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/project_title.html</loc>
+  <lastmod>2018-07-22T07:18:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/qgis_locale.html</loc>
+  <lastmod>2018-07-22T07:18:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/qgis_os_name.html</loc>
+  <lastmod>2018-07-22T07:18:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/qgis_platform.html</loc>
+  <lastmod>2018-07-22T07:18:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/qgis_release_name.html</loc>
+  <lastmod>2018-07-22T07:18:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/qgis_short_version.html</loc>
+  <lastmod>2018-07-22T07:18:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/qgis_version.html</loc>
+  <lastmod>2018-07-22T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/qgis_version_no.html</loc>
+  <lastmod>2018-07-22T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/row_number.html</loc>
+  <lastmod>2018-07-22T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/snapping_results.html</loc>
+  <lastmod>2018-07-22T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/symbol_angle.html</loc>
+  <lastmod>2018-07-22T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/symbol_color.html</loc>
+  <lastmod>2018-07-22T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/user_account_name.html</loc>
+  <lastmod>2018-07-22T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/variabili/user_full_name.html</loc>
+  <lastmod>2018-07-22T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/sposta_etichetta_linea.html</loc>
+  <lastmod>2018-07-23T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/rasters/index.html</loc>
+  <lastmod>2018-07-29T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/rasters/raster_statistic.html</loc>
+  <lastmod>2018-07-29T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/rasters/raster_value.html</loc>
+  <lastmod>2018-07-29T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/rasters/raster_value.html</loc>
+  <lastmod>2018-07-29T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/conteggio.html</loc>
+  <lastmod>2018-07-29T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/conta_punti_in_poligono.html</loc>
+  <lastmod>2018-07-29T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/somma_lunghezze_nel_poligono.html</loc>
+  <lastmod>2018-07-29T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/punti_in_poligoni_categorie.html</loc>
+  <lastmod>2018-07-29T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/nascondi_etichette.html</loc>
+  <lastmod>2018-07-29T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/novita_34.html</loc>
+  <lastmod>2018-07-29T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/release/novita_36.html</loc>
+  <lastmod>2018-07-29T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/calcolo_area_poligoni_reticolo.html</loc>
+  <lastmod>2018-07-29T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/spatial_join.html</loc>
+  <lastmod>2018-07-29T07:18:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/unica_etichetta_più_poligoni.html</loc>
+  <lastmod>2019-01-27T06:53:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/condizioni/nullif.html</loc>
+  <lastmod>2019-01-27T06:53:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/make_square.html</loc>
+  <lastmod>2019-01-27T06:53:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/geometria/make_rectangle_3points.html</loc>
+  <lastmod>2019-01-27T06:53:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/rotazione_pattern.html</loc>
+  <lastmod>2019-01-27T06:53:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/elenco_comuni_attraversati_fiume.html</loc>
+  <lastmod>2019-01-27T06:53:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/maps/to_json.html</loc>
+  <lastmod>2019-01-27T06:53:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/gr_funzioni/maps/from_json.html</loc>
+  <lastmod>2019-01-27T06:53:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/numerazione_poligoni_rel_spaziale.html</loc>
+  <lastmod>2019-01-27T06:53:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/assegnare_cat_prevalente.html</loc>
+  <lastmod>2019-01-27T06:53:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://hfcqgis.opendatasicilia.it/it/latest/esempi/hub_lines.html</loc>
+  <lastmod>2019-01-27T06:53:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+</urlset>
