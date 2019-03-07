@@ -26,7 +26,7 @@ Dopo essersi registrati sulla piattaforma, creando un account, si accede ad una 
 Possiamo scegliere un progetto pubblico, con dati visibili a tutti, oppure privato, con dati visibili solo a noi creatori del modulo. 
 
 Cliccando su "new project" si sceglie un nome ed appare una pagina in cui si può scegliere tra diverse opzioni per cominciare ad inserire elementi. Scegliamo quello interno al sito che prend il nome di "**Form builder**". 
-![image](https://raw.githubusercontent.com/opendatasicilia/tansignari/master/static/ricette/Ona-Google_sheet/formbuilder.JPG)
+![](/img/Ona-Google_sheet/formbuilder.JPG)
 
 Qui possiamo inserire vari elementi che rappresentano le domande da porre nel modulo online:
 - domande a risposta multipla
@@ -48,13 +48,11 @@ Durante le fasi di inserimento degli elementi, cliccando sull'icona a forma di o
 
 Una volta salvato il modulo, andando nella sezione della piatatforma dove sono i nostri progett, troveremo il primo progetto generato e cliccandoci sopra si aprirà un pannello di visualizzazione dati in cui c'è anche la sezione "**submit data**"
 
-![image](https://raw.githubusercontent.com/opendatasicilia/tansignari/master/static/ricette/Ona-Google_sheet/linkmodulo.JPG) 
+![](/img/Ona-Google_sheet/linkmodulo.JPG) 
 
 in cui leggiamo il link al modulo che è pronto per essere usato online. Vediamo questo che ho creato come prova: https://enketo.ona.io/x/#iuYQFAYj.
 
 Abbiamo creato un modulo online pronto da usare per raccogliere dati in mobilità.
-
-
 
 ### Alcune poche cose importanti da sapere sul database generato dalla compilazione del modulo di "ONA":
 
