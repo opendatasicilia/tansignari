@@ -1,6 +1,5 @@
 # Creare moduli di raccolta dati geografici online con ONA e metterli in collegamento automatico con fogli Google (e avere dati aggiornati al minuto)
 
-
 <!-- TOC -->
 
 - [Creare moduli di raccolta dati geografici online con ONA e metterli in collegamento automatico con fogli Google](#creare-moduli-di-raccolta-dati-geografici-online-con-ona-e-metterli-in-collegamento-automatico-con-fogli-google)
@@ -12,9 +11,7 @@
 
 <!-- /TOC -->
 
-
 ## 1 - Creare un modulo per raccolta dati in mobilità
-
 
 Questa ricetta nasce dalla necessità di disporre di un modulo di raccolta dati/informazioni online, dove fosse possibile inserire dati geografici, quindi ad esempio dati di latitudine e longitudine per un determinato punto. Pensiamo ad un modulo, ad esempio, in cui è possbile censire elementi di arredo urbano, casi di tombini otturati, marcipiedi dissestati o buche su strada, barriere architettoniche varie, o anche per censire semplicemente luoghi di interesse.
 
@@ -26,7 +23,7 @@ Dopo essersi registrati sulla piattaforma, creando un account, si accede ad una 
 Possiamo scegliere un progetto pubblico, con dati visibili a tutti, oppure privato, con dati visibili solo a noi creatori del modulo. 
 
 Cliccando su "new project" si sceglie un nome ed appare una pagina in cui si può scegliere tra diverse opzioni per cominciare ad inserire elementi. Scegliamo quello interno al sito che prend il nome di "**Form builder**". 
-![image](https://raw.githubusercontent.com/opendatasicilia/tansignari/master/static/ricette/Ona-Google_sheet/formbuilder.JPG)
+![](/img/Ona-Google_sheet/formbuilder.JPG)
 
 Qui possiamo inserire vari elementi che rappresentano le domande da porre nel modulo online:
 - domande a risposta multipla
@@ -48,19 +45,16 @@ Durante le fasi di inserimento degli elementi, cliccando sull'icona a forma di o
 
 Una volta salvato il modulo, andando nella sezione della piatatforma dove sono i nostri progett, troveremo il primo progetto generato e cliccandoci sopra si aprirà un pannello di visualizzazione dati in cui c'è anche la sezione "**submit data**"
 
-![image](https://raw.githubusercontent.com/opendatasicilia/tansignari/master/static/ricette/Ona-Google_sheet/linkmodulo.JPG) 
+![](/img/Ona-Google_sheet/linkmodulo.JPG) 
 
 in cui leggiamo il link al modulo che è pronto per essere usato online. Vediamo questo che ho creato come prova: https://enketo.ona.io/x/#iuYQFAYj.
 
 Abbiamo creato un modulo online pronto da usare per raccogliere dati in mobilità.
 
-
-
 ### Alcune poche cose importanti da sapere sul database generato dalla compilazione del modulo di "ONA":
 
 - i dati generati dalla compialzione del modulo confluiscono in un database ospitato nei server della piattaforma ONA: [qui](https://ona.io/cirospat/81378/387318#/table) possiamo vedere il database generato dalla compilazione (è solo un test) di questo [modulo](https://enketo.ona.io/x/#iuYQFAYj). 
 - la piattaforma ONA espone le cosiddette API [Application Programming Interfaces](https://it.wikipedia.org/wiki/Application_programming_interface#Finalit%C3%A0), interfaccie che consentono di fare dialogare i dati raccolti con i moduli ONA con altri servizi e software online di terze parti. E come dice Andrea Borruso (!), quando un servizio online espone le API [ci si può fare la guerra](https://github.com/opendatasicilia/tansignari/issues/25#issuecomment-468945094), in termini di riutilizzo dei dati. 
-
 
 Quindi se i dati raccolti col modulo sono supportati dalle API, allora ce li possiamo trattare in tanti modi, ad esempio:
 
@@ -72,12 +66,7 @@ Questi esempi di disponibilità dei dati su altre piattaforme, esterne al serviz
 
 Fino a qui ci siamo concentrati su quello che è possibile fare sulla (e con la) piattaforma di https://ona.io/ (costruire il modulo raccolta dati e visualizzare i dati su un database interno a ONA).
 
-
-
-
-
 ## 2 - Le API di ONA
-
 
 ONA ha le API, [qui](https://api.ona.io/static/docs/index.html) la documentazione per l'uso.
 
@@ -85,10 +74,6 @@ Qui un primo esempio di uso delle API: con https://api.ona.io/api/v1/data?owner=
 
 Nel caso del modulo che abbiamo usato come test sopra abbiamo: https://api.ona.io/api/v1/data/387318.csv, in pratica dopo `data` abbiamo il numero del progetto che abbiamo creato su ONA, seguito dal suffisso `.csv`.
 Abbastanza semplice.
-
-
-
-
 
 ## 3 - Ottenere un foglio dati di Google con i dati aggiornati ad 1 minuto da quando vengono raccolti con il modulo ONA
 
