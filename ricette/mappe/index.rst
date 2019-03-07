@@ -4,4 +4,4 @@ Mappe
 .. toctree::
    :maxdepth: 3
    
-   uMap/index
+   umap/index

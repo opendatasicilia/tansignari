@@ -6,7 +6,7 @@ Indice delle ricette
   
   feedrss/index
   geocoder/index
-  ona/index
+  opendatakit/index
   query/index
   regex/index
   riga_comando/index
