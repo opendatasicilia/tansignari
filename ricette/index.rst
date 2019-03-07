@@ -11,4 +11,4 @@ Indice delle ricette
   regex/index
   riga_comando/index
   script/index
-  umap/index
+  mappe/index
