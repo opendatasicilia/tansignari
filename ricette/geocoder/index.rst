@@ -7,4 +7,5 @@ Geocoder
    
    Geocoder
    Geocoder_online
+   OpenRefineGeocodingNominatim
    
