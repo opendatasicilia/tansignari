@@ -9,7 +9,7 @@ Una semplice ricetta per estrarre Latitudine e longitudine dai tuoi dati utilizz
 
 Incolla questo codice nella finestra che si è aperta
 
-```
+```json
 [
 {
 "op": "core/column-addition-by-fetching-urls",
