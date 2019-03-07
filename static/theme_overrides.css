@@ -4,12 +4,15 @@
 
 /*importa i font fontawesome 5.0 per i loghi social*/
  @import url(https://use.fontawesome.com/releases/v5.1.0/css/all.css);
+ 
+.wordart-attribution  {display: none !important;}
+.tagul-attribution {display: none !important;}
+
 
 body {color: #330000 !important;}
 /* Testo paragrafo giustificto*/
 p {text-align: left !important;} 
 
-span.pre { overflow-x: auto;  }
 
 code {
 white-space: normal !important;
