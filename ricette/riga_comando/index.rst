@@ -1,6 +1,9 @@
 A riga di comando
 =================
 
+Elenco Ricette
+--------------
+
 
 .. toctree::
    :maxdepth: 3
