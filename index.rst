@@ -12,7 +12,8 @@ Molto spesso **disperdiamo richieste di aiuto** ("Come faccio a ...") e le relat
    <embed>
    <div style="width: 100%; height: 200px; background-color:transparent !important; margin: 0 auto; display: block;"  data-wordart-src="//cdn.wordart.com/json/ur3ckeu2u6wx" data-wordart-show-attribution></div> 
    </embed>
-
+   
+   <div style="width: 100%; height: 200px; background-color:transparent !important; margin: 0 auto; display: block;"  data-wordart-src="//cdn.wordart.com/json/ur3ckeu2u6wx" data-wordart-show-attribution></div> 
   
 
 Questo repository nasce per **mettere a fattore comune scambi di conoscenza/esperienza** su questi temi: dati aperti, trasparenza, Linked Open Data, analisi e trasformazione di dati.
