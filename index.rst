@@ -9,7 +9,8 @@ Benvenuti
 Molto spesso **disperdiamo richieste di aiuto** ("Come faccio a ...") e le relative **preziose risposte** in chat, social network, email tra due persone, ecc.. Sono informazioni che una volta messe in circolo, dopo pochi minuti sono già "perdute", **confinate in spazi ristretti** che non si prestano a una condivisione di conoscenza e quasi **mai indicizzati dai motori di ricerca**.
 
 .. raw:: html
-   <embed><div style="width: 100%; height: 200px; background-color:transparent !important; margin: 0 auto; display: block;"  data-wordart-src="//cdn.wordart.com/json/ur3ckeu2u6wx" data-wordart-show-attribution></div> 
+   <embed>
+   <div style="width: 100%; height: 200px; background-color:transparent !important; margin: 0 auto; display: block;"  data-wordart-src="//cdn.wordart.com/json/ur3ckeu2u6wx" data-wordart-show-attribution></div> 
    </embed>
 
   
