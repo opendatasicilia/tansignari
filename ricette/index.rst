@@ -1,4 +1,5 @@
 Indice delle ricette
+====================
 
 .. toctree::
   :maxdepth: 2
