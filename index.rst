@@ -88,6 +88,8 @@ Licenze
 Tag Clouds
 ~~~~~~~~~~
 L'immagine **HfcQGIS** Tag Cloud (in alto nella home) è stata realizzata con il tools `WordArt`_ che consente di creare incredibili e unici word cloud art con facilità.	
+
+.. _WordArt: https://wordart.com/   
 	
 Mappa del sito   
 ~~~~~~~~~~~~~~
