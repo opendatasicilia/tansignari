@@ -1,22 +1,21 @@
 T'ansignari
-===========
+~~~~~~~~~~~
 
 ``cultura della documentazione`` 
 
 
 Benvenuti
----------
+~~~~~~~~~
 
 Molto spesso **disperdiamo richieste di aiuto** ("Come faccio a ...") e le relative **preziose risposte** in chat, social network, email tra due persone, ecc.. Sono informazioni che una volta messe in circolo, dopo pochi minuti sono già "perdute", **confinate in spazi ristretti** che non si prestano a una condivisione di conoscenza e quasi **mai indicizzati dai motori di ricerca**.
+
+    <div style="width: 100%; height: 200px; background-color:transparent !important; margin: 0 auto; display: block;" data-wordart-src="//cdn.wordart.com/json/ur3ckeu2u6wx" data-wordart-show-attribution></div>
 
 Questo repository nasce per **mettere a fattore comune scambi di conoscenza/esperienza** su questi temi: dati aperti, trasparenza, Linked Open Data, analisi e trasformazione di dati.
 
 
-    <div style="width: 100%; height: 200px; background-color:transparent !important; margin: 0 auto; display: block;" data-wordart-src="//cdn.wordart.com/json/ur3ckeu2u6wx" data-wordart-show-attribution></div>
-	
-
 Il nome di questo spazio
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 "**T'ansignari e t'appeddiri!**", ti devo insegnare a fare qualcosa e ti devo perdere.
 
@@ -29,14 +28,14 @@ Sarà una sorta di monito per chi frequenterà questo spazio 😉
 
 
 Come nasce questo contenitore
------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Da una `proposta`_  nella mailing list di OpenDataSicilia.
 
 .. _proposta: https://groups.google.com/d/msg/opendatasicilia/chsV6FZg1qI/dFvHx_u-EAAJ
 
 Il "galateo" di questo spazio
------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Qui su T'ansignari abbiamo un piccolo `galateo`_ , che stiamo costruendo on the job. Se vuoi partecipare, per favore leggilo.
 
