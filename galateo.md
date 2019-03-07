@@ -10,7 +10,7 @@ E poi:
 - **fai domande** su **temi** vicini a quelli che esplora la [comunità **opendatasicilia**](http://opendatasicilia.it/): i dati aperti, la trasparenza amministrativa, il _civic tech_ e non l'ultima ricetta di "pasta al forno", la traduzione del Moby Dick che hai letto o Blender;
 - nel titolo della _issue_ per favore **inserisci** una "**etichetta**" per classificare i post (ad esempio `[scripting] Come fare a rimuovere i duplicati di una tabella`);
 - ove possibile **fai richieste "strette"**, non troppo generiche e su temi ricchi e estesi. Un richiesta più verticale e circoscritta ha molte più possibilità di ricevere risposta;
-- se sei **soddisfatto** della risposta, sei invitato a **rimborsare**, creando un testo, una **ricetta**, che racconti per bene il problema che hai riscontrato e come è possibile risolverlo (vedi sotto);
+- se sei **soddisfatta/o** della risposta, sei invitato a **rimborsare**, creando un testo, una **ricetta**, che racconti per bene il problema che hai riscontrato e come è possibile risolverlo (vedi sotto);
 - quando **rispondi**, fornisci gli elementi di base utili a comprendere quanto hai scritto.
 
 ## Ricette
