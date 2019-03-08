@@ -57,7 +57,7 @@ Contenuti:
 .. toctree::
    :maxdepth: 2
       
-    galateo
+   galateo
 
 .. toctree::  
     :maxdepth: 2
