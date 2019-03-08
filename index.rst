@@ -104,12 +104,12 @@ Mappa del sito
 
 --------------
 
-| **Per visualizzare e consultare correttamente i contenuti di HfcQGIS
+| **Per visualizzare e consultare correttamente i contenuti di T'ansignari
   sono necessari:**
 | **Risoluzione video desktop:** Pc con scheda video SVGA. Monitor a
   risoluzione minima di 1024x768 pixel con almeno 65.536 colori.
 | **Mobile:** Risoluzione minima di 360 x 640 px (modello di riferimento
   Sansung Galaxy S3).
-| **Browser:** HfcQGIS è ottimizzato per Microsoft Internet Explorer
+| **Browser:** T'ansignari è ottimizzato per Microsoft Internet Explorer
   Versione 11.0 e successive versioni, Microsoft Edge versione 25.1 e
   immediatamente successive, Mozilla Firefox versione 50.0 e successive, Chrome versione 40.0 o successiva, Opera versione 48.0 o successiva e Safari versione 9.0 o successiva.
