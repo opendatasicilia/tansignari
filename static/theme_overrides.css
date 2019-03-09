@@ -13,6 +13,8 @@ body {color: #330000 !important;}
 /* Testo paragrafo giustificto*/
 p {text-align: left !important;} 
 
+.reference external > a:link { text-decoration:underline;}
+
 code {
 white-space: normal !important;
 border: 0px !important;
@@ -82,6 +84,8 @@ background-position: 10px; background-size: 15px; font-weight: bold;}
 /* tutto in maiuscolo prima voce di menu */
 div.wy-menu-vertical > ul > li > a {text-transform: none !important; }
 /* tutto in maiuscolo prima voce di menu */
+	
+.wy-menu-vertical header, .wy-menu-vertical p.caption {color: #9F3A3A!important;}	
 	
 /* per applicare underline e colore a voci di menu attive */
 li.current > a {text-decoration: underline; color: white !important;}
