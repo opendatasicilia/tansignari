@@ -63,14 +63,6 @@ Contenuti:
     :maxdepth: 2
 
     ricette/index
-	
-.. toctree::
-  :maxdepth: 2
-  :caption: Le issue
-
-  nuova  <https://github.com/opendatasicilia/tansignari/issues/new>	
-  aperte <https://github.com/opendatasicilia/tansignari/issues>	
-  chiuse <https://github.com/opendatasicilia/tansignari/issues?q=is%3Aissue+is%3Aclosed>	
     
 .. toctree::
    :maxdepth: 2
@@ -109,6 +101,14 @@ Mappa del sito
    :maxdepth: 2
    
    sitemap  
+   
+.. toctree::
+  :maxdepth: 1
+  :caption: Le issue
+
+  nuova  <https://github.com/opendatasicilia/tansignari/issues/new>	
+  aperte <https://github.com/opendatasicilia/tansignari/issues>	
+  chiuse <https://github.com/opendatasicilia/tansignari/issues?q=is%3Aissue+is%3Aclosed>   
 
 --------------
 
