@@ -71,8 +71,7 @@ Contenuti:
   nuova  <https://github.com/opendatasicilia/tansignari/issues/new>	
   aperte <https://github.com/opendatasicilia/tansignari/issues>	
   chiuse <https://github.com/opendatasicilia/tansignari/issues?q=is%3Aissue+is%3Aclosed>	
-  
-  
+    
 .. toctree::
    :maxdepth: 2
 
