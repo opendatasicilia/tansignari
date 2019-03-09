@@ -107,19 +107,22 @@ Mappa del sito
   :caption: Le issue
 
   Issue |nuova_link|
+  
 .. |nuova_link| raw:: html
 
-<a href="https://github.com/opendatasicilia/tansignari/issues/new" target="_blank" Title="Apri una nuova Issue">nuova</a>
+   <a href="https://github.com/opendatasicilia/tansignari/issues/new" target="_blank" Title="Apri una nuova Issue">nuova</a>
 
   Issue |aperte_link|
+  
 .. |aperte_link| raw:: html
 
-<a href="https://github.com/opendatasicilia/tansignari/issues" target="_blank" Title="Issue ancora aperte">aperte</a>
+   <a href="https://github.com/opendatasicilia/tansignari/issues" target="_blank" Title="Issue ancora aperte">aperte</a>
   
   Issue |chiuse_link|
+  
 .. |chiuse_link| raw:: html
 
-<a href="https://github.com/opendatasicilia/tansignari/issues?q=is%3Aissue+is%3Aclosed" target="_blank" Title="Issue chiuse">chiuse</a>   
+  <a href="https://github.com/opendatasicilia/tansignari/issues?q=is%3Aissue+is%3Aclosed" target="_blank" Title="Issue chiuse">chiuse</a>   
 
 
 --------------
