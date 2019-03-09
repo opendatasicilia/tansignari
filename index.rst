@@ -106,10 +106,20 @@ Mappa del sito
   :maxdepth: 3
   :caption: Le issue
 
-  |nuova_link|
-  |aperte_link|
-  |chiuse_link|
+  Issue |nuova_link|
+.. |nuova_link| raw:: html
+
+<a href="https://github.com/opendatasicilia/tansignari/issues/new" target="_blank" Title="Apri una nuova Issue">nuova</a>
+
+  Issue |aperte_link|
+.. |aperte_link| raw:: html
+
+<a href="https://github.com/opendatasicilia/tansignari/issues" target="_blank" Title="Issue ancora aperte">aperte</a>
   
+  Issue |chiuse_link|
+.. |chiuse_link| raw:: html
+
+<a href="https://github.com/opendatasicilia/tansignari/issues?q=is%3Aissue+is%3Aclosed" target="_blank" Title="Issue chiuse">chiuse</a>   
 
 
 --------------
@@ -125,11 +135,7 @@ Mappa del sito
   immediatamente successive, Mozilla Firefox versione 50.0 e successive, Chrome versione 40.0 o successiva, Opera versione 48.0 o successiva e Safari versione 9.0 o successiva.
 
   
-.. |nuova_link| raw:: html
-<a href="https://github.com/opendatasicilia/tansignari/issues/new" target="_blank" Title="Apri una nuova Issue">nuova</a>
 
-.. |aperte_link| raw:: html
-<a href="https://github.com/opendatasicilia/tansignari/issues" target="_blank" Title="Issue ancora aperte">aperte</a>
 
-.. |chiuse_link| raw:: html
-<a href="https://github.com/opendatasicilia/tansignari/issues?q=is%3Aissue+is%3Aclosed" target="_blank" Title="Issue chiuse">chiuse</a>  
+
+ 
