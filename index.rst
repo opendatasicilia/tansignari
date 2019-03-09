@@ -106,9 +106,9 @@ Mappa del sito
   :maxdepth: 3
   :caption: Le issue
 
-  nuova  <https://github.com/opendatasicilia/tansignari/issues/new>	
-  aperte <https://github.com/opendatasicilia/tansignari/issues>	
-  chiuse <https://github.com/opendatasicilia/tansignari/issues?q=is%3Aissue+is%3Aclosed>   
+  nuova  <https://github.com/opendatasicilia/tansignari/issues/new?target="_blank">	
+  aperte <https://github.com/opendatasicilia/tansignari/issues?target="_blank">	
+  chiuse <https://github.com/opendatasicilia/tansignari/issues?q=is%3Aissue+is%3Aclosed?target="_blank">   
 
 --------------
 
