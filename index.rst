@@ -103,7 +103,7 @@ Mappa del sito
    sitemap  
    
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 3
   :caption: Le issue
 
   nuova  <https://github.com/opendatasicilia/tansignari/issues/new>	
