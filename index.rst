@@ -65,6 +65,15 @@ Contenuti:
     ricette/index
 	
 .. toctree::
+  :maxdepth: 2
+  :caption: Le issue
+
+  nuova  <https://github.com/opendatasicilia/tansignari/issues/new>	
+  aperte <https://github.com/opendatasicilia/tansignari/issues>	
+  chiuse <https://github.com/opendatasicilia/tansignari/issues?q=is%3Aissue+is%3Aclosed>	
+  
+  
+.. toctree::
    :maxdepth: 2
 
    parlano_di_noi
