@@ -1,6 +1,6 @@
 /* override css */
 
-/* @http://ixmapsdoc.opendatasicilia.it*/
+/* @http://tansignari.opendatasicilia.it*/
 
 /*importa i font fontawesome 5.0 per i loghi social*/
  @import url(https://use.fontawesome.com/releases/v5.1.0/css/all.css);
@@ -12,8 +12,6 @@
 body {color: #330000 !important;}
 /* Testo paragrafo giustificto*/
 p {text-align: left !important;} 
-
-.reference external > a:link { text-decoration:underline;}
 
 code {
 white-space: normal !important;
@@ -48,8 +46,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend { margin
 .wy-side-nav-search {margin-top: -20px;}  
    
 
-
-/* @http://ixmapsdoc.opendatasicilia.it*/
+/* @http://tansignari.opendatasicilia.it*/
 
 /* adatta il nav-content a fullhd ed inserisce il logo QGIS */
 .wy-nav-content {max-width: 4096px; /*background-image:url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/qsfondo_800.png)!important;*/
@@ -74,7 +71,7 @@ background-position: 10px; background-size: 15px; font-weight: bold;}
 /*background  nav-content content-wrap - tutta il contenitore di dx*/
 /*.wy-nav-content-wrap { background: linear-gradient(#efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #dedede);  }*/
 
-/* @http://ixmapsdoc.opendatasicilia.it*/
+/* @http://tansignari.opendatasicilia.it*/
 /* testo menu verticale maiuscolo */	
 .wy-menu-vertical {	font-weight: bold; color:#330000!important; }
 .wy-menu-vertical a {color:#330000!important;}
@@ -109,7 +106,7 @@ li.current > a:active {    text-decoration: underline;	color: white !important;}
 
 .wy-menu-vertical li span.toctree-expand {isplay: block; float: left; margin-left: -1.2em;  font-size: .8em; line-height: 1.6em; color:#333333;}
 
-/* @http://ixmapsdoc.opendatasicilia.it*/
+/* @http://tansignari.opendatasicilia.it*/
 /* testo menu verticale secondo livello */
 .wy-menu-vertical li.hover a {background-color: rgba(102,51,51,0.5); text-transform: none;}
 /*.wy-menu-vertical li.current a {background-color: rgba(193,224,69,0.3);}*/
