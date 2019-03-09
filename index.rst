@@ -122,7 +122,7 @@ Mappa del sito
   
 .. |chiuse_link| raw:: html
 
-  <a href="https://github.com/opendatasicilia/tansignari/issues?q=is%3Aissue+is%3Aclosed" target="_blank" Title="Issue chiuse">chiuse</a>   
+   <a href="https://github.com/opendatasicilia/tansignari/issues?q=is%3Aissue+is%3Aclosed" target="_blank" Title="Issue chiuse">chiuse</a>   
 
 
 --------------
