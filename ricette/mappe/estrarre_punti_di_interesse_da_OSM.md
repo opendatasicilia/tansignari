@@ -1,6 +1,9 @@
-# Estrarre dei punti di interesse da OpenStreetMap con [Overpass turbo](https://overpass-turbo.eu/)
+# Estrarre dei punti di interesse da OpenStreetMap con Overpass turbo
 
-**Overpass turbo** è uno strumento web-based per l'estrazione di dati OpenStreetMap.
+- PR correlata: [#35](https://github.com/opendatasicilia/tansignari/pull/35) 
+- autore: [Gabriele Francescotto](https://github.com/gabrielefrancescotto)
+
+**[Overpass turbo](https://overpass-turbo.eu/)** è uno strumento web-based per l'estrazione di dati OpenStreetMap.
 
 Utilizzando overpass turbo puoi eseguire query per Overpass API e analizzare dati [OpenStreetMap](https://www.openstreetmap.org/) su mappa in maniera interattiva. È disponibile la procedura guidata che rende estremamente semplice creare una richiesta.
 
