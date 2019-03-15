@@ -3,6 +3,8 @@
 - issue correlata: [#36](https://github.com/opendatasicilia/tansignari/issues/36)
 - autore: [Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)
 
+---
+
 Usare i fogli di Google Drive e installare il componente aggiuntivo **Two-way Geocoding**.
 
 Questo componente permette di fare un geocoding in entrambi i sensi: da indirizzo a coordinate, da coordinate a indirizzo che è il nostro caso.
