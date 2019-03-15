@@ -12,4 +12,6 @@ La geocoding è il processo computazionale di trasformazione di una descrizione 
    Geocoder
    Geocoder_online
    OpenRefineGeocodingNominatim
+   Reverse_geocoding_sheet
+   Reverse_geocoding_cli
    
