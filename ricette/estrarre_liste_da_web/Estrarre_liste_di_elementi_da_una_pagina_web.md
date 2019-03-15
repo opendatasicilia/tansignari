@@ -18,14 +18,14 @@ Utilizziamo [questa pagina](https://demetra.regione.emilia-romagna.it/al/articol
 
 Per fare questo è utile una **shell** unix, disponibile in linux e Mac, ma che è possibile installare anche in ambiente Windows, uno dei modi più semplici è descritto in questa ricetta **(INSERIRE LINK)**.
 
-Una volta disponibile la shell è necessario installare l'eseguibile **scrape** dispobibile a questo [indirizzo](https://github.com/aborruso/scrape-cli/releases), una volta scaricato l'eseguibile, ad esempio **scrape.exe** lo salviamo in una cartella del computer ed aggiungiamo il percorso di questa cartella alla variabile **PATH** utente in modo da poterlo lanciare senza dover specificare ogni volta il percorso. Per fare questo apriamo un promt dei comandi windows e digitiamo
+Una volta disponibile la shell è necessario installare l'eseguibile **scrape** dispobibile a questo [indirizzo](https://github.com/aborruso/scrape-cli/releases), una volta scaricato l'eseguibile, ad esempio **scrape.exe** lo salviamo in una cartella del computer ed aggiungiamo il percorso di questa cartella alla variabile **PATH utente** in modo da poterlo lanciare senza dover specificare ogni volta il percorso. Per fare questo apriamo un promt dei comandi windows e digitiamo
 
 ```
 setx path "%path%;C:\PERCORSO_DELLA_CARTELLA_CHE_SCONTIENE_SCRAPE\"
 ```
 e chiudiamo il prompt.
 
-Ora analizziamo la pagina web con Google Chrome ed utilizzaimo il tasto destro del mouse sull'elemento **articolo**
+Ora analizziamo la pagina web con Google Chrome ed utilizziamo il tasto destro del mouse sull'elemento **articolo**
 
 ![ispeziona articolo](./ispeziona_articolo.png)
 
@@ -52,56 +52,37 @@ Per estrarre gli elementi individuati sopra si possono scrivere due **query xpat
 //div[@class="articolo_rubrica"]/text():
 ```
 
-Con gli elementi che abbiamo individuato siamo pronti per poter estrarre i dati, iniziamo con lo scaricare la pagina 
+Con gli elementi che abbiamo individuato siamo pronti per poter estrarre i dati, iniziamo con lo scaricare la pagina web che ci interessa, nel nostro esempio l'url è il seguente 
 
 ```
 https://demetra.regione.emilia-romagna.it/al/articolo?urn=er%3Aassemblealegislativa%3Alegge%3A2005%3B13&dl_t=text%2Fxml&dl_a=y&dl_id=10&pr=idx%2C0%3Bartic%2C0%3Barticparziale%2C1&anc=tit1&fbclid=IwAR0Lcn8E89VosOWln-amBDx5N8rW1WiOsKjcBFv_7TjD7YsbJhWz0UtqUHk
 ```
 
-utilizzando l'utility **curl** di regola disponibile nelle shell linux
+utilizzando l'utility **curl** disponibile nelle shell linux scriviamo, nella **shell**, questo comando
 
 ```
-curl "https://demetra.regione.emilia-romagna.it/al/articolo?urn=er%3Aassemblealegislativa%3Alegge%3A2005%3B13&dl_t=text%2Fxml&dl_a=y&dl_id=10&pr=idx%2C0%3Bartic%2C0%3Barticparziale%2C1&anc=tit1&fbclid=IwAR0Lcn8E89VosOWln-amBDx5N8rW1WiOsKjcBFv_7TjD7YsbJhWz0UtqUHk" >./pagina
+curl "https://demetra.regione.emilia-romagna.it/al/articolo?urn=er%3Aassemblealegislativa%3Alegge%3A2005%3B13&dl_t=text%2Fxml&dl_a=y&dl_id=10&pr=idx%2C0%3Bartic%2C0%3Barticparziale%2C1&anc=tit1&fbclid=IwAR0Lcn8E89VosOWln-amBDx5N8rW1WiOsKjcBFv_7TjD7YsbJhWz0UtqUHk" >./pagina.html
 ```
 
-verrà creato un file locale chiamato **pagina** che contiene il codice **html** della pagine web, partendo da questo file locale inziamo ad estrarre gli elementi utilizzando il programma **scrape**
+verrà creato un file locale chiamato **pagina.html** che contiene il codice **html** della pagina web, partendo da questo file locale inziamo ad estrarre gli elementi utilizzando il programma **scrape** digitando nella **shell**
 
 ```
-# estrai i titoli e sostituisci il tab di output con a capo
-<./pagina scrape -e '//div[@class="articolo_rubrica"]/text()' | tr "\t" "\n" >./numero_articoli
-# estrai numero articoli e sostituisci il tab di output con a capo
+<./pagina.html scrape -e '//div[@class="articolo_rubrica"]/text()' | tr "\t" "\n" >./
+```
+questo comando estre i **titoli** e sostituisce il **tab** di output con "**a capo**", ora digitiamo 
+
+```
 <./pagina scrape -e '//div[@class="articolo"]/text()' | tr "\t" "\n" >./articoli
-# metti insieme articoli e titoli
-paste articoli titoli >./output
+```
+questo comando estre le **descrizione dei titoli** e sostituisce il **tab** di output con "**a capo**", a questo punto siamo pronti per unire i due file **articoli** e **titoli** ottenuti dai comandi sopra digitando nella **shell**
+
+```
+paste articoli titoli >./lista.txt
 ```
 
+abbiamo così ottenuto un file con questo contenuto
 
-Di base comunque un modo tipico è fare una query XPATH.
-
-I titoli degli articoli hanno questra struttura HTML
-
-<div class="articolo_rubrica">Elementi costitutivi della Regione</div>
-La query XPATH è quindi //div[@class="articolo_rubrica"]/text():
-
-//div > un div ovunque nella pagina
-[@class="articolo_rubrica"] > a cui sia associata la classe articolo_rubrica
-text() > ti estrae il testo contenuto nel div definito sopra
-Gli articoli li potresti numerare automaticamente, sono progressivi.
-Via XPATH , ragionando come sopra, è //div[@class="articolo"]/text()
-
-A quel punto il tool che io trovo comodo è la shell e l'utility scrape (vedi sotto):
-
-# scarichi la pagina
-curl "https://demetra.regione.emilia-romagna.it/al/articolo?urn=er%3Aassemblealegislativa%3Alegge%3A2005%3B13&dl_t=text%2Fxml&dl_a=y&dl_id=10&pr=idx%2C0%3Bartic%2C0%3Barticparziale%2C1&anc=tit1&fbclid=IwAR0Lcn8E89VosOWln-amBDx5N8rW1WiOsKjcBFv_7TjD7YsbJhWz0UtqUHk" >./pagina
-# estrai i titoli e sostituisci il tab di output con a capo
-<./pagina scrape -e '//div[@class="articolo_rubrica"]/text()' | tr "\t" "\n" >./titoli
-# estrai numero articoli e sostituisci il tab di output con a capo
-<./pagina scrape -e '//div[@class="articolo"]/text()' | tr "\t" "\n" >./articoli
-# metti insieme articoli e titoli
-paste articoli titoli >./output
-
-In output hai
-
+```
 Art. 1  Elementi costitutivi della Regione
 Art. 2  Obiettivi
 Art. 3  Politiche ambientali
@@ -116,11 +97,4 @@ Art. 11 Ordinamento europeo e internazionale
 Art. 12 Partecipazione della Regione alla formazione e all'attuazione  del diritto comunitario
 Art. 13 Attività di rilievo internazionale della Regione
 come installare scrape
-Al momento non ho creato l'installer. Quindi puoi fare così
-
-# lo scarichi
-wget https://github.com/aborruso/scrape-cli/releases/download/v1.0/scrape
-# gli dai permessi di esecuzione
-chmod +x ./scrape
-# lo sposti in una cartella presente nel PATH
-sudo mv ./scrape /usr/bin
+```
