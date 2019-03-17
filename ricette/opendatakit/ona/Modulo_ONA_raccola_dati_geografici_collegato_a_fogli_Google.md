@@ -114,3 +114,5 @@ Arivato a questo punto il lavoro che consente al foglio Google di aggiornarsi in
 
 Un grazie ad **Andrea Borruso** per la realizzazione dello script e a **Gianni Vitrano** per il supporto (e per sopportarmi) che mi ha dato per la comprensione dell'intero processo appena illustrato in questa ricetta. E anche a **Totò Fiandaca** per i suoi input su MD  e perchè ormai per fare certe cose insieme partiamo sempre in 4 !!!
 
+[Un chiarissimo tutorial è stato creato da Giovan Battista Vitrano](https://coseerobe.gbvitrano.it/webform.html).
+
