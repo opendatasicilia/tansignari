@@ -36,8 +36,13 @@ sheet.getRange(1, 1, csvData.length, csvData[0].length).setValues(csvData);
 }
 ``` 
 ## Come attivare lo script…? 
-Si attiva semplicemente cliccando su esegui (icona play), la prima volta che lo eseguite vi chiederà l’autorizzazione, verrà visualizzato il messaggio che l’applicazione non è autenticata, non è  sicura etc etc…per bypassare tutto questo, cliccare su applicazione avanzate e confermare i permessi per poter lavorare…
+Si attiva semplicemente cliccando su **esegui**(icona play), la prima volta che lo eseguite vi chiederà l’autorizzazione, verrà visualizzato il messaggio che l’applicazione non è autenticata, non è sicura etc etc… per bypassare tutto questo, cliccare su applicazione avanzate e confermare i permessi per poter lavorare…
 
 ![](/img/google/google_sheet13.png)
+
+Come si può notare nelle script non c’è nessun riferimento al tempo. L’intervallo di tempo di lancio dello script si imposta da Trigger
+
+![](/img/google/google_sheet5.png)
+
 
 
