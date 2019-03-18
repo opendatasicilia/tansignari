@@ -35,4 +35,9 @@ var sheet = SpreadsheetApp.getActive().getSheetByName(‘dati_ona’)
 sheet.getRange(1, 1, csvData.length, csvData[0].length).setValues(csvData);
 }
 ``` 
-<br>
+## Come attivare lo script…? 
+Si attiva semplicemente cliccando su esegui (icona play), la prima volta che lo eseguite vi chiederà l’autorizzazione, verrà visualizzato il messaggio che l’applicazione non è autenticata, non è  sicura etc etc…per bypassare tutto questo, cliccare su applicazione avanzate e confermare i permessi per poter lavorare…
+
+![](/img/google/google_sheet13.png)
+
+
