@@ -40,9 +40,13 @@ Si attiva semplicemente cliccando su **esegui**(icona play), la prima volta che 
 
 ![](/img/google/google_sheet13.png)
 
-Come si può notare nelle script non c’è nessun riferimento al tempo. L’intervallo di tempo di lancio dello script si imposta da Trigger
+Come si può notare nelle script non c’è nessun riferimento al tempo. L’intervallo di tempo di lancio dello script si imposta da **Trigger**
 
 ![](/img/google/google_sheet5.png)
+
+Per personalizzare i valori del **Trigger**, bisogna cliccare su **I miei attivatori** e selezionare quello dedicato allo script appena creato importData() e modificarne i valori. In questa modo lo script attiverà una verifica di nuovi dati (dalla fonte CSV pre impostata nel trigger) con una frequenza temporale del singolo minuto.
+
+![](/img/google/google_sheet8.png)
 
 
 
