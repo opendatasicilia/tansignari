@@ -12,3 +12,27 @@ in un attimo i dati saranno caricati.
 
 ![](/img/google/google_sheet2.png)
 
+Per forzare l'aggiornamento della funzione basta usare un semplice script
+
+![](/img/google/google_sheet3.png)
+
+Dal menù **strumenti** (1) cliccare su **Editor di script** (2)
+
+![](/img/google/google_sheet7.png)
+
+Script tipo da copiare ed incollare nell'editor di script <br>
+**Attezione** modificate il nome del foglio di lavoro **dati_ona** con il nome del vostro foglio di lavoro
+
+```
+{
+// ATTENZIONE dati_ona è il nome del foglio di lavoro dove verrano caricati i dati
+
+var csvUrl = “https://api.ona.io/api/v1/data/388501.csv”;
+var csvContent = UrlFetchApp.fetch(csvUrl).getContentText();
+var csvData = Utilities.parseCsv(csvContent);
+
+var sheet = SpreadsheetApp.getActive().getSheetByName(‘dati_ona’)
+sheet.getRange(1, 1, csvData.length, csvData[0].length).setValues(csvData);
+}
+``` 
+<br>
