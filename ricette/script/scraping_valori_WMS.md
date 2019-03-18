@@ -38,3 +38,7 @@ lon|lat|elev
 14.58021|37.608423|269
 14.52765|37.876929|1265
 14.47786|37.830808|1005
+
+## OSSERVAZIONI
+
+La ricetta è stata realizzata per un caso concreto utile nel mondo dei `gissari` ma il principio che ci sta dietro è generale.
