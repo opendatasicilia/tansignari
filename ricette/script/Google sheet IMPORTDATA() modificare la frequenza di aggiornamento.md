@@ -48,11 +48,15 @@ Per personalizzare i valori del **Trigger**, bisogna cliccare su **I miei attiva
 
 ![](/img/google/google_sheet8.png)
 
-Se tutto è andato a buon fine, la funzione =IMPORTDATA(“https://api.ona.io/api/v1/data/388501.csv”) che abbiamo scritto precedentemente nella cella A1 sarà sparita, in quanto adesso è lo script a gestire tutto, e come programmato nel Trigger i dati verranno aggiornati ogni minuto.
+Se tutto è andato a buon fine, la funzione ```=IMPORTDATA("https://api.ona.io/api/v1/data/388501.csv")``` che abbiamo scritto precedentemente nella cella **A1** sarà sparita, in quanto adesso è lo script a gestire tutto, e come programmato nel **Trigger** i dati verranno aggiornati ogni minuto.
 
 ![](/img/google/google_sheet9.png)
 
+## Controllare allo stesso tempo più fogli di lavoro
 
+![](/img/google/google_sheet11.png)
+
+Con qualche piccola modifica alle variabili si possono aggiornare contemporaneamente più fogli di lavoro.
 
 
 
