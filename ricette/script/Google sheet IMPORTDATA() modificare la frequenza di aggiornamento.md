@@ -21,7 +21,7 @@ Dal menù **strumenti** (1) cliccare su **Editor di script** (2)
 ![](/img/google/google_sheet7.png)
 
 Script tipo da copiare ed incollare nell'editor di script <br>
-**Attezione** modificate il nome del foglio di lavoro **dati_ona** con il nome del vostro foglio di lavoro
+**Attezione** modificate il nome del foglio di lavoro inserito nello script **NOME FOGLIO DI LAVORO** con il nome del vostro foglio di lavoro, se il nome del foglio di lavoro inserito nello script non esiste, lo script non si avvia e vi restituisce un errore.
 
 ```
 {
@@ -31,7 +31,7 @@ var csvUrl = “https://api.ona.io/api/v1/data/388501.csv”;
 var csvContent = UrlFetchApp.fetch(csvUrl).getContentText();
 var csvData = Utilities.parseCsv(csvContent);
 
-var sheet = SpreadsheetApp.getActive().getSheetByName(‘dati_ona’)
+var sheet = SpreadsheetApp.getActive().getSheetByName(‘NOME FOGLIO DI LAVORO’)
 sheet.getRange(1, 1, csvData.length, csvData[0].length).setValues(csvData);
 }
 ``` 
