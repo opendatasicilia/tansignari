@@ -1,8 +1,6 @@
-
-
 # Correzione dati usando uno script
 
-* autore: _Totò Fiandaca_
+* autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
 * issue: [#8](https://github.com/opendatasicilia/tansignari/issues/8)
 
 <!-- TOC -->
