@@ -24,6 +24,7 @@ Dal menù **strumenti** (1) cliccare su **Editor di script** (2)
 **Attezione** modificate il nome del foglio di lavoro inserito nello script **NOME FOGLIO DI LAVORO** con il nome del vostro foglio di lavoro, se il nome del foglio di lavoro inserito nello script non esiste, lo script non si avvia e vi restituisce un errore.
 
 ```
+function importData() 
 {
 // ATTENZIONE dati_ona è il nome del foglio di lavoro dove verrano caricati i dati
 
