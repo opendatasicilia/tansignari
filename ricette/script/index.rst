@@ -8,3 +8,4 @@ Script
    :maxdepth: 3
    
    Correzione_dati_usando_script
+   scraping_valori_WMS
