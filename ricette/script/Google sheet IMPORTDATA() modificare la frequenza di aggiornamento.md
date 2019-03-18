@@ -58,5 +58,5 @@ Se tutto è andato a buon fine, la funzione ```=IMPORTDATA("https://api.ona.io/a
 
 Con qualche piccola modifica alle variabili si possono aggiornare contemporaneamente più fogli di lavoro.
 
-
+Si potrebbe fare un *array* e fare un *loop*, ma anche cosi funziona e a noi va bene così 🙂
 
