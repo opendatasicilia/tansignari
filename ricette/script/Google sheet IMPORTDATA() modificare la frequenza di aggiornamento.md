@@ -26,7 +26,7 @@ Dal menù **strumenti** (1) cliccare su **Editor di script** (2)
 ```
 function importData() 
 {
-// ATTENZIONE dati_ona è il nome del foglio di lavoro dove verrano caricati i dati
+// ATTENZIONE dati_ona è il nome del foglio di lavoro dove verranno caricati i dati
 
 var csvUrl = “https://api.ona.io/api/v1/data/388501.csv”;
 var csvContent = UrlFetchApp.fetch(csvUrl).getContentText();
