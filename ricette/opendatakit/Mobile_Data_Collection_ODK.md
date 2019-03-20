@@ -292,19 +292,32 @@ Noi di [OpenDataSicilia.it](http://opendatasicilia.it/) abbiamo pensato di usare
 
 ![](/img/odk_ona/demo_01.png)
 
+Demo per un progetto di raccolta dati (georeferenziati) sul terreno, per progetti di ricerca o di pubblica utilità, con il coinvolgimento attivo da parte dei cittadini. 
 
+![](/img/odk_ona/demo_02.png)
 
+Il webform può essere compilato anche in caso di assenza di rete. I dati vengono salvati nel browser (anche spegnendo il mobile/computer o effettuando la disconnessione) finché non sarà disponibile una connessione Internet per caricali automaticamente, in background, sui server di [ona.io](https://ona.io/)
 
+![](/img/odk_ona/demo_03.png)
 
+I dati raccolti vengono indirizzati su [uMap](http://u.osmfr.org/m/298837/) per realizzare la mappa
 
+![](/img/odk_ona/demo_04.png)
 
+Dettaglio di una segnalazione e scheda dati.
 
+---
 
+## No costi di licenza
+Utilizzando piattaforme [Open Data Kit](https://opendatakit.org/) come [ona.io](https://ona.io/) e [enketo.org](https://enketo.org/), che consentono di raccogliere, gestire e utilizzare i dati senza costi di licenza e con un limitato ricorso a doti di programmazione, con qualche ora di studio e un pizzico di buona volontà, abbiamo realizzato un sistema di raccolta dati georeferenziati a costo zero per l’utilizzo di hardware e software di gestione dati.
+Anche Google sheet e [uMap](http://umap.openstreetmap.fr/it/) non hanno costi di licenza.
+La demo del [sito web](https://opendatasicilia.github.io/Geo_Form/) è ospitata nel [repository Github](https://github.com/opendatasicilia/Geo_Form) di [Open Data Sicilia](https://github.com/opendatasicilia) e non ha costi di licenza
+Il template usato per realizzare la demo è  [Start Bootstrap – Creative](https://startbootstrap.com/template-overviews/creative/) rilasciato con [licenza CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) anche in questo caso non ci sono costi di licenza.
 
+---
 
+Chiudo il post ricordandovi che è disponibile per **QGIS 2.x** un plugin, **[QgisODK](https://github.com/enricofer/QgisODK)** di [Enrico Ferreguti](mailto:enricofer@gmail.com). Il plugin QGIS consente di costruire un sondaggio mobile ‘sul campo’ in pochi minuti a partire da uno strato QGIS e recuperare i dati raccolti con l’aiuto degli strumenti e dei servizi Open Data Kit.
 
+![](/img/odk_ona/ona_qgis.png)
 
-
-
-
-to be continued...
+Grazie a [@aborruso](https://twitter.com/aborruso) per tutte le info e la pazienza 🙂
