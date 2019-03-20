@@ -8,7 +8,7 @@
 E’ possibile raccogliere dati geolocalizzati, ordinati secondo uno schema,  che ci consente di mappare (in tempo reale) tutto quello che ci circonda…? e che sia anche una soluzione a basso costo e semplice da usare in mobile/computer…?
 
 ## ODK
-Si… la risposta è SI… Tutto questo ed anche di più è possibile realizzarlo con [Open Data Kit](https://opendatakit.org/) un progetto “open” che consente l’impostazione di sistemi client-server di raccolta e archiviazione di dati da parte di operatori sul campo tramite dispositivi mobili.
+**Si… la risposta è SI…** Tutto questo ed anche di più è possibile realizzarlo con [Open Data Kit](https://opendatakit.org/) un progetto “open” che consente l’impostazione di sistemi client-server di raccolta e archiviazione di dati da parte di operatori sul campo tramite dispositivi mobili.
 
 Cit. dal blog [TANTO – Raccolta dati per tutti: GeoODK e smartphones per sensori urbani (parte I)](http://blog.spaziogis.it/index.html_p=6786.html).
 
