@@ -316,7 +316,7 @@ Il template usato per realizzare la demo è  [Start Bootstrap – Creative](http
 
 ---
 ## QgisODK
-Chiudo il post ricordandovi che è disponibile per **QGIS 2.x** un plugin, **[QgisODK](https://github.com/enricofer/QgisODK)** di [Enrico Ferreguti](mailto:enricofer@gmail.com). Il plugin QGIS consente di costruire un sondaggio mobile ‘sul campo’ in pochi minuti a partire da uno strato QGIS e recuperare i dati raccolti con l’aiuto degli strumenti e dei servizi Open Data Kit.
+Chiudo la ricetta, ricordandovi che è disponibile per **QGIS 2.x** un plugin, **[QgisODK](https://github.com/enricofer/QgisODK)** di [Enrico Ferreguti](mailto:enricofer@gmail.com). Il plugin QGIS consente di costruire un sondaggio mobile ‘sul campo’ in pochi minuti a partire da uno strato QGIS e recuperare i dati raccolti con l’aiuto degli strumenti e dei servizi Open Data Kit.
 
 ![](/img/odk_ona/ona_qgis.png)
 
