@@ -9,7 +9,9 @@ La comunità `Open Data Kit`_ (ODK) produce software gratuito e open source per 
 .. toctree::
    :maxdepth: 3
    
+   Mobile_Data_Collection_ODK
    ona/index
+   
    
   
   
