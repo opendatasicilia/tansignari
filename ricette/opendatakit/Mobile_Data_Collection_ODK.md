@@ -34,9 +34,11 @@ Per capire meglio il funzionamento del **sistema di raccolta dati** di [Open Dat
 La prima cosa da fare è scegliere il server/piattaforma che ospiterà i dati da noi raccolti, noi abbiamo scelto **[Ona.io](https://ona.io/home/)**, la stessa cosa si può fare con [kobotoolbox.org](https://www.kobotoolbox.org/), [mapyourworld.org](http://mapyourworld.org/), [datawinners.com](https://www.datawinners.com/) e tante altre piattaforme, tutti servizi online free e basati sulle **webform** di [enketo.org](https://enketo.org/).
 
 ![](/img/odk_ona/ona_register.jpg)
+
 [Registazione alla Piattaforma ona.io](https://ona.io/join)
 
 Dopo la registrazione per prima, di iniziare un nuovo progetto,  sarebbe opportuno entrare nel **Settings** del proprio profilo e impostare **Require Phone Authentication?**, ovvero decidere se limitare o meno l’invio dei moduli solo ad utenti registrati.
+
 ![](/img/odk_ona/ona_settings.jpg)
 
 ### New Projects
