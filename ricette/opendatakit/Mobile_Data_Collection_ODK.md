@@ -6,7 +6,7 @@
 Indice
 
    * [Come raccogliere dati geolocalizzati](https://tansignari.readthedocs.io/it/latest/ricette/opendatakit/Mobile_Data_Collection_ODK.html)
-    * [ODK](#odk)
+       * [ODK](#odk)
    * [ona.io](#ona-io)
         * [Registrazione](#registrazione)
         * [New Projects](#new-projects)
