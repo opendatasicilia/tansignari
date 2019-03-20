@@ -27,9 +27,9 @@ Un server, ovvero un sistema centralizzato in cui salvare i dati immessi. Senza 
 
 Per capire meglio il funzionamento del sistema di raccolta dati di [Open Data Kit](https://opendatakit.org/) vi invito a leggere l’articolo su [TANTO – Raccolta dati per tutti: GeoODK e smartphones per sensori urbani (parte I)](http://blog.spaziogis.it/index.html_p=6786.html). In questo post mi limiterò a descrivere il procedimento che ci ha permesso di realizzare i diversi form per la raccolta dati, l’archiviazione e l’estrazione dei dati per la pubblicazione e l’interfaccia web per esporli già mappati. (ricerca e sviluppo di opendatasicilia.it)
 
-# ona.io
+## ona.io
 
-## Registrazione
+### Registrazione
 
 La prima cosa da fare è scegliere il server/piattaforma che ospiterà i dati da noi raccolti, noi abbiamo scelto **[Ona.io](https://ona.io/home/)**, la stessa cosa si può fare con [kobotoolbox.org](https://www.kobotoolbox.org/), [mapyourworld.org](http://mapyourworld.org/), [datawinners.com](https://www.datawinners.com/) e tante altre piattaforme, tutti servizi online free e basati sulle webform di [enketo.org](https://enketo.org/).
 
@@ -39,6 +39,6 @@ La prima cosa da fare è scegliere il server/piattaforma che ospiterà i dati da
 Dopo la registrazione per prima, di iniziare un nuovo progetto,  sarebbe opportuno entrare nel Settings del proprio profilo e impostare Require Phone Authentication?, ovvero decidere se limitare o meno l’invio dei moduli solo ad utenti registrati.
 ![](/img/odk_ona/ona_settings.jpg)
 
-## New Projects
+### New Projects
 
 to be continued...
