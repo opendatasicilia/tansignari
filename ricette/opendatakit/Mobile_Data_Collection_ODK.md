@@ -3,6 +3,24 @@
 * autore: [gbvitrano](https://twitter.com/gbvitrano)
 * issue:
 
+Indice
+
+   [ODK](#odk)
+    [ona.io](#ona-io)
+        [Registrazione](#registrazione)
+        [New Projects](#new-projects)
+        [Costruire il form con Form builder](#costruire-il-form-con-form-builder)
+        [Costruire il form utilizzando i file XLS](#costruire-il-form-utilizzando-i-file-xls)
+    Il contenitore dei dati](#il-contenitore-dei-dati)
+        [Come si scaricano i dati…?](#come-si-scaricano-i-dati)
+    [Ona API](#ona-api)
+    [Usare Google sheet per gestire i dati](#usare-google-sheet-per-gestire-i-dati)
+        [Come attivare lo script…?](#come-attivare-lo-script)
+    [Open Data Kit di Ona (odk.ona.io)](#open-data-kit-di-ona-odk-ona-io)
+    [Interfaccia web – Demo](#interfaccia-web-demo)
+    [No costi di licenza](#no-costi-di-licenza)
+    [QgisODK](#qgisodk)
+
 ---
 
 E’ possibile raccogliere dati geolocalizzati, ordinati secondo uno schema,  che ci consente di mappare (in tempo reale) tutto quello che ci circonda…? e che sia anche una soluzione a basso costo e semplice da usare in mobile/computer…?
