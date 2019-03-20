@@ -4,6 +4,7 @@
 * issue:
 
 ---
+
 E’ possibile raccogliere dati geolocalizzati, ordinati secondo uno schema,  che ci consente di mappare (in tempo reale) tutto quello che ci circonda…? e che sia anche una soluzione a basso costo e semplice da usare in mobile/computer…?
 
 ## ODK
