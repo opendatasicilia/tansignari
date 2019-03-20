@@ -258,7 +258,49 @@ Si attiva semplicemente cliccando su **esegui** (icona play), la prima volta che
 
 Come si può notare nelle script non c’è nessun riferimento al tempo. L’intervallo di tempo di lancio dello script si imposta da **Trigger**
 
-![](/img/google/google_sheet5.png)
+![](/img/google/google_sheet8.png)
+
+Per personalizzare i valori del **Trigger**, bisogna cliccare su **I miei attivatori** e selezionare quello dedicato allo script appena creato **importData()** e modificarne i valori. In questa modo lo script attiverà una verifica di nuovi dati (dalla fonte CSV pre impostata nel trigger) con una frequenza temporale del singolo minuto.
+
+![](/img/google/google_sheet9.png)
+
+Se tutto è andato a buon fine, la funzione ``` =IMPORTDATA(“https://api.ona.io/api/v1/data/388501.csv”)``` che abbiamo scritto precedentemente nella cella A1 sarà sparita, in quanto adesso è lo script a gestire tutto, e come programmato nel **Trigger** i dati verranno aggiornati ogni minuto.
+
+---
+
+**Si possono controllare allo stesso tempo più form/questionari anche di argomenti diversi…?**
+
+Si lo script proposto da [@aborruso](https://twitter.com/aborruso) permette anche questo, con qualche piccola modifica alle variabili, come si può osservare nell’immagine in basso.
+
+![](/img/google/google_sheet11.png)
+
+Si potrebbe fare un *array* e fare un *loop*, ma anche cosi funziona e a noi va bene così 🙂
+
+---
+
+## Open Data Kit di Ona (odk.ona.io)
+Con le stesse credenziali di accesso a  [Ona.io](https://ona.io/home/), possiamo accedere anche al profilo [odk.ona.io](https://odk.ona.io/) con un URL del tipo **https://odk.ona.io/nomeutente/** da questo link chiunque può visualizzare/scaricare le mappe e i dati delle form/questionari e persino scaricare XLSForm del questionario.
+
+![](/img/odk_ona/ona_01.png)
+
+
+---
+
+## Interfaccia web – Demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 to be continued...
