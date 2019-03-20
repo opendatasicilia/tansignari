@@ -139,6 +139,126 @@ Dopo aver costruito il nostro questionario, è arrivato il momento dare uno sgua
 
 ![](/img/odk_ona/form6.png)
 
+Per accedere a questo spazio ci sono due modi, o cliccate sul **nome del form** interessato, o sempre da menù a tendina, posto a destra della pagina, cliccate su **Settings**.
+
+![](/img/odk_ona/form8.png)
+
+Subito dopo aver cliccato su **Settings**, si apre la pagina dedicata ai dati del form, ci sono 7 schede, tutte utili a gestire i dati che man mano vengono caricati, nell’immagine in alto vediamo la tabella che si è generata automaticamente alla ricezione dei dati.
+
+In basso la scheda con le varie foto associate.
+
+![](/img/odk_ona/form10.png)
+
+La scheda Settings, utilissima per modificare le informazioni sul form, per aggiungere una nuova base mappa tipo [Mapbox](https://www.mapbox.com/) per collegare applicazioni esterne come google sheet, tableau public, ottime per scaricare ed analizzare i dati raccolti. Fino alla data di pubblicazione di questo post, non è stato possibile collegare google sheet ad **[Ona.io](https://ona.io/home/)**, ma [@aborruso](https://twitter.com/aborruso) ha risolto brillantemente il problema utilizzando le API di **[Ona.io](https://ona.io/home/)**, più avanti il procedimento verrà descritto.
+
+![](/img/odk_ona/form11.png)
+
+Attraverso la scheda **Settings** possiamo caricare file multimediali, un piccolo esempio pratico, se desideriamo aggiungere un logo al nostro form/questionario, basta caricare, un file denominato **form_logo.png** nella sezione Form Media Files (1) attraverso il tasto **Select file uplodad** (2)
+
+![](/img/odk_ona/form12.png)
+
+Esempio di form con logo inserito
+
+![](/img/odk_ona/form13.png)
+
+---
+
+### Come si scaricano i dati…?
+
+Nella scheda Overview si trova il pannello **Data Exports** (1)  all’interno del quale si trova il pulsante **Prepare Data Export** (2) al click si apre una tendina dove vengono mostrate tutti i possibili formati in cui si possono esportare i dati.
+
+![](/img/odk_ona/form15.png)
+
+Supponendo di voler esportare i dati in formato csv, selezioniamo la voce CSV
+
+![](/img/odk_ona/form16.png)
+
+Si apre un ulteriore pannello (1), dove è possibile selezionare le opzioni per l’esportazione, dopo aver selezionato le opzione non ci resta che esportare il file (2).
+
+![](/img/odk_ona/form18.png)
+
+**Attenzione** i dati esportati con questo metodo, sono come delle foto istantanee, congelano il momento, restituiscono i dati presenti nell’archivio fino al momento in cui vengono richiesti, e non vengono più aggiornati.
+
+---
+
+## Ona API
+Per avere dati sempre aggiornati bisogna utilizzare le Ona API il funzionamento è semplicissimo, basta seguire la guida
+
+Per conoscere i progetti di un utente con **https://api.ona.io/api/v1/data?owner=nomeutente**  si ha la lista dei progetti pubblici del signor “nomeutente”.
+
+Ad esempio il mio **https://api.ona.io/api/v1/data?owner=gbvitrano** restituisce:
+
+
+```
+{
+"id": 386586,
+"id_string": "aKumLRpod6BV9NP5viye2u",
+"title": "Geolocalizza (form test)",
+"description": "form test per progetto Geolocalizza",
+"url": "https://api.ona.io/api/v1/data/386586"
+},
+{
+"id": 386670,
+"id_string": "aVXogAibtRyPggq7PhjF7v",
+"title": "Geolocalizzazione di...",
+"description": "",
+"url": "https://api.ona.io/api/v1/data/386670"
+},
+{
+"id": 387237,
+"id_string": "imp_publ_01",
+"title": "imp_publ",
+"description": "",
+"url": "https://api.ona.io/api/v1/data/387237"
+}
+```
+
+[@aborruso](https://twitter.com/aborruso) docet [#issue 25](https://github.com/opendatasicilia/tansignari/issues/25) tansignari
+
+Se sono interessato ai dati in CSV del progetto **Geolocalizza (form test)** (il primo), bisogna prendere il valore di **ulr** e aggiungere .csv, quindi **https://api.ona.io/api/v1/data/386586.csv**, questo CSV sarà sempre quello aggiornato e potrà fare da source ad applicazione esterne, come Google sheet, [tableau public](https://public.tableau.com/en-us/s/) o se preferite ad un dataset di [data.world](https://data.world/).
+Utilizzando le [Ona API](https://api.ona.io/static/docs/index.html) si possono ottenere i dati anche in altri formati come [json](https://api.ona.io/static/docs/data.html#get-json-list-of-data-end-points-using-limit-operators), [geojson](https://api.ona.io/static/docs/data.html#geojson) e [OSM](https://api.ona.io/static/docs/data.html#osm)
+
+---
+
+## Usare Google sheet per gestire i dati
+Usando la funzione **[IMPORTDATA](https://support.google.com/docs/answer/3093335?hl=en)** di Google sheet possiamo  caricare i dati in un nuovo foglio di lavoro (sheet), ricordiamoci prima di settare le **[impostazioni del foglio di lavoro](https://support.google.com/docs/answer/58515?co=GENIE.Platform%3DDesktop&hl=it)**, dal menu File.
+
+![](/img/google/google_sheet.png)
+
+Nella scheda Generale selezionare **Regno Unito** per le Impostazioni internazionali e spuntare **Usa sempre nomi di funzioni inglesi**, nella scheda Calcolo selezionare **A ogni modifica** nelle impostazioni del Ricalcolo, in caso contrario verranno restituiti valori errati di Latitudine e Longitudine, di conseguenza non riusciremo a mappare i nostri dati.
+
+![](/img/google/google_sheet2.png)
+
+Nota sull’aggiornamento dati: la funzione **IMPORTDATA()** by default aggiorna i dati ogni ora, ma se avete l’esigenza di avere i dati in tempo reale o quasi, durante una campagna di rilievi, esiste una opzione per forzare l’aggiornamento della funzione anche ad ogni minuto, come spiegato da  [@aborruso](https://twitter.com/aborruso) docet [#issue 25](https://github.com/opendatasicilia/tansignari/issues/25) di tansignari. *Come si fà…?* semplice, siamo uno *script* 🙂
+
+![](/img/google/google_sheet3.png)
+
+Dal menù **strumenti** (1) cliccare su **Editor di script** (2)
+
+![](/img/google/google_sheet7.png)
+
+```
+{
+// ATTENZIONE "dati_ona" è il nome del foglio di lavoro dove verranno caricati i dati
+
+var csvUrl = “https://api.ona.io/api/v1/data/388501.csv”;
+var csvContent = UrlFetchApp.fetch(csvUrl).getContentText();
+var csvData = Utilities.parseCsv(csvContent);
+
+var sheet = SpreadsheetApp.getActive().getSheetByName(‘dati_ona’)
+sheet.getRange(1, 1, csvData.length, csvData[0].length).setValues(csvData);
+}
+```
+**Attenzione** modificate il nome del foglio di lavoro inserito nello script “dati_ona” con il nome del vostro foglio di lavoro, se il nome del foglio di lavoro inserito nello script non esiste, lo script non si avvia e vi restituisce un errore.
+
+### Come attivare lo script…? 
+Si attiva semplicemente cliccando su **esegui** (icona play), la prima volta che lo eseguite vi chiederà l’autorizzazione, verrà visualizzato il messaggio che l’applicazione non è autenticata, non è  sicura etc etc…per bypassare tutto questo, cliccare su **applicazione avanzate** e confermare i permessi per poter lavorare…
+
+![](/img/google/google_sheet5.png)
+
+Come si può notare nelle script non c’è nessun riferimento al tempo. L’intervallo di tempo di lancio dello script si imposta da **Trigger**
+
+![](/img/google/google_sheet5.png)
 
 
 to be continued...
