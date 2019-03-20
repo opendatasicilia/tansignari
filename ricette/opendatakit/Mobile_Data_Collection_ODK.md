@@ -283,10 +283,14 @@ Con le stesse credenziali di accesso a  [Ona.io](https://ona.io/home/), possiamo
 
 ![](/img/odk_ona/ona_01.png)
 
-
 ---
 
 ## Interfaccia web – Demo
+Adesso che siamo in grado di  costruire un form/questionario, sappiamo scaricare e gestire i dati, **come li usiamo…? come li comunichiamo all’esterno…?**
+
+Noi di [OpenDataSicilia.it](http://opendatasicilia.it/) abbiamo pensato di usare un semplice [sito web](https://opendatasicilia.github.io/Geo_Form/) dove chiunque trova il [form/questionario](https://opendatasicilia.github.io/Geo_Form/#portfolio) lo compila e dopo qualche minuto di attesa può vedere la sua segnalazione geolocalizzata in una [mappa](https://opendatasicilia.github.io/Geo_Form/#maps).
+
+![](/img/odk_ona/demo_01.png)
 
 
 
