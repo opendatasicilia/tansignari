@@ -1,5 +1,8 @@
 # Creare moduli di raccolta dati geografici online con ONA e metterli in collegamento automatico con fogli Google (e avere dati aggiornati al minuto)
 
+* autore: [Ciro Spataro](https://twitter.com/cirospat)
+* issue:  [#issue 25](https://github.com/opendatasicilia/tansignari/issues/25)
+
 <!-- TOC -->
 
 - [Creare moduli di raccolta dati geografici online con ONA e metterli in collegamento automatico con fogli Google](#creare-moduli-di-raccolta-dati-geografici-online-con-ona-e-metterli-in-collegamento-automatico-con-fogli-google)

@@ -10,7 +10,7 @@ La comunità `Open Data Kit`_ (ODK) produce software gratuito e open source per 
    :maxdepth: 3
    
    Mobile_Data_Collection_ODK
-   ona/index
+   ona/Modulo_ONA_raccola_dati_geografici_collegato_a_fogli_Google
    
    
   
