@@ -1,4 +1,4 @@
-# Titolo ricetta (di primo livello - non oltre i 60 caratteri)
+# Titolo ricetta (di primo livello # - non oltre i 60 caratteri)
 
 - issue correlata: `[#5](https://github.com/opendatasicilia/tansignari/issues/5)` numero e link
 - autore: `[Nome Cognome](link a twitter); fornitore della ricetta: [nome cognome](link a twitter)`; autore ed eventualmente fornitore ricetta;
@@ -7,9 +7,11 @@
 
 Se la ricetta avesse più sottocapitoli aggiungere indice
 
+per chi usasse VS Code installare plugin Markdown TOC
+
 ---
 
-## sottocapitoli (di secondo livello - non oltre i 60 caratteri)
+## sottocapitoli (di secondo livello ## - non oltre i 60 caratteri)
 
 corpo ricetta 
 
