@@ -13,7 +13,7 @@
     - [3 - Ottenere un foglio dati di Google con i dati aggiornati ad 1 minuto da quando vengono raccolti con il modulo ONA](#3---ottenere-un-foglio-dati-di-google-con-i-dati-aggiornati-ad-1-minuto-da-quando-vengono-raccolti-con-il-modulo-ona)
 
 <!-- /TOC -->
-
+---
 ## 1 - Creare un modulo per raccolta dati in mobilità
 
 Questa ricetta nasce dalla necessità di disporre di un modulo di raccolta dati/informazioni online, dove fosse possibile inserire dati geografici, quindi ad esempio dati di latitudine e longitudine per un determinato punto. Pensiamo ad un modulo, ad esempio, in cui è possbile censire elementi di arredo urbano, casi di tombini otturati, marcipiedi dissestati o buche su strada, barriere architettoniche varie, o anche per censire semplicemente luoghi di interesse.
