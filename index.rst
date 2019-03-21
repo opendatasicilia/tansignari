@@ -52,7 +52,7 @@ Contenuti:
 .. toctree::
   :maxdepth: 2
 
-  Home <https://tansignari.readthedocs.io/>
+  Home <http://tansignari.opendatasicilia.it/it/latest/>
   
 .. toctree::
    :maxdepth: 2
