@@ -8,5 +8,6 @@ Script
    :maxdepth: 3
    
    Correzione_dati_usando_script
-   scraping_valori_WMS
+   Scraping_valori_WMS
    Google sheet IMPORTDATA() modificare la frequenza di aggiornamento
+   Append_tra_due_database_SQLite
