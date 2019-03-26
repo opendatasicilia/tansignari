@@ -340,3 +340,10 @@ Chiudo la ricetta, ricordandovi che è disponibile per **QGIS 2.x** un plugin, *
 ![](/img/odk_ona/ona_qgis.png)
 
 Grazie a [@aborruso](https://twitter.com/aborruso) per tutte le info e la pazienza 🙂
+
+---
+
+## Alternativa a ODK
+Come suggerito da [@napo (Maurizio Napolitano)](https://www.facebook.com/groups/opendatasicilia/permalink/2061448710640440/) nel post del [gruppo facebook opendatasicilia](https://www.facebook.com/groups/opendatasicilia/), una valida alternativa ad [ODK](https://opendatakit.org/) è [EpiCollect](http://www.epicollect.net/).
+
+
