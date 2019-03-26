@@ -21,7 +21,7 @@ Indice
    * [Interfaccia web – Demo](#interfaccia-web-demo)
    * [No costi di licenza](#no-costi-di-licenza)
    * [QgisODK](#qgisodk)
-   * [Alternativa a odk](#alternativa-a-odk)
+   * [Alternativa a ODK](#alternativa-a-odk)
 
 ---
 
