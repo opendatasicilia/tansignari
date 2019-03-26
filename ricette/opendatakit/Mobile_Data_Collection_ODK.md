@@ -21,6 +21,7 @@ Indice
    * [Interfaccia web – Demo](#interfaccia-web-demo)
    * [No costi di licenza](#no-costi-di-licenza)
    * [QgisODK](#qgisodk)
+   * [Alternativa a odk](#alternativa-a-odk)
 
 ---
 
@@ -344,6 +345,4 @@ Grazie a [@aborruso](https://twitter.com/aborruso) per tutte le info e la pazien
 ---
 
 ## Alternativa a ODK
-Come suggerito da [@napo (Maurizio Napolitano)](https://www.facebook.com/groups/opendatasicilia/permalink/2061448710640440/) nel post del [gruppo facebook opendatasicilia](https://www.facebook.com/groups/opendatasicilia/), una valida alternativa ad [ODK](https://opendatakit.org/) è [EpiCollect](http://www.epicollect.net/).
-
-
+Come suggerito da [@napo (Maurizio Napolitano)](https://www.facebook.com/groups/opendatasicilia/permalink/2061448710640440/) nel post del [gruppo facebook opendatasicilia](https://www.facebook.com/groups/opendatasicilia/permalink/2061448710640440/), una valida alternativa ad [ODK](https://opendatakit.org/) è [EpiCollect](http://www.epicollect.net/).
