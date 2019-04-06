@@ -59,28 +59,28 @@ Per aggiungere la nuova colonna ho utilizzato [QGIS](https://www.qgis.org/it/sit
 In file txt preparatevi i codici json da inserire, per ogni tematismo, nel mio sono 5, ma l'unica cosa che cambia è fillColor ovvero il  colore di riempimento, ma siete liberi di modificare tutti i parametri. (Non è un metodo elegante, ma funziona, a breve [@totofiandata](https://twitter.com/totofiandaca) ci suggerirà un metodo più professionale)
 
 Le azioni da fare sono semplicissime:
-- 1) Attivare le modifiche al file e selezionare i poligoni ai quali vogliamo aggiungere il codice json per uMap;
-- 2) Aprire la tabella attributi e dal menù a tendina selezionare il campo _umap_options;
-- 3) Spostarsi nel campo delle espressioni e incollare i codice preparato in predensa **'{ "fillColor": "#ca0020", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'** *virgolette incluse*;
-- 4) In ultimo cliccare su aggiorna selezione;
-- 5) Ripetere la procedura, per ogni tematismo.
+* (1) Attivare le modifiche al file e selezionare i poligoni ai quali vogliamo aggiungere il codice json per uMap;
+* (2) Aprire la tabella attributi e dal menù a tendina selezionare il campo _umap_options;
+* (3) Spostarsi nel campo delle espressioni e incollare i codice preparato in predensa **'{ "fillColor": "#ca0020", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'** *virgolette incluse*;
+* (4) In ultimo cliccare su aggiorna selezione;
+* (5) Ripetere la procedura, per ogni tematismo.
 
 ![](/img/uMap/qgis4.jpg)
 
 Per l'esportazione:
-- 1) Selezionare il formato dal menù a tendina, **Geojson**;
-- 2) Indicare il nome e la cartella dove salvare il file;
-- 3) Selezionare SR corretto per uMap **EPSG: 4326 - WGS 84**.
+* (1) Selezionare il formato dal menù a tendina, **Geojson**;
+* (2) Indicare il nome e la cartella dove salvare il file;
+* (3) Selezionare SR corretto per uMap **EPSG: 4326 - WGS 84**.
 
 ![](/img/uMap/umap_05.jpg)
 
 Adesso non ci resta che caricare il nuovo fine in uMap:
-- 1) Aggiungere un nuovo layer;
-- 2) Cliccare sull'icona Importa dati;
-- 3)Caricare il nuovo file;
-- 4) Selezionare il formato dei dati;
-- 5) Selezionare il layer dove andranno caricati i dati; 
-- 6) Infine cliccare sul pulsante Importa.
+* (1) Aggiungere un nuovo layer;
+* (2) Cliccare sull'icona Importa dati;
+* (3)Caricare il nuovo file;
+* (4) Selezionare il formato dei dati;
+* (5) Selezionare il layer dove andranno caricati i dati; 
+* (6) Infine cliccare sul pulsante Importa.
 
 Grazie a [aborruso](https://twitter.com/aborruso) e [@totofiandaca](https://twitter.com/totofiandaca) per i preziosi suggerimeti
 
