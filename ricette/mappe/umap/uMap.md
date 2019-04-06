@@ -64,19 +64,19 @@ Le azioni da fare sono semplicissime:
 4. In ultimo cliccare su aggiorna selezione;
 5. Ripetere la procedura, per ogni tematismo.
 
-Come suggerito da [@totofiandaca](https://twitter.com/totofiandaca) il campo si può popolare con un metodo più elegante e veloce, usando il Calcolatore di Campi
+Come suggerito da [@totofiandaca](https://twitter.com/totofiandaca) il campo si può popolare con un metodo più elegante e veloce, usando il **Calcolatore di Campi**
 
 ![](/img/uMap/qgis6.jpg)
 
 Come per il precedente metodo dobbiamo rendere il file editabile, aprire il Calcolatore di Campi ed inserire un’espressione, come da immagine.
 1. Attivare le modifiche al file;
 2. Aprire il Calcolatore di Campi;
-3. Scrivere il nome del nuovo campo (_umap_options), spuntare l’opzione Crea un nuovo campo;
-4. Selezionare il tipo di campo in uscita, in questo caso è del Testo;
+3. Scrivere il nome del nuovo campo (**_umap_options**), spuntare l’opzione **Crea un nuovo campo**;
+4. Selezionare il tipo di campo in uscita, in questo caso è del **Testo**;
 5. Scrivere l’espressione per un tema graduato con 5 classi;
 6. Cliccare ok per avviare l’operazione.
 
-Espressione scritta da [@totofiandaca](https://twitter.com/totofiandaca)a per popolare velocemente il campo _umap_options, secondo le nostre classi. (grazie Totò)
+Espressione scritta da [@totofiandaca](https://twitter.com/totofiandaca)a per popolare velocemente il campo **_umap_options**, secondo le nostre classi. (grazie Totò)
 
 ```
 CASE
