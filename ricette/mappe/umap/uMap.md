@@ -1,4 +1,4 @@
-# [uMap](http://umap.openstreetmap.fr/it/) - Tematizzare velocemente i poligoni
+# [uMap](http://umap.openstreetmap.fr/it/) - Tematizzare i poligoni
  
 [uMap](http://umap.openstreetmap.fr/it/) è un software potentissimo per la creazione di mappe online, da inserire nel proprio sito, che fanno uso di [OpenStreetMap](http://osm.org/) come sfondo.
 Il software è creato dall’italo-francese [Yohan Boniface](http://yohanboniface.me/), rilasciato in open source con la licenza “[do what the fuck you want to public license](https://github.com/yohanboniface/uMap)“, scritto in [django](https://www.djangoproject.com/) e [leaflet](http://leafletjs.com/), e reso disponibile sugli spazi di [OpenStreetMap France](http://www.openstreetmap.fr/) – http://umap.openstreetmap.fr. (cit. [da de.straba.us](http://de.straba.us/2015/05/22/tutorial-creare-una-mappa-online-con-fotografie-in-umap-aggiornabile-con-ethercalc/))
