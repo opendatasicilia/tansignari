@@ -82,7 +82,7 @@ Per l'esportazione:
 
 Grazie a [aborruso](https://twitter.com/aborruso) e [@totofiandaca](https://twitter.com/totofiandaca) per i preziosi suggerimeti
 
-Qui un esempio di mappa  [Vulnerabilità sismica degli edifici residenziali di Palermo](http://u.osmfr.org/m/129487/)
+Qui un esempio, la mappa delle [Vulnerabilità sismica degli edifici residenziali di Palermo](http://u.osmfr.org/m/129487/)
 
 <a href="http://u.osmfr.org/m/129487/"><img  title="uMap - Tematizzare velocemente i poligoni - Vulnerabilità sismica degli edifici residenziali di Palermo " src="https://raw.githubusercontent.com/opendatasicilia/tansignari/master/img/uMap/umap.jpg" alt="uMap - Tematizzare velocemente i poligoni - Vulnerabilità sismica degli edifici residenziali di Palermo " width="auto" /></a>
 
