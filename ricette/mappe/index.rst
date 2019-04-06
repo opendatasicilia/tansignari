@@ -8,5 +8,5 @@ Mappe
 .. toctree::
    :maxdepth: 3
    
-   umap/index
+   umap/uMap
    estrarre_punti_di_interesse_da_OSM
