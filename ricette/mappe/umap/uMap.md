@@ -66,6 +66,10 @@ Le azioni da fare sono semplicissime:
 
 ![](/img/uMap/qgis4.jpg)
 
+Dopo aver popolato il nuovo campo, non ci resta che esportare il file in formato geojson, facendo attenzione al Sistema di Riferimento SR, che deve essere EPSG: 4326 - WGS 84 perché è il sistema di riferimento usato da uMap.
+
+![](/img/uMap/qgis5.jpg)
+
 Per l'esportazione:
 1. Selezionare il formato dal menù a tendina, **Geojson**;
 2. Indicare il nome e la cartella dove salvare il file;
