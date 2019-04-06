@@ -70,7 +70,7 @@ Dopo aver popolato il nuovo campo, non ci resta che esportare il file in formato
 
 ![](/img/uMap/qgis5.jpg)
 
-Per l'esportazione:
+Esportare il nuovo file in geojson:
 1. Selezionare il formato dal menù a tendina, **Geojson**;
 2. Indicare il nome e la cartella dove salvare il file;
 3. Selezionare SR corretto per uMap **EPSG: 4326 - WGS 84**.
