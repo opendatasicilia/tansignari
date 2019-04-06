@@ -38,13 +38,12 @@ In questa colonna vengono scritte tutte le info che riguardano le proprietà del
 
 I **valori** sono a titolo di esempio e vanno adattati alle proprie esigenze.
 
-**fillColor** = colore di riempimento
-**color** = colore bordo
-**weight** = spessore bordo
-**opacity** = opacità bordo
-**fillOpacity** = opacità riempimento
-
-**dashArray** = tratteggio linea bordo, per ottenere la linea continua, basta omettere il comando
+- **fillColor** = colore di riempimento
+- **color** = colore bordo
+- **weight** = spessore bordo
+- **opacity** = opacità bordo
+- **fillOpacity** = opacità riempimento
+- **dashArray** = tratteggio linea bordo, per ottenere la linea continua, basta omettere il comando
 
 ![](/img/uMap/qgis2.jpg)
 
