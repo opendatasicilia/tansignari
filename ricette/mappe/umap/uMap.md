@@ -60,7 +60,7 @@ In file txt preparatevi i codici json da inserire, per ogni tematismo, nel mio s
 
 Le azioni da fare sono semplicissime:
 1. Attivare le modifiche al file e selezionare i poligoni ai quali vogliamo aggiungere il codice json per uMap;
-3. Spostarsi nel campo delle espressioni e incollare i codice preparato in predensa **'{ "fillColor": "#ca0020", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'** *virgolette incluse*;
+3. Spostarsi nel campo delle espressioni e incollare i codice preparato in predenza **'{ "fillColor": "#ca0020", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'** *virgolette incluse*;
 4. In ultimo cliccare su aggiorna selezione;
 5. Ripetere la procedura, per ogni tematismo.
 
@@ -80,7 +80,7 @@ Per l'esportazione:
 5. Selezionare il layer dove andranno caricati i dati; 
 6. Infine cliccare sul pulsante Importa.
 
-Grazie a [aborruso](https://twitter.com/aborruso) e [@totofiandaca](https://twitter.com/totofiandaca) per i preziosi suggerimeti
+Grazie a [@aborruso](https://twitter.com/aborruso) e [@totofiandaca](https://twitter.com/totofiandaca) per i preziosi suggerimenti
 
 Qui un esempio, la mappa delle [Vulnerabilità sismica degli edifici residenziali di Palermo](http://u.osmfr.org/m/129487/)
 
