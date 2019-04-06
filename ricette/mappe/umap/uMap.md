@@ -64,6 +64,30 @@ Le azioni da fare sono semplicissime:
 4. In ultimo cliccare su aggiorna selezione;
 5. Ripetere la procedura, per ogni tematismo.
 
+Come suggerito da [@totofiandaca](https://twitter.com/totofiandaca) il campo si può popolare con un metodo più elegante e veloce, usando il Calcolatore di Campi
+
+![](/img/uMap/qgis6.jpg)
+
+Come per il precedente metodo dobbiamo rendere il file editabile, aprire il Calcolatore di Campi ed inserire un’espressione, come da immagine.
+1. Attivare le modifiche al file;
+2. Aprire il Calcolatore di Campi;
+3. Scrivere il nome del nuovo campo (_umap_options), spuntare l’opzione Crea un nuovo campo;
+4. Selezionare il tipo di campo in uscita, in questo caso è del Testo;
+5. Scrivere l’espressione per un tema graduato con 5 classi;
+6. Cliccare ok per avviare l’operazione.
+
+Espressione scritta da [@totofiandaca](https://twitter.com/totofiandaca)a per popolare velocemente il campo _umap_options, secondo le nostre classi. (grazie Totò)
+
+```
+CASE
+WHEN "VULN" >= 1.1 AND "VULN" <= 1.3 THEN '{ "fillColor": "#0571b0", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'
+WHEN "VULN" > 1.3 AND "VULN" <= 1.5 THEN '{ "fillColor": "#92c5de", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'
+WHEN "VULN" > 1.5 AND "VULN" <= 1.6 THEN '{ "fillColor": "#fff0bd", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'
+WHEN "VULN" > 1.6 AND "VULN" <= 1.8 THEN '{ "fillColor": "#f4a582", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'
+ELSE '{ "fillColor": "#ca0020", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75"}'
+END
+```
+
 ![](/img/uMap/qgis4.jpg)
 
 Dopo aver popolato il nuovo campo, non ci resta che esportare il file in formato geojson, facendo attenzione al Sistema di Riferimento SR, che deve essere EPSG: 4326-WGS 84 perché è il sistema di riferimento usato da uMap.
