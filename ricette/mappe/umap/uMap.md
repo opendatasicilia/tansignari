@@ -33,7 +33,7 @@ Risultato finale, il file/layer originale, è stato suddivido in 5 nuovi file, o
 ## Come tematizzare velocemente i poligoni
 Studiando la struttura di [uMap](http://umap.openstreetmap.fr/it/) mi sono reso conto che [uMap](http://umap.openstreetmap.fr/it/) aggiunge una o più colonne al file viene importato, nello specifico per tematizzare i poligoni viene aggiunta la colonna _umap_options, (nella vecchia versione la colonna si chiamava _storage_options).
 
-In questa colonna vengono scritte tutte le info che riguardano le proprietà del poligono, colore, trasparenza, spessore delle linee, ect… che tradotto in codice si scrive così:
+In questa colonna vengono scritte tutte le info che riguardano le proprietà del poligono, colore, trasparenza, spessore delle linee, ect… che tradotto in codice json si scrive così:
 
 ```
 { "fillColor": "#b2b2b2", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75", "dashArray": "4" }
@@ -51,6 +51,28 @@ I **valori** sono a titolo di esempio e vanno adattati alle proprie esigenze.
 ![](/img/uMap/qgis2.jpg)
 
 Per aggiungere la nuova colonna ho utilizzato [QGIS](https://www.qgis.org/it/site/) , colonna _umap_options (1) per la nuova versione sel server uMap o la colonna _storage_options  (2) per la vecchia versione di uMap. Dopo aver aggiunto la nuova colonna non ci resta che importare il file su uMap ed i poligoni verranno tematizzati automaticamente secondo le nostre istruzioni.
+
+## Come popolare la nuova colonna _umap_options
+
+![](/img/uMap/qgis3.jpg)
+
+In file txt preparatevi i codici json da inserire, per ogni tematismo, nel mio sono 5, ma l'unica cosa che cambia è fillColor ovvero il  colore di riempimento, ma siete liberi di modificare tutti i parametri. (Non è un metodo elegante, ma funziona, a breve [@totofiandata](https://twitter.com/totofiandaca) ci suggerirà un metodo più professionale)
+
+Le azioni da fare sono semplicissime:
+- 1) Attivare le modifiche al file e selezionare i poligoni ai quali vogliamo aggiungere il codice json per uMap;
+- 2) Aprire la tabella attributi e dal menù a tendina selezionare il campo _umap_options;
+- 3) Spostarsi nel campo delle espressioni e incollare i codice preparato in predensa **'{ "fillColor": "#ca0020", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'** *virgolette incluse*;
+- 4) In ultimo cliccare su aggiorna selezione;
+- 5) Ripetere la procedura, per ogni tematismo.
+
+![](/img/uMap/qgis4.jpg)
+
+Per l'esportazione:
+- 1) Selezionare il formato dal menù a tendina, **Geojson**;
+- 2) Indicare il nome e la cartella dove salvare il file;
+-3) Selezionare SR corretto per uMap **EPSG: 4326 - WGS 84**.
+
+
 
 Qui un esempio di mappa  [Vulnerabilità sismica degli edifici residenziali di Palermo](http://u.osmfr.org/m/129487/)
 
