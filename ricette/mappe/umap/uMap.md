@@ -76,16 +76,16 @@ Come per il precedente metodo dobbiamo rendere il file editabile, aprire il Calc
 5. Scrivere l’espressione per un tema graduato con 5 classi;
 6. Cliccare ok per avviare l’operazione.
 
-Espressione scritta da [@totofiandaca](https://twitter.com/totofiandaca)a per popolare velocemente il campo **_umap_options**, secondo le nostre classi. (grazie Totò)
+Visto che la tematizzazione del layer è stata fatta usando il campo **VULN** con il metodo **[Graduato](https://docs.qgis.org/2.18/it/docs/user_manual/working_with_vector/vector_properties.html#graduated-renderer)**, che permette di suddividere i dati di una data colonna in un certo numero di classi e quindi scegliere uno stile differente per ciascuna classe, [@totofiandaca](https://twitter.com/totofiandaca) ha scritto l’espressione qui in basso per popolare velocemente il campo _umap_options, secondo le nostre classi. (grazie Totò)
 
 ```
-CASE
-WHEN "VULN" >= 1.1 AND "VULN" <= 1.3 THEN '{ "fillColor": "#0571b0", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'
-WHEN "VULN" > 1.3 AND "VULN" <= 1.5 THEN '{ "fillColor": "#92c5de", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'
-WHEN "VULN" > 1.5 AND "VULN" <= 1.6 THEN '{ "fillColor": "#fff0bd", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'
-WHEN "VULN" > 1.6 AND "VULN" <= 1.8 THEN '{ "fillColor": "#f4a582", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'
-ELSE '{ "fillColor": "#ca0020", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75"}'
-END
+CASE 
+ WHEN "VULN" >= 1.12 AND "VULN" <= 1.42 THEN '{ "fillColor": "#0571b0", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'
+ WHEN "VULN" > 1.42 AND "VULN" <= 1.60 THEN '{ "fillColor": "#92c5de", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'
+ WHEN "VULN" > 1.60 AND "VULN" <= 1.72 THEN '{ "fillColor": "#fff0bd", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'
+ WHEN "VULN" > 1.72 AND "VULN" <= 1.82 THEN '{ "fillColor": "#f4a582", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75" }'
+ ELSE '{ "fillColor": "#ca0020", "color": "Black", "weight": "1", "opacity": "1", "fillOpacity": "0.75"}'
+ END
 ```
 
 ![](/img/uMap/qgis4.jpg)
