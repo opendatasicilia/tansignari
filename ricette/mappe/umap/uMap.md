@@ -76,7 +76,7 @@ Come per il precedente metodo dobbiamo rendere il file editabile, aprire il Calc
 5. Scrivere l’espressione per un tema graduato con 5 classi;
 6. Cliccare ok per avviare l’operazione.
 
-Visto che la tematizzazione del layer è stata fatta utilizzando il campo **VULN** con il metodo **[Graduato](https://docs.qgis.org/2.18/it/docs/user_manual/working_with_vector/vector_properties.html#graduated-renderer)**, che permette di suddividere i dati di una data colonna in un certo numero di classi e quindi scegliere uno stile differente per ciascuna classe, [@totofiandaca](https://twitter.com/totofiandaca) ha scritto l'espressione, in basso a seguire, per popolare velocemente il campo _umap_options, secondo le nostre classi. (grazie Totò)
+Visto che la tematizzazione del layer è stata fatta utilizzando il campo **VULN** con il metodo **[Graduato](https://docs.qgis.org/2.18/it/docs/user_manual/working_with_vector/vector_properties.html#graduated-renderer)**, che permette di suddividere i dati di una data colonna in un certo numero di classi e quindi scegliere uno stile differente per ciascuna classe, [@totofiandaca](https://twitter.com/totofiandaca) ha scritto l'espressione, in basso a seguire, da usare nel Calcolatore di Campi, per popolare velocemente il campo _umap_options, secondo le nostre classi. (grazie Totò)
 
 ```
 CASE 
