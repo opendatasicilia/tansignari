@@ -54,6 +54,7 @@ Per aggiungere la nuova colonna ho utilizzato [QGIS](https://www.qgis.org/it/sit
 
 Qui un esempio di mappa  [Vulnerabilità sismica degli edifici residenziali di Palermo](http://u.osmfr.org/m/129487/)
 
-![](/img/uMap/umap.jpg)
+<a href="http://u.osmfr.org/m/129487/"><img  title="uMap - Tematizzare velocemente i poligoni - Vulnerabilità sismica degli edifici residenziali di Palermo " src="https://raw.githubusercontent.com/opendatasicilia/tansignari/master/img/uMap/umap.jpg" alt="uMap - Tematizzare velocemente i poligoni - Vulnerabilità sismica degli edifici residenziali di Palermo " width="1024" height="560" /></a>
+
 
 
