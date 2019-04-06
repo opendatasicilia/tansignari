@@ -72,7 +72,15 @@ Per l'esportazione:
 - 2) Indicare il nome e la cartella dove salvare il file;
 -3) Selezionare SR corretto per uMap **EPSG: 4326 - WGS 84**.
 
+![](/img/uMap/umap_05.jpg)
 
+Adesso non ci resta che caricare il nuovo fine in uMap:
+- 1) Aggiungere un nuovo layer;
+- 2) Cliccare sull'icona Importa dati;
+- 3)Caricare il nuovo file;
+- 4) Selezionare il formato dei dati;
+- 5) Selezionare il layer dove andranno caricati i dati; 
+- 6) Infine cliccare sul pulsante Importa.
 
 Qui un esempio di mappa  [Vulnerabilità sismica degli edifici residenziali di Palermo](http://u.osmfr.org/m/129487/)
 
