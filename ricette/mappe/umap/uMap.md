@@ -70,7 +70,7 @@ Le azioni da fare sono semplicissime:
 Per l'esportazione:
 - 1) Selezionare il formato dal menù a tendina, **Geojson**;
 - 2) Indicare il nome e la cartella dove salvare il file;
--3) Selezionare SR corretto per uMap **EPSG: 4326 - WGS 84**.
+- 3) Selezionare SR corretto per uMap **EPSG: 4326 - WGS 84**.
 
 ![](/img/uMap/umap_05.jpg)
 
