@@ -1,4 +1,4 @@
-# [uMap](http://umap.openstreetmap.fr/it/) Tematizzare velocemente i poligoni
+# [uMap](http://umap.openstreetmap.fr/it/) - Tematizzare velocemente i poligoni
  
 [uMap](http://umap.openstreetmap.fr/it/) è un software potentissimo per la creazione di mappe online, da inserire nel proprio sito, che fanno uso di [OpenStreetMap](http://osm.org/) come sfondo.
 Il software è creato dall’italo-francese [Yohan Boniface](http://yohanboniface.me/), rilasciato in open source con la licenza “[do what the fuck you want to public license](https://github.com/yohanboniface/uMap)“, scritto in [django](https://www.djangoproject.com/) e [leaflet](http://leafletjs.com/), e reso disponibile sugli spazi di [OpenStreetMap France](http://www.openstreetmap.fr/) – http://umap.openstreetmap.fr. (cit. [da de.straba.us](http://de.straba.us/2015/05/22/tutorial-creare-una-mappa-online-con-fotografie-in-umap-aggiornabile-con-ethercalc/))
@@ -26,8 +26,6 @@ Risultato finale, il file/layer originale, è stato suddivido in 5 nuovi file, o
 **Ma se non voglio o non posso suddividere il file di base in tanti file…?**
 **o se non voglio avere una colonna infinita di layer nel pannello delle informazioni di uMap…?**
 *devo tematizzare singolarmente ogni poligono...?*
-
----
 
 ## Come tematizzare velocemente i poligoni
 Studiando la struttura di [uMap](http://umap.openstreetmap.fr/it/) mi sono reso conto che [uMap](http://umap.openstreetmap.fr/it/) aggiunge una o più colonne al file viene importato, nello specifico per tematizzare i poligoni viene aggiunta la colonna _umap_options, (nella vecchia versione la colonna si chiamava _storage_options).
