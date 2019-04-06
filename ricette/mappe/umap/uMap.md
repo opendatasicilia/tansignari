@@ -82,6 +82,8 @@ Adesso non ci resta che caricare il nuovo fine in uMap:
 - 5) Selezionare il layer dove andranno caricati i dati; 
 - 6) Infine cliccare sul pulsante Importa.
 
+Grazie a [aborruso](https://twitter.com/aborruso) e [@totofiandaca](https://twitter.com/totofiandaca) per i preziosi suggerimeti
+
 Qui un esempio di mappa  [Vulnerabilità sismica degli edifici residenziali di Palermo](http://u.osmfr.org/m/129487/)
 
 <a href="http://u.osmfr.org/m/129487/"><img  title="uMap - Tematizzare velocemente i poligoni - Vulnerabilità sismica degli edifici residenziali di Palermo " src="https://raw.githubusercontent.com/opendatasicilia/tansignari/master/img/uMap/umap.jpg" alt="uMap - Tematizzare velocemente i poligoni - Vulnerabilità sismica degli edifici residenziali di Palermo " width="auto" /></a>
