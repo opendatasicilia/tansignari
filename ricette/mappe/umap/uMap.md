@@ -66,13 +66,13 @@ Le azioni da fare sono semplicissime:
 
 Come suggerito da [@totofiandaca](https://twitter.com/totofiandaca) il campo si può popolare con un metodo più elegante e veloce, usando il **Calcolatore di Campi**
 
-![](/img/uMap/qgis6.jpg)
+![](/img/uMap/qgis6_1.jpg)
 
 Come per il precedente metodo dobbiamo rendere il file editabile, aprire il Calcolatore di Campi ed inserire un’espressione, come da immagine.
 1. Attivare le modifiche al file;
 2. Aprire il Calcolatore di Campi;
 3. Scrivere il nome del nuovo campo (**_umap_options**), spuntare l’opzione **Crea un nuovo campo**;
-4. Selezionare il tipo di campo in uscita, in questo caso è del **Testo**;
+4. Selezionare il tipo e la lunghezza del campo in uscita, in questo caso è **Testo**, **255** caratteri;
 5. Scrivere l’espressione per un tema graduato con 5 classi;
 6. Cliccare ok per avviare l’operazione.
 
