@@ -5,7 +5,7 @@
 
 ---
 
-**Caso d'uso:** il file di tematizzazione di un layer (in QGIS) è un file XML, alcune volte è necessario reperire i codici colore (in rgba) direttamente dal file di tematizzazione: questa ricetta estrae i codici colori utilizzati e crea una tabella, in csv, pronta per essere utilizzata in QGIS e messa in join con il layer in esame.
+**Caso d'uso:** il file di tematizzazione di un layer (in [QGIS](https://qgis.org/it/site/)) è un file [XML](https://it.wikipedia.org/wiki/XML), alcune volte è necessario reperire i codici colore (in [rgba](https://it.wikipedia.org/wiki/RGBA)) direttamente dal file di tematizzazione: questa ricetta estrae i codici colori utilizzati e crea una tabella, in [CSV](https://it.wikipedia.org/wiki/Comma-separated_values), pronta per essere utilizzata in QGIS e messa in join con il layer in esame.
 
 ## script bash
 
@@ -21,9 +21,8 @@ rm idColori.csv
 rm idRegioni.csv
 ```
 
-Il file `tema.xml` è la tematizzazione (metodo categorizzato) dello shapefile regioni ISTAT, lo script crea un file CSV come mostrato sotto:
+Il file `tema.xml` è la tematizzazione (metodo [categorizzato](https://docs.qgis.org/3.4/it/docs/user_manual/working_with_vector/vector_properties.html#categorized-renderer)) dello shapefile regioni ISTAT, lo script crea un file CSV come mostrato sotto:
 
-**NB:** 
 
 id|rgba|regione
 --|----|-----
@@ -56,3 +55,5 @@ id|rgba|regione
 La ricetta è stata realizzata per un caso concreto utile nel mondo dei `gissari` ma il principio che ci sta dietro è generale.
 
 Per ottenere il file `tema.xml` da QGIS: tasto destro del mouse sul layer tematizzato *| Stili | Copia lo stile | Simbologia*; questo permette di copiare lo stile in memoria, quindi aprire un editor di testo ed incollare, salvare il file come tema.xml.
+
+il file `tema.xml` è scaricabile da [qui](https://github.com/opendatasicilia/tansignari/files/3055033/tema.zip)
