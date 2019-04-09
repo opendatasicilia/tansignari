@@ -1,0 +1,58 @@
+# Estrarre dati da un file XML
+
+* autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
+* issue: [#50](https://github.com/opendatasicilia/tansignari/issues/50) fornitore ricetta _[Andrea Borruso](https://twitter.com/aborruso?lang=it)_
+
+---
+
+**Caso d'uso:** il file di tematizzazione di un layer (in QGIS) è un file XML, alcune volte è necessario reperire i codici colore (in rgba) direttamente dal file di tematizzazione: questa ricetta estrae i codici colori utilizzati e crea una tabella, in csv, pronta per essere utilizzata in QGIS e messa in join con il layer in esame.
+
+## script bash
+
+```bash
+#!/bin/bash
+set -x
+
+<tema.xml xq -r '.qgis["renderer-v2"].symbols.symbol[]|[.["@name"],.layer.prop[1]["@v"]]|@csv' >./idColori.csv
+<tema.xml xq -r '.qgis["renderer-v2"].categories.category[]|[.["@symbol"],.["@value"]]|@csv' >./idRegioni.csv
+mlr --csv --implicit-csv-header --headerless-csv-output  join  -j 1 --lp colori --rp regioni -f idColori.csv idRegioni.csv >./out.csv
+
+rm idColori.csv
+rm idRegioni.csv
+```
+
+Il file `tema.xml` è la tematizzazione (metodo categorizzato) dello shapefile regioni ISTAT, lo script crea un file CSV come mostrato sotto:
+
+**NB:** 
+
+id|rgba|regione
+--|----|-----
+0|232,193,76,255|Abruzzo
+1|48,218,227,255|Basilicata
+2|224,59,169,255|Calabria
+3|163,225,124,255|Campania
+4|162,15,210,255|Emilia-Romagna
+5|68,239,48,255|Friuli Venezia Giulia
+6|179,235,59,255|Lazio
+7|219,21,209,255|Liguria
+8|18,39,233,255|Lombardia
+9|120,204,137,255|Marche
+10|231,108,155,255|Molise
+11|237,177,124,255|Piemonte
+12|63,175,231,255|Puglia
+13|210,214,92,255|Sardegna
+14|234,16,38,255|Sicilia
+15|239,110,81,255|Toscana
+16|50,235,192,255|Trentino-Alto Adige
+17|160,107,220,255|Umbria
+18|98,66,238,255|Valle d'Aosta
+19|34,233,131,255|Veneto
+
+**In QGIS:** tramite un semplice JOIN è possibile unire questa tabella con il layer regioni (campo unione `regioni`)
+
+
+## Osservazioni
+
+La ricetta è stata realizzata per un caso concreto utile nel mondo dei `gissari` ma il principio che ci sta dietro è generale.
+
+Per ottenere il file `tema.xml` da QGIS: tasto destro del mouse sul layer tematizzato *| Stili | Copia lo stile | Simbologia*; questo permette di copiare lo stile in memoria, quindi aprire un editor di testo ed incollare, salvare il file come tema.xml.

@@ -11,3 +11,4 @@ Script
    Scraping_valori_WMS
    Google sheet IMPORTDATA() modificare la frequenza di aggiornamento
    Append_tra_due_database_SQLite
+   Estrarre_dati_da_file_XML
