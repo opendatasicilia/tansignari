@@ -1,4 +1,4 @@
-# Estrarre dati da un file XML con Google sheet  (XPATH)
+# Estrarre dati da un file XML con Google sheet (XPATH)
 
 * autore: [gbvitrano](https://twitter.com/gbvitrano)
 * issue: [#50](https://github.com/opendatasicilia/tansignari/issues/50) fornitore ricetta _[Andrea Borruso](https://twitter.com/aborruso?lang=it)_
