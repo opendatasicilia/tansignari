@@ -9,19 +9,36 @@
 
 ## script bash
 
+### utility yq
+
 ```bash
 #!/bin/bash
 set -x
 
 <tema.xml xq -r '.qgis["renderer-v2"].symbols.symbol[]|[.["@name"],.layer.prop[1]["@v"]]|@csv' >./idColori.csv
 <tema.xml xq -r '.qgis["renderer-v2"].categories.category[]|[.["@symbol"],.["@value"]]|@csv' >./idRegioni.csv
-mlr --csv --implicit-csv-header --headerless-csv-output  join  -j 1 --lp colori --rp regioni -f idColori.csv idRegioni.csv >./out.csv
+mlr --csv --implicit-csv-header --headerless-csv-output  join  -j 1 --lp colori --rp regioni -f idColori.csv idRegioni.csv >./out_regioni_yq.csv
 
 rm idColori.csv
 rm idRegioni.csv
 ```
 
-Il file `tema.xml` è la tematizzazione (metodo [categorizzato](https://docs.qgis.org/3.4/it/docs/user_manual/working_with_vector/vector_properties.html#categorized-renderer)) dello shapefile regioni ISTAT, lo script crea un file CSV come mostrato sotto:
+### utility xmlstarlet con linguaggio XPATH
+
+```bash
+#!/bin/bash
+set -x
+
+<tema.xml xmlstarlet fo -D | xmlstarlet sel -T -t -m "//symbols/symbol" -v $'concat(@name,"\t",layer/prop[@k="color"]/@v)' -n >./idColori.tsv
+<tema.xml xmlstarlet fo -D | xmlstarlet sel -T -t -m "//category" -v $'concat(@symbol,"\t",@value)' -n >./idRegioni.tsv
+mlr --tsv --implicit-csv-header --headerless-csv-output  join  -j 1 --lp colori --rp regioni -f idColori.tsv idRegioni.tsv >./out_regioni_xpath.tsv
+
+
+rm idColori.tsv
+rm idRegioni.tsv
+```
+
+Il file `tema.xml` è la tematizzazione (metodo [categorizzato](https://docs.qgis.org/3.4/it/docs/user_manual/working_with_vector/vector_properties.html#categorized-renderer)) dello shapefile regioni ISTAT, entrambi gli script creano un file CSV/TSV come mostrato sotto:
 
 
 id|rgba|regione
