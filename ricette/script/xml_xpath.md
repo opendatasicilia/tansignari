@@ -32,7 +32,7 @@ File xml da cui estrarre i dati [tema.xml](http://gbvitrano.it/clip/umap/tema.xm
 alla fine si fa il JOIN con VLOOKUP (cit. [Andrea Borruso](https://twitter.com/aborruso?lang=it))
 
 ## Utility yq
-Studiando il comando utilizzato per estrarre i dati con l'utility yq, ci rendiamo conto che anche se scritta ovviamente in modo diverso, la query e sempre la stessa, l'unica differenza e que questa volta il file si trova in locale e la finstra *bash* è aperta direttamente nella cartella del file *tema.xml*
+Studiando il comando utilizzato per estrarre i dati con l'utility **[yq](https://stedolan.github.io/jq/)**, ci rendiamo conto che anche se scritta ovviamente in modo diverso, la query è sempre la stessa, il file *tema.xml* si trova il locale e la finstra *bash* è aperta direttamente nella cartella del file *tema.xml*
 
 ```
 <tema.xml xq -r '.qgis["renderer-v2"].symbols.symbol[]|[.["@name"],.layer.prop[1]["@v"]]|@csv' >./idColori.csv
