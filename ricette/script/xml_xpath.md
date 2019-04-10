@@ -29,7 +29,7 @@ File xml da cui estrarre i dati [tema.xml](http://gbvitrano.it/clip/umap/tema.xm
 
 ![](/img/xpath/sheet_04.jpg)
 
-alla fine  fa il JOIN con VLOOKUP (cit. [Andrea Borruso](https://twitter.com/aborruso?lang=it))
+alla fine si fa il JOIN con VLOOKUP (cit. [Andrea Borruso](https://twitter.com/aborruso?lang=it))
 
 
 
