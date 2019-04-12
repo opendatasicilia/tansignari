@@ -37,18 +37,16 @@ Formula per estrarre la colonna *colore* del gruppo **symbol**
 
 ![](/img/xpath/sheet_03.jpg)
 
-Formula per estrarre la colonna *name* (id regione) del gruppo **category**
-
-![](/img/xpath/xml_03.jpg)
-
-=IMPORTXML("http://gbvitrano.it/clip/umap/tema.xml","//category/@symbol")
-
 Formula per estrarre la colonna *label* (nome regione) del gruppo **category**
 
+![](/img/xpath/xml_03.jpg)
 ```
 =IMPORTXML("http://gbvitrano.it/clip/umap/tema.xml","//category/@value")
 ```
-
+Formula per estrarre la colonna *name* (id regione) del gruppo **category**
+```
+=IMPORTXML("http://gbvitrano.it/clip/umap/tema.xml","//category/@symbol")
+```
 ![](/img/xpath/sheet_04.jpg)
 
 alla fine si fa il JOIN con VLOOKUP (cit. [Andrea Borruso](https://twitter.com/aborruso?lang=it))
