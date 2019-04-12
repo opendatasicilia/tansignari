@@ -78,7 +78,7 @@ Dove:
 2. **URI**: il testo URI del servizio web, ottiene del contenuto web da un URI.<br>
 3. **Espressione XPath** (richiesta): stringa contenente un'espressione XPath valida.<br>
 
-dalla guida di [libreoffice](https://help.libreoffice.org/Calc/WEBSERVICE/it)
+descrizione tratte dalla guida di [libreoffice](https://help.libreoffice.org/Calc/WEBSERVICE/it)
 
 **Esempio** 
 
