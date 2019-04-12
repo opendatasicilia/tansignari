@@ -66,20 +66,15 @@ alla fine si fa il JOIN con **[VLOOKUP](https://support.google.com/docs/answer/3
 ```
 
 ## Soluzione Libreoffice Calc, Excel
-Utilizzando un'espressione un pò diversa si possono estrarre i dati ad file xml **remoto** anche con libreoffice calc ed excel
+Utilizzando un'espressione un pò diversa, si possono estrarre i dati ad file xml **remoto** anche con LibreOffice Calc ed Excel
 
 ```
-FILTRO.XML(documento XML; espressione XPath)
+FILTRO.XML(SERVIZIO.WEB(URI); espressione XPath)
 ```
-
-**Documento XML** (richiesto): stringa contenente un flusso XML valido.
-
-**Espressione XPath** (richiesta): stringa contenente un'espressione XPath valida.
-
-```
-SERVIZIO.WEB(URI)
-```
+**SERVIZIO.WEB(URI)** ottiene del contenuto web da un URI.
 **URI**: il testo URI del servizio web, ottiene del contenuto web da un URI.
+**Espressione XPath** (richiesta): stringa contenente un'espressione XPath valida.
+dalla guida di [libreoffice](https://help.libreoffice.org/Calc/WEBSERVICE/it)
 
 Esempio per estrarre la colonna *name* (id regione) del gruppo **category**
 
