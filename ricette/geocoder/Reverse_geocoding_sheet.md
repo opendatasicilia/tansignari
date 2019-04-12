@@ -30,7 +30,8 @@ Piazza del Parlamento, 1, 90129 Palermo PA, Italy|38.112213|13.352615
 Foro Umberto I, 11, 90133 Palermo PA, Italy|38.119753|13.371337
 Via Dell' Arsenale, 148, 90142 Palermo PA, Italy|38.135400|13.369116
 
-**OSSERVAZIONI**
+**Osservazioni**
+
 Con i dati cosi ottenuti puoi farci poco, leggi qui: https://goo.gl/6hYJh7
 in particolare:
 `

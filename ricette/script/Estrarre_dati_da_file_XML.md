@@ -1,7 +1,8 @@
 # Estrarre dati da un file XML
 
 * autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
-* issue: [#50](https://github.com/opendatasicilia/tansignari/issues/50) fornitore ricetta _[Andrea Borruso](https://twitter.com/aborruso?lang=it)_
+* issue: [#50](https://github.com/opendatasicilia/tansignari/issues/50) fornitore ricetta _[Andrea Borruso](https://twitter.com/aborruso?lang=it)
+* ingredienti: [QGIS](https://qgis.org/it/site/), [yq](https://github.com/kislyuk/yq), [xmlstarlet](http://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html), [XPATH](https://www.w3schools.com/xml/xpath_intro.asp), [Miller](https://github.com/johnkerl/miller)
 
 ---
 

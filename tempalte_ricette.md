@@ -2,6 +2,7 @@
 
 - issue correlata: `[#5](https://github.com/opendatasicilia/tansignari/issues/5)` numero e link
 - autore: `[Nome Cognome](link a twitter); fornitore della ricetta: [nome cognome](link a twitter)`; autore ed eventualmente fornitore ricetta;
+- ingredienti: Miller, Google Sheet, ... con relativo link alla risorsa
   
 ---
 
