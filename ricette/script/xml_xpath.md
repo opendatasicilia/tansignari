@@ -13,7 +13,7 @@ Per chi ha poca familiarità con *bash* e tutti gli ottimi applicativi *Linux*, 
 Il file [sheet](https://docs.google.com/spreadsheets/d/1tjXYrhP2nggPxML3Vay2Ycab7ikACQ95scRHLjo_GYc/edit#gid=0) iniziale per l'importazione del file [tema.xml](https://gist.githubusercontent.com/aborruso/5452bbecbacfce8ac61b5cc8165ac0d4/raw/0b0243ac25361726fd1a112e8bdea7920d1d487b/tema.xml) e le relative query XPATH è scritto da [Andrea Borruso](https://twitter.com/aborruso?lang=it)
 
 In questo caso il file xml deve essere prima caricato in un server remoto e poi richiamato con la funzione [IMPORTXML](https://support.google.com/docs/answer/3093342?hl=it). <br>
-N. B.: Il server remoto può essere un semplice **server ftp** o anche un **repository Github**
+N. B.: Il server remoto può essere un semplice **[server ftp](https://it.wikipedia.org/wiki/Server_FTP)** o anche un **[repository Github](https://it.wikipedia.org/wiki/GitHub)**
 
 Ricordiamoci prima i caricare i dati, di settare le **[impostazioni del foglio di lavoro](https://support.google.com/docs/answer/58515?co=GENIE.Platform%3DDesktop&hl=it)**, dal menu **File**, nella scheda *Generale* selezionare **Regno Unito** per le Impostazioni internazionali e spuntare **Usa sempre nomi di funzioni inglesi**, nella scheda *Calcolo* selezionare **A ogni modifica** nelle impostazioni del Ricalcolo.
 
