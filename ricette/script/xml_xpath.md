@@ -10,6 +10,9 @@
 
 Il file [sheet](https://docs.google.com/spreadsheets/d/1tjXYrhP2nggPxML3Vay2Ycab7ikACQ95scRHLjo_GYc/edit#gid=0) iniziale per l'importazione del file [tema.xml](https://gist.githubusercontent.com/aborruso/5452bbecbacfce8ac61b5cc8165ac0d4/raw/0b0243ac25361726fd1a112e8bdea7920d1d487b/tema.xml) e le relative query XPATH è scritto da [Andrea Borruso](https://twitter.com/aborruso?lang=it)
 
+Per chi ha poca familiarità con *bash* e tutti gli ottimi applicativi *Linux*, un'altra soluzione potrebbe essere l'utilizzo di Google sheet e XPath.
+
+
 ![](/img/xpath/xml_00.jpg)
 
 File xml da cui estrarre i dati [tema.xml](http://gbvitrano.it/clip/umap/tema.xml)
