@@ -58,7 +58,7 @@ Formula per estrarre la colonna *name* (id regione) del gruppo **category**
 ```
 ![](/img/xpath/sheet_04.jpg)
 
-alla fine si fa il JOIN con **[VLOOKUP](https://support.google.com/docs/answer/3093318?hl=it&authuser=1)** (cit. [Andrea Borruso](https://twitter.com/aborruso?lang=it))
+alla fine si fa il JOIN con **[VLOOKUP](https://support.google.com/docs/answer/3093318?hl=it&authuser=1)** (cit. [Andrea Borruso](https://twitter.com/aborruso?lang=it)) per ottenere il colore utilizzato in ogni Regione.
 
 ```
 =VLOOKUP(D2,A:B,2,FALSE)
