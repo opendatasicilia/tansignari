@@ -19,7 +19,7 @@ Ricordiamoci prima i caricare i dati, di settare le **[impostazioni del foglio d
 
 ![](/img/xpath/xml_00.jpg)
 
-File xml da cui estrarre i dati [tema.xml](http://gbvitrano.it/clip/umap/tema.xml)
+File xml da cui estrarre i dati [tema.xml](http://gbvitrano.it/clip/umap/tema.xml) (server ftp)
 
 ![](/img/xpath/sheet_01.jpg)
 
