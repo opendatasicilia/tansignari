@@ -16,6 +16,7 @@ Il file [sheet](https://docs.google.com/spreadsheets/d/1tjXYrhP2nggPxML3Vay2Ycab
 File xml da cui estrarre i dati [tema.xml](http://gbvitrano.it/clip/umap/tema.xml)
 
 ![](/img/xpath/sheet_01.jpg)
+
 Formula per estrarre la colonna *name* (id) del gruppo **symbol**
 
 ![](/img/xpath/xml_01.jpg)
@@ -36,11 +37,25 @@ Formula per estrarre la colonna *colore* del gruppo **symbol**
 
 ![](/img/xpath/sheet_03.jpg)
 
+Formula per estrarre la colonna *name* (id regione) del gruppo **category**
+
 ![](/img/xpath/xml_03.jpg)
+
+=IMPORTXML("http://gbvitrano.it/clip/umap/tema.xml","//category/@symbol")
+
+Formula per estrarre la colonna *label* (nome regione) del gruppo **category**
+
+```
+=IMPORTXML("http://gbvitrano.it/clip/umap/tema.xml","//category/@value")
+```
 
 ![](/img/xpath/sheet_04.jpg)
 
 alla fine si fa il JOIN con VLOOKUP (cit. [Andrea Borruso](https://twitter.com/aborruso?lang=it))
+
+```
+=VLOOKUP(D2,A:B,2,FALSE)
+```
 
 ## Utility yq
 Studiando il comando utilizzato per estrarre i dati con l'utility **[yq](https://stedolan.github.io/jq/)**, ci rendiamo conto che anche se scritta ovviamente in modo diverso, la query è sempre la stessa, il file *tema.xml* si trova il locale e la finstra *bash* è aperta direttamente nella cartella del file *tema.xml*
