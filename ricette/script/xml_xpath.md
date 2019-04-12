@@ -53,6 +53,7 @@ Formula per estrarre la colonna *label* (nome regione) del gruppo **category**
 =IMPORTXML("http://gbvitrano.it/clip/umap/tema.xml","//category/@value")
 ```
 Formula per estrarre la colonna *name* (id regione) del gruppo **category**
+
 ```
 =IMPORTXML("http://gbvitrano.it/clip/umap/tema.xml","//category/@symbol")
 ```
@@ -71,9 +72,21 @@ Utilizzando un'espressione un pò diversa si possono estrarre i dati ad file xml
 FILTRO.XML(documento XML; espressione XPath)
 ```
 
+**Documento XML** (richiesto): stringa contenente un flusso XML valido.
 
+**Espressione XPath** (richiesta): stringa contenente un'espressione XPath valida.
 
+```
+SERVIZIO.WEB(URI)
+```
+**URI**: il testo URI del servizio web, ottiene del contenuto web da un URI.
 
+Esempio per estrarre la colonna *name* (id regione) del gruppo **category**
+
+```
+FILTRO.XML(SERVIZIO.WEB("http://gbvitrano.it/clip/umap/tema.xml"); "//category/@symbol")
+
+```
 ## Utility yq
 Studiando il comando utilizzato da _[Andrea Borruso](https://twitter.com/aborruso?lang=it)_ per estrarre i dati con l'utility **[yq](https://stedolan.github.io/jq/)**, ci rendiamo conto che anche se scritta ovviamente in modo diverso, la query è sempre la stessa, il file *tema.xml* si trova il locale e la finstra *bash* è aperta direttamente nella cartella del file *tema.xml*
 
