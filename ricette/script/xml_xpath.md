@@ -67,7 +67,7 @@ alla fine si fa il JOIN con **[VLOOKUP](https://support.google.com/docs/answer/3
 
 ---
 
-## Soluzione Libreoffice Calc, Excel
+## Soluzione usando Libreoffice Calc, Excel
 Utilizzando la funzione **[FILTRO.XML](https://help.libreoffice.org/Calc/WEBSERVICE/it)**, che applica un'espressione XPath a un documento XML, si possono estrarre i dati ad file xml in **remoto** anche con LibreOffice Calc ed Excel.
 
 ```
