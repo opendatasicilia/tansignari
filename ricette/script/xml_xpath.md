@@ -17,7 +17,7 @@ File xml da cui estrarre i dati [tema.xml](http://gbvitrano.it/clip/umap/tema.xm
 
 ![](/img/xpath/sheet_01.jpg)
 
-Formula per estrarre la colonna *name* (id) del gruppo **symbol**
+Formula per estrarre la colonna *name* (id colore) del gruppo **symbol**
 
 ![](/img/xpath/xml_01.jpg)
 
