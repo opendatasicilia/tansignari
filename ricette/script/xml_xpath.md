@@ -66,7 +66,7 @@ Studiando il comando utilizzato per estrarre i dati con l'utility **[yq](https:/
 
 ---
 
-## Soluzioni usando [QGIS, yq, xmlstarlet, XPATH, Miller](https://tansignari.readthedocs.io/it/latest/ricette/script/Estrarre_dati_da_file_XML.html#utility-xmlstarlet-con-linguaggio-xpath)
+## Soluzione usando [QGIS, yq, xmlstarlet, XPATH, Miller](https://tansignari.readthedocs.io/it/latest/ricette/script/Estrarre_dati_da_file_XML.html#utility-xmlstarlet-con-linguaggio-xpath)
 
 * autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
 * issue: [#50](https://github.com/opendatasicilia/tansignari/issues/50) fornitore ricetta _[Andrea Borruso](https://twitter.com/aborruso?lang=it)
