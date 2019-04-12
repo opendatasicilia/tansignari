@@ -71,5 +71,6 @@ Studiando il comando utilizzato da _[Andrea Borruso](https://twitter.com/aborrus
 * autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
 * issue: [#50](https://github.com/opendatasicilia/tansignari/issues/50) fornitore ricetta _[Andrea Borruso](https://twitter.com/aborruso?lang=it)
 * ingredienti: [QGIS](https://qgis.org/it/site/), [yq](https://github.com/kislyuk/yq), [xmlstarlet](http://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html), [XPATH](https://www.w3schools.com/xml/xpath_intro.asp), [Miller](https://github.com/johnkerl/miller)
+* ricetta è raggiungibile [qui](http://tansignari.opendatasicilia.it/it/latest/ricette/script/Estrarre_dati_da_file_XML.html)
 
 
