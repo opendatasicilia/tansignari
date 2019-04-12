@@ -1,7 +1,7 @@
 # Estrarre dati da un file XML
 
 * autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
-* issue: [#50](https://github.com/opendatasicilia/tansignari/issues/50) fornitore ricetta _[Andrea Borruso](https://twitter.com/aborruso?lang=it)
+* issue: [#50](https://github.com/opendatasicilia/tansignari/issues/50) fornitore ricetta *[Andrea Borruso](https://twitter.com/aborruso?lang=it)*
 * ingredienti: [QGIS](https://qgis.org/it/site/), [yq](https://github.com/kislyuk/yq), [xmlstarlet](http://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html), [XPATH](https://www.w3schools.com/xml/xpath_intro.asp), [Miller](https://github.com/johnkerl/miller)
 
 ---
@@ -75,3 +75,10 @@ La ricetta è stata realizzata per un caso concreto utile nel mondo dei `gissari
 Per ottenere il file `tema.xml` da QGIS: tasto destro del mouse sul layer tematizzato *| Stili | Copia lo stile | Simbologia*; questo permette di copiare lo stile in memoria, quindi aprire un editor di testo ed incollare, salvare il file come tema.xml.
 
 il file `tema.xml` è scaricabile da [qui](https://github.com/opendatasicilia/tansignari/files/3055033/tema.zip)
+
+## Soluzione usando Google Sheet
+
+* autore: *[gbvitrano](https://twitter.com/gbvitrano)*
+* issue: [#50](https://github.com/opendatasicilia/tansignari/issues/50) fornitore ricetta *[Andrea Borruso](https://twitter.com/aborruso?lang=it)*
+* ingredienti: [QGIS](https://qgis.org/it/site/), Google Sheet, [XPATH](https://www.w3schools.com/xml/xpath_intro.asp)
+* ricetta è raggiungibile [qui](http://tansignari.opendatasicilia.it/it/latest/ricette/script/xml_xpath.html)
