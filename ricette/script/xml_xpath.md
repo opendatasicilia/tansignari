@@ -15,7 +15,7 @@ Il file [sheet](https://docs.google.com/spreadsheets/d/1tjXYrhP2nggPxML3Vay2Ycab
 In questo caso il file xml deve essere prima caricato in un server remoto e poi richiamato con la funzione [IMPORTXML](https://support.google.com/docs/answer/3093342?hl=it). <br>
 N. B.: Il server remoto può essere un semplice **server ftp** o anche un **repository Github**
 
-Ricordiamoci prima i caricare i dati, di settare le **[impostazioni del foglio di lavoro](https://support.google.com/docs/answer/58515?co=GENIE.Platform%3DDesktop&hl=it)**, dal menu File, nella scheda Generale selezionare **Regno Unito** per le Impostazioni internazionali e spuntare **Usa sempre nomi di funzioni inglesi**, nella scheda Calcolo selezionare **A ogni modifica** nelle impostazioni del Ricalcolo.
+Ricordiamoci prima i caricare i dati, di settare le **[impostazioni del foglio di lavoro](https://support.google.com/docs/answer/58515?co=GENIE.Platform%3DDesktop&hl=it)**, dal menu **File**, nella scheda *Generale* selezionare **Regno Unito** per le Impostazioni internazionali e spuntare **Usa sempre nomi di funzioni inglesi**, nella scheda *Calcolo* selezionare **A ogni modifica** nelle impostazioni del Ricalcolo.
 
 ![](/img/xpath/xml_00.jpg)
 
