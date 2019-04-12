@@ -21,11 +21,14 @@ Ricordiamoci prima i caricare i dati, di settare le **[impostazioni del foglio d
 
 File xml da cui estrarre i dati [tema.xml](http://gbvitrano.it/clip/umap/tema.xml) (server ftp)
 
-![](/img/xpath/sheet_01.jpg)
+Studiando la struttura del file xml si capisce quali espressione XPath occorrono per estrarre i dati di nostro interesse.
+Nel caso specifico dobbiamo estrarre i **Nomi delle Regioni** il **colore** utilizzato per la tematizzazione e i realativi **id**
+
+![](/img/xpath/xml_01.jpg)
 
 Formula per estrarre la colonna *name* (id colore) del gruppo **symbol**
 
-![](/img/xpath/xml_01.jpg)
+![](/img/xpath/sheet_01.jpg)
 
 ```
 =IMPORTXML("http://gbvitrano.it/clip/umap/tema.xml","//symbols/symbol/@name")
