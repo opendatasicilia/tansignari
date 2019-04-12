@@ -18,20 +18,21 @@ File xml da cui estrarre i dati [tema.xml](http://gbvitrano.it/clip/umap/tema.xm
 ![](/img/xpath/sheet_01.jpg)
 Formula per estrarre la colonna *name* (id) del gruppo **symbol**
 
+![](/img/xpath/xml_01.jpg)
+
 ```
 =IMPORTXML("http://gbvitrano.it/clip/umap/tema.xml","//symbols/symbol/@name")
 ```
 
-![](/img/xpath/xml_01.jpg)
-
 ![](/img/xpath/sheet_02.jpg)
+
 Formula per estrarre la colonna *colore* del gruppo **symbol**
+
+![](/img/xpath/xml_02.jpg)
 
 ```
 =IMPORTXML("http://gbvitrano.it/clip/umap/tema.xml","//symbols/symbol/layer/prop[@k='color']/@v")
 ```
-
-![](/img/xpath/xml_02.jpg)
 
 ![](/img/xpath/sheet_03.jpg)
 
