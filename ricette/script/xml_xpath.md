@@ -64,6 +64,8 @@ Studiando il comando utilizzato per estrarre i dati con l'utility **[yq](https:/
 <tema.xml xq -r '.qgis["renderer-v2"].categories.category[]|[.["@symbol"],.["@value"]]|@csv' >./idRegioni.csv
 ```
 
+---
+
 ## Soluzioni usando [QGIS, yq, xmlstarlet, XPATH, Miller](https://tansignari.readthedocs.io/it/latest/ricette/script/Estrarre_dati_da_file_XML.html#utility-xmlstarlet-con-linguaggio-xpath)
 
 * autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
