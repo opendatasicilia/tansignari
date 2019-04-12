@@ -66,21 +66,25 @@ alla fine si fa il JOIN con **[VLOOKUP](https://support.google.com/docs/answer/3
 ```
 
 ## Soluzione Libreoffice Calc, Excel
-Utilizzando un'espressione un pò diversa, si possono estrarre i dati ad file xml **remoto** anche con LibreOffice Calc ed Excel
+Utilizzando la funzione **[FILTRO.XML](https://help.libreoffice.org/Calc/WEBSERVICE/it)**, che applica un'espressione XPath a un documento XML, si possono estrarre i dati ad file xml in **remoto** anche con LibreOffice Calc ed Excel.
 
 ```
 FILTRO.XML(SERVIZIO.WEB(URI); espressione XPath)
 ```
-**SERVIZIO.WEB(URI)** ottiene del contenuto web da un URI.<br>
-**URI**: il testo URI del servizio web, ottiene del contenuto web da un URI.<br>
-**Espressione XPath** (richiesta): stringa contenente un'espressione XPath valida.<br>
+Dove:
+1. **SERVIZIO.WEB(URI)** ottiene del contenuto web da un URI.<br>
+2. **URI**: il testo URI del servizio web, ottiene del contenuto web da un URI.<br>
+3. **Espressione XPath** (richiesta): stringa contenente un'espressione XPath valida.<br>
+
 dalla guida di [libreoffice](https://help.libreoffice.org/Calc/WEBSERVICE/it)
 
-Esempio per estrarre la colonna *name* (id regione) del gruppo **category**
+**sempio** 
 
 ```
 FILTRO.XML(SERVIZIO.WEB("http://gbvitrano.it/clip/umap/tema.xml"); "//category/@symbol")
 ```
+Restituisce informazioni del valore *name* (id regione) del gruppo **category**
+
 ## Utility yq
 Studiando il comando utilizzato da _[Andrea Borruso](https://twitter.com/aborruso?lang=it)_ per estrarre i dati con l'utility **[yq](https://stedolan.github.io/jq/)**, ci rendiamo conto che anche se scritta ovviamente in modo diverso, la query è sempre la stessa, il file *tema.xml* si trova il locale e la finstra *bash* è aperta direttamente nella cartella del file *tema.xml*
 
