@@ -19,7 +19,9 @@ Ricordiamoci prima i caricare i dati, di settare le **[impostazioni del foglio d
 
 **N.B.** La sintassi della funzione [IMPORTXML](https://support.google.com/docs/answer/3093342?hl=it) dipende dalle impostazioni del **[impostazioni del foglio di lavoro](https://support.google.com/docs/answer/58515?co=GENIE.Platform%3DDesktop&hl=it)** 
 
-**Esempio**: in italiano il separatore degli argomenti della formula è il **;** in inglese è la **,**
+**Esempio**: 
+* in italiano il separatore degli argomenti della formula è il **;** (punto e virgola) 
+* in inglese è la **,** (virgola)
 
 Sintassi per foglio di lavoro in **Italiano**
 
