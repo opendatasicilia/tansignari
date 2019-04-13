@@ -34,11 +34,11 @@ Sintassi per foglio di lavoro in **Inglese**
 =IMPORTXML(url, query_xpath)
 ```
 Dove: <br>
-* url - L'URL della pagina da esaminare, incluso il protocollo (ad esempio http://).
+* **url** - L'URL della pagina da esaminare, incluso il protocollo (ad esempio http://).
 
 Il valore di url deve essere racchiuso tra virgolette o essere un riferimento a una cella che contiene il testo appropriato.
 
-* query_xpath - La query XPath da eseguire sui dati strutturati.
+* **query_xpath** - La query XPath da eseguire sui dati strutturati.
 
 **Esempio di utilizzo**
 
