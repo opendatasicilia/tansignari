@@ -52,7 +52,7 @@ Dove: <br>
 ![](/img/xpath/xml_00.jpg)
 
 Studiando la struttura del file xml si capisce quali espressioni [XPath](https://www.html.it/pag/31760/xpath/) occorrono per estrarre i dati di nostro interesse.
-Nel caso specifico dobbiamo estrarre i **Nomi delle Regioni** il **colore** utilizzato per la tematizzazione e i realativi **id**
+Nel caso specifico dobbiamo estrarre i **Nomi delle Regioni** il **colore** utilizzato per la tematizzazione e i relativi **id**
 
 ![](/img/xpath/xml_01.jpg)
 
