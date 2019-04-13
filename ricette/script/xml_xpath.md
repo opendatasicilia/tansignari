@@ -17,6 +17,34 @@ N. B.: Il server remoto può essere un semplice **[server ftp](https://it.wikipe
 
 Ricordiamoci prima i caricare i dati, di settare le **[impostazioni del foglio di lavoro](https://support.google.com/docs/answer/58515?co=GENIE.Platform%3DDesktop&hl=it)**, dal menu **File**, nella scheda *Generale* selezionare **Regno Unito** per le Impostazioni internazionali e spuntare **Usa sempre nomi di funzioni inglesi**, nella scheda *Calcolo* selezionare **A ogni modifica** nelle impostazioni del Ricalcolo.
 
+**N.B.** La sintassi della funzione [IMPORTXML](https://support.google.com/docs/answer/3093342?hl=it) dipende dalle impostazioni del **[impostazioni del foglio di lavoro](https://support.google.com/docs/answer/58515?co=GENIE.Platform%3DDesktop&hl=it)** 
+
+**Esempio**: in italiano il separatore degli argomenti della formula è il **;** in inglese è la **,**
+
+Sintassi per foglio di lavoro in **Italiano**
+
+```
+=IMPORTXML(url; query_xpath)
+```
+Sintassi per foglio di lavoro in **Inglese**
+
+```
+=IMPORTXML(url, query_xpath)
+```
+
+* url - L'URL della pagina da esaminare, incluso il protocollo (ad esempio http://).
+
+Il valore di url deve essere racchiuso tra virgolette o essere un riferimento a una cella che contiene il testo appropriato.
+
+* query_xpath - La query XPath da eseguire sui dati strutturati.
+
+**Esempio di utilizzo**
+
+```
+=IMPORTXML("http://gbvitrano.it/clip/umap/tema.xml","//category/@symbol")
+```
+
+
 ![](/img/xpath/xml_00.jpg)
 
 File xml da cui estrarre i dati [tema.xml](http://gbvitrano.it/clip/umap/tema.xml) (server ftp)
