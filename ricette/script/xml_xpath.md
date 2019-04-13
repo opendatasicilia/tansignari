@@ -43,11 +43,11 @@ Il valore di url deve essere racchiuso tra virgolette o essere un riferimento a 
 ```
 =IMPORTXML("http://gbvitrano.it/clip/umap/tema.xml","//category/@symbol")
 ```
-
-
-![](/img/xpath/xml_00.jpg)
+---
 
 File xml da cui estrarre i dati [tema.xml](http://gbvitrano.it/clip/umap/tema.xml) (server ftp)
+
+![](/img/xpath/xml_00.jpg)
 
 Studiando la struttura del file xml si capisce quali espressioni [XPath](https://www.html.it/pag/31760/xpath/) occorrono per estrarre i dati di nostro interesse.
 Nel caso specifico dobbiamo estrarre i **Nomi delle Regioni** il **colore** utilizzato per la tematizzazione e i realativi **id**
