@@ -35,10 +35,11 @@ Sintassi per foglio di lavoro in **Inglese**
 ```
 Dove: <br>
 * **url** - L'URL della pagina da esaminare, incluso il protocollo (ad esempio http://).
-
-Il valore di url deve essere racchiuso tra virgolette o essere un riferimento a una cella che contiene il testo appropriato.
+ * Il valore di url deve essere racchiuso tra virgolette o essere un riferimento a una cella che contiene il testo appropriato.
 
 * **query_xpath** - La query XPath da eseguire sui dati strutturati.
+ * Per ulteriori informazioni su XPath, consulta la pagina [w3schools.com/xml/xpath](http://www.w3schools.com/xml/xpath_intro.asp)
+
 
 **Esempio di utilizzo**
 
