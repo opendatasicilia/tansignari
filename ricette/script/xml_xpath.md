@@ -110,7 +110,7 @@ Dove:
 
 descrizioni tratte dalla guida di [libreoffice](https://help.libreoffice.org/Calc/WEBSERVICE/it)
 
-**Esempio** 
+**Esempio di utilizzo** 
 
 ```
 FILTRO.XML(SERVIZIO.WEB("http://gbvitrano.it/clip/umap/tema.xml"); "//category/@symbol")
