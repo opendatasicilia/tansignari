@@ -173,7 +173,7 @@ hr  {border: 0; height: 1px; background:  #330000; background-image: linear-grad
 /* immagine no bordo/ no ombra */
 .immagonobox {	max-width: 100%!important;    height: auto!important;	box-shadow: none !important; border: none !important;	border-radius:  none !important;	moz-border-radius: none !important; -webkit-border-radius: none !important;	background-color: transparent !important;	}
 
-.immagonobox_sx {margin-left: 0 !important;	max-width: 100%!important;    height: auto!important;	box-shadow: none !important; border: none !important;	border-radius:  none !important;	moz-border-radius: none !important; -webkit-border-radius: none !important;	background-color: transparent !important;	}
+.immagonobox_sx {margin-left: 0 !important;	max-width: 450px!important;    height: auto!important;	box-shadow: none !important; border: none !important;	border-radius:  none !important;	moz-border-radius: none !important; -webkit-border-radius: none !important;	background-color: transparent !important;	}
 
 /* aument altezza breadcrumbs */	
 /*	.wy-breadcrumbs {height: 50px;}*/	
