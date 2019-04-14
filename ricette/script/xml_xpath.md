@@ -94,6 +94,7 @@ alla fine si fa il JOIN con **[VLOOKUP](https://support.google.com/docs/answer/3
 ```
 =VLOOKUP(D2,A:B,2,FALSE)
 ```
+Ottenuto il file CSV/TSV e importato in QGIS, con un semplice JOIN (tra il layer di partenza e il file CSV/TSV  è possibile aggiungere la colonna ‘rgba‘ alla tabella attributi del layer tematizzato. La nuova colonna può essere utile per tematizzare il file utilizzando la sovrascrittura definita dai dati. ([Esempio](http://hfcqgis.opendatasicilia.it/it/latest/esempi/tematizzare.html))
 
 ---
 
