@@ -1,6 +1,6 @@
 # Parlano di noi
 
-data: 14-04-2019 - [Facebook - UnaQuantumInc](https://www.facebook.com/UnaQuantumInc/posts/1845312395573334)<br>
+data: 14-04-2019 - [Facebook - Una Quantum Inc](https://www.facebook.com/UnaQuantumInc/posts/1845312395573334)<br>
 data: 14-04-2019 - [Facebook](https://www.facebook.com/adbestias/posts/10216567451252080)
 
 <img  class="immagonobox_sx" src="https://raw.githubusercontent.com/opendatasicilia/tansignari/master/img/parlano_di_noi/img_03.png" Title="Giuseppe Guarino - Post Facebool" alt=""/></a>
