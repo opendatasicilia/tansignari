@@ -45,6 +45,8 @@ Dove: <br>
 ```
 =IMPORTXML("http://gbvitrano.it/clip/umap/tema.xml","//category/@symbol")
 ```
+Restituisce informazioni del valore *name* (id regione) del gruppo **category**
+
 ---
 
 **URL** della pagina da esaminare per l'esempio: [tema.xml](http://gbvitrano.it/clip/umap/tema.xml) (server ftp)
