@@ -17,3 +17,8 @@ per chi usasse VS Code installare plugin Markdown TOC
 corpo ricetta 
 
 per le immagini creare una cartella all'interno della cartella `img`
+
+## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
+
+- elenco puntato con link1
+- elenco puntato con link2
