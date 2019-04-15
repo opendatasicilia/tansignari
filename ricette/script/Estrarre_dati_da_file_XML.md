@@ -82,3 +82,11 @@ il file `tema.xml` è scaricabile da [qui](https://github.com/opendatasicilia/ta
 * issue: [#50](https://github.com/opendatasicilia/tansignari/issues/50) fornitore ricetta *[Andrea Borruso](https://twitter.com/aborruso?lang=it)*
 * ingredienti: [QGIS](https://qgis.org/it/site/), Google Sheet, [XPATH](https://www.w3schools.com/xml/xpath_intro.asp)
 * ricetta è raggiungibile [qui](http://tansignari.opendatasicilia.it/it/latest/ricette/script/xml_xpath.html)
+
+---
+
+## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
+
+- "[QGIS popolare un campo della tabella attributi con i colori dello stile categorizzato usato](https://pigrecoinfinito.wordpress.com/2019/04/11/qgis-popolare-un-campo-della-tabella-attributi-con-i-colori-dello-stile-categorizzato-usato/?fbclid=IwAR3vwe7zlO3BGcIQvBkg8cMUqwImyKMhNz6GOcdU1yRD7j4WjNS_dssuuGA)", di Salvatore Fiandaca;
+- "[Estrarre dati da un file XML con Google sheet e XPath](https://medium.com/coseerobe/estrarre-dati-da-un-file-xml-con-google-sheet-e-xpath-b9e56be403)", di Gian Battista Vitrano;
+- "[QGIS — Creare una Legenda categorizzata a partire da un campo della tabella attributi con codice colore](https://medium.com/@ivano.giuliano/qgis-creare-una-legenda-categorizzata-a-partire-da-un-campo-della-tabella-attributi-con-codice-10e4c4ca8b21)", di Ivano Giuliano.
