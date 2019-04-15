@@ -18,6 +18,8 @@ corpo ricetta
 
 per le immagini creare una cartella all'interno della cartella `img`
 
+---
+
 ## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
 
 - elenco puntato con link1
