@@ -89,3 +89,4 @@ il file `tema.xml` è scaricabile da [qui](https://github.com/opendatasicilia/ta
 
 - "[QGIS popolare un campo della tabella attributi con i colori dello stile categorizzato usato](https://pigrecoinfinito.wordpress.com/2019/04/11/qgis-popolare-un-campo-della-tabella-attributi-con-i-colori-dello-stile-categorizzato-usato/?fbclid=IwAR3vwe7zlO3BGcIQvBkg8cMUqwImyKMhNz6GOcdU1yRD7j4WjNS_dssuuGA)", di Salvatore Fiandaca;
 - "[Estrarre dati da un file XML con Google sheet e XPath](https://medium.com/coseerobe/estrarre-dati-da-un-file-xml-con-google-sheet-e-xpath-b9e56be403)", di Giovan Battista Vitrano.
+- "[QGIS (RI)CREARE LA LEGENDA A PARTIRE DAL COLORE RGBA PRESENTE NELLA TABELLA ATTRIBUTI](https://pigrecoinfinito.wordpress.com/2019/04/16/qgis-ricreare-la-legenda-a-partire-dal-colore-rgba-presente-nella-tabella-attributi/), di Salvatore Fiandaca;
