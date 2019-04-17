@@ -6,6 +6,20 @@
 
 ---
 
+<!-- TOC -->
+
+- [Estrarre dati da un file XML](#estrarre-dati-da-un-file-xml)
+  - [script bash](#script-bash)
+    - [utility yq](#utility-yq)
+    - [utility xmlstarlet con linguaggio XPATH](#utility-xmlstarlet-con-linguaggio-xpath)
+  - [Osservazioni](#osservazioni)
+  - [Soluzione usando Google Sheet](#soluzione-usando-google-sheet)
+  - [Chi ha cucinato questa ricetta o ne ha tratto ispirazione](#chi-ha-cucinato-questa-ricetta-o-ne-ha-tratto-ispirazione)
+
+<!-- /TOC -->
+
+---
+
 **Caso d'uso:** il file di tematizzazione di un layer (in [QGIS](https://qgis.org/it/site/)) è un file [XML](https://it.wikipedia.org/wiki/XML), alcune volte è necessario reperire i codici colore (in [rgba](https://it.wikipedia.org/wiki/RGBA)) direttamente dal file di tematizzazione: questa ricetta estrae i codici colori utilizzati e crea una tabella, in [CSV](https://it.wikipedia.org/wiki/Comma-separated_values), pronta per essere utilizzata in QGIS e messa in join con il layer in esame.
 
 ## script bash

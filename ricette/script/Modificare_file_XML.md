@@ -6,6 +6,19 @@
 
 ---
 
+<!-- TOC -->
+
+- [Modificare un file XML](#modificare-un-file-xml)
+  - [script](#script)
+    - [Python](#python)
+    - [utility xmlstarlet con linguaggio XPATH](#utility-xmlstarlet-con-linguaggio-xpath)
+  - [Osservazioni](#osservazioni)
+  - [Chi ha cucinato questa ricetta o ne ha tratto ispirazione](#chi-ha-cucinato-questa-ricetta-o-ne-ha-tratto-ispirazione)
+
+<!-- /TOC -->
+
+---
+
 **Caso d'uso:** Partendo da un file XML la cui struttura è quella di un file **QML** (proveniente dalla tematizzazione - metodo categorizzato - di un layer vettoriale in QGIS) sostituire/modificare alcuni valori presenti nel file.
 
 ## script
