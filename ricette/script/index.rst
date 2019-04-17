@@ -13,3 +13,4 @@ Script
    Append_tra_due_database_SQLite
    Estrarre_dati_da_file_XML
    Registrare una geometria 2D in 3D con cambio di EPSG
+   Modificare_file_XML
