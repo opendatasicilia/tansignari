@@ -14,4 +14,4 @@ Script
    Estrarre_dati_da_file_XML
    Registrare una geometria 2D in 3D con cambio di EPSG
    Modificare_file_XML
-   Join tra file testuali usando Miller
+   Join_tra_file_testuali_usando_Miller
