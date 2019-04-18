@@ -15,4 +15,4 @@ E poi:
 
 ## Ricette
 
-Le stiamo raccogliendo in [questa cartella](./ricette) e pubblicanto [**qui**](https://tansignari.readthedocs.io/it/latest/ricette/index.html). Inserisce le tue qui. Se non sai come si fa, chiedilo con una _issue_; non appena possibile scriveremo una guida.
+Le stiamo raccogliendo in [questa cartella](./ricette) e pubblicando [**qui**](https://tansignari.readthedocs.io/it/latest/ricette/index.html). Inserisce le tue qui. Se non sai come si fa, chiedilo con una _issue_; non appena possibile scriveremo una guida.
