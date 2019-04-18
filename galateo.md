@@ -1,6 +1,6 @@
 # Il galateo di questo spazio
 
-Per questo spazio ci è stato di ispirazione il **rapporto** tra un **nonno** e un **nipote**. Quindi di base faremo riferimento a quel modo di essere e di interrelazionarsi, che conoscono (quasi) tutti quelli che hanno avuto l'opportunità di avere una nonna e un nonno.
+Per questo spazio ci è stato di ispirazione il **rapporto** tra un **nonna/o** e un/a **nipote**. Quindi di base faremo riferimento a quel modo di essere e di interrelazionarsi, che conoscono (quasi) tutti quelli che hanno avuto l'opportunità di avere una nonna e un nonno.
 
 E poi:
 
