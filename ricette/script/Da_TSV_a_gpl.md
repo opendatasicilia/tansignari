@@ -24,7 +24,7 @@
     - [output](#output-4)
   - [creare un solo campo](#creare-un-solo-campo)
     - [output](#output-5)
-- [script unico](#script-unico)
+  - [script unico](#script-unico)
     - [output](#output-6)
   - [Dati](#dati)
 
@@ -385,7 +385,7 @@ Columns: 4
  34	233	131	Veneto	 34 233 131
  ```
 
-# script unico
+## script unico
 
 ```
 #!/bin/bash
