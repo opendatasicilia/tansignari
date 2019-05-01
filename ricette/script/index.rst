@@ -16,3 +16,4 @@ Script
    Modificare_file_XML
    Join_tra_file_testuali_usando_Miller
    Da_TSV_a_gpl
+   Capoluoghi_di_provincia
