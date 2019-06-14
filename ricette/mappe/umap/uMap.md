@@ -31,7 +31,7 @@ Risultato finale, il file/layer originale, è stato suddivido in 5 nuovi file, o
 *devo tematizzare singolarmente ogni poligono...?*
 
 ## Come tematizzare velocemente i poligoni
-Studiando la struttura di [uMap](http://umap.openstreetmap.fr/it/) mi sono reso conto che [uMap](http://umap.openstreetmap.fr/it/) aggiunge una o più colonne al file viene importato, nello specifico per tematizzare i poligoni viene aggiunta la colonna _umap_options, (nella vecchia versione la colonna si chiamava _storage_options).
+Studiando la struttura del file **geojson** di [uMap](http://umap.openstreetmap.fr/it/) mi sono reso conto che [uMap](http://umap.openstreetmap.fr/it/) aggiunge una o più colonne al file viene importato, nello specifico per tematizzare i poligoni viene aggiunta la colonna _umap_options, (nella vecchia versione la colonna si chiamava _storage_options).
 
 In questa colonna vengono scritte tutte le info che riguardano le proprietà del poligono, colore, trasparenza, spessore delle linee, ect… che tradotto in codice json si scrive così:
 
