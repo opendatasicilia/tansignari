@@ -26,6 +26,9 @@
 
 Scarica intero archivio `231601`
 
+<p align="center"> <a href="https://www.istat.it/it/archivio/231601" target="_blank"><img src="./imgs/istat_storico.png" width="600" title="ISTAT"></a>
+</p>
+
 ```bash
 # scarica la pagina
 curl "https://www.istat.it/it/archivio/231601" | \
@@ -39,7 +42,10 @@ xargs -I _ wget _
 
 ### CONFINI DELLE UNITÀ AMMINISTRATIVE A FINI STATISTICI: RECENTI
 
-Scarica intero archivio `222527` generalizzato
+Scarica intero archivio `222527` versione generalizzata (meno vertici)
+
+<p align="center"> <a href="https://www.istat.it/it/archivio/222527" target="_blank"><img src="./imgs/istat_recente.png" width="600" title="ISTAT"></a>
+</p>
 
 ```bash
 # scarica la pagina
