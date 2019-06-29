@@ -11,4 +11,5 @@ Indice delle ricette
   regex/index
   riga_comando/index
   script/index
+  scraping/index
   mappe/index
