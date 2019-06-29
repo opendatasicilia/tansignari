@@ -10,8 +10,8 @@
 
 - [Scraping archivio storico dataset ISTAT](#Scraping-archivio-storico-dataset-ISTAT)
   - [In Bash](#In-Bash)
-    - [CONFINI STATISTICO-AMMINISTRATIVI: ANALISI STORICA](#CONFINI-STATISTICO-AMMINISTRATIVI-ANALISI-STORICA)
-    - [CONFINI DELLE UNITÀ AMMINISTRATIVE A FINI STATISTICI: RECENTI](#CONFINI-DELLE-UNIT%C3%80-AMMINISTRATIVE-A-FINI-STATISTICI-RECENTI)
+    - [CONFINI STATISTICO-AMMINISTRATIVI: ANALISI STORICA](#confini-statistico-amministrativi-analisi-storica)
+    - [CONFINI DELLE UNITÀ AMMINISTRATIVE A FINI STATISTICI: RECENTI](#confini-delle-unita-amministrative-a-fini-statistici-recenti)
 
 <!-- /TOC -->
 
