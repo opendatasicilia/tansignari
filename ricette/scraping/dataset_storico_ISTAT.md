@@ -12,7 +12,6 @@
   - [In Bash](#In-Bash)
     - [CONFINI STATISTICO-AMMINISTRATIVI: ANALISI STORICA](#CONFINI-STATISTICO-AMMINISTRATIVI-ANALISI-STORICA)
     - [CONFINI DELLE UNITÀ AMMINISTRATIVE A FINI STATISTICI: RECENTI](#CONFINI-DELLE-UNIT%C3%80-AMMINISTRATIVE-A-FINI-STATISTICI-RECENTI)
-  - [Chi ha cucinato questa ricetta o ne ha tratto ispirazione](#Chi-ha-cucinato-questa-ricetta-o-ne-ha-tratto-ispirazione)
 
 <!-- /TOC -->
 
@@ -62,6 +61,4 @@ xargs -I _ wget _
 
 ---
 
-## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
-
-- [tweet](https://twitter.com/napo/status/1144583972422373377) by [@napo](https://twitter.com/napo)
+Ispirato da questo [tweet](https://twitter.com/napo/status/1144583972422373377) by [@napo](https://twitter.com/napo)
