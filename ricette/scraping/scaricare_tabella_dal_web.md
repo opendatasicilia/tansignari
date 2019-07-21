@@ -51,11 +51,11 @@ scrape -be '//table[contains(@class, 'ip')]' | vd -f html
 - `scrape -be` gratta dalla pagina appena scaricata tutte le tabelle _(table)_ la cui classe _(@class)_ contiene `ip`
 - `vd -f html` apro l'elenco delle tabelle html con VisiData
 
-![scrape](./imgs/scrape_01.png)
+![scrape1](./imgs/scrape_01.png)
 
 ### visualizzo solo la tabella con intestazione EUROPA
 
-![scrape](./imgs/scrape_00.png)
+![scrape0](./imgs/scrape_00.png)
 
 ```bash
 curl -L "https://www.tuttitalia.it/statistiche/cittadini-stranieri-2018/" | \
@@ -70,7 +70,7 @@ vd -f html
 
 ottenendo:
 
-![scrape](./imgs/scrape_02.png)
+![scrape2](./imgs/scrape_02.png)
 
 per visualizzare la tabella premere `invio`
 
