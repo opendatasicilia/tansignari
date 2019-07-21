@@ -17,7 +17,7 @@
 
 ---
 
-**Caso d'uso:** Creare un dataset che rappresenti i Capoluoghi di provincia italiani in forma puntuale
+**Caso d'uso:** Creare un dataset che rappresenti i Capoluoghi di provincia italiani in forma puntuale.
 
 ## geonames
 
