@@ -1,7 +1,7 @@
 # Scraping tabella da sito web con molte tabelle html
 
 * autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
-* issue: [#79](https://github.com/opendatasicilia/tansignari/issues/79) fornitore ricetta *[Andrea Borruso](https://twitter.com/aborruso?lang=it)*
+* issue: [#79](https://github.com/opendatasicilia/tansignari/issues/79) fornitore ricetta *[Andrea Borruso](https://twitter.com/aborruso?lang=it)* e *[gbvitrano](https://twitter.com/gbvitrano)*
 * ingredienti: [scrape](https://github.com/aborruso/scrape-cli), [XPATH](https://it.wikipedia.org/wiki/XPath), [VisiData](http://visidata.org/man/)
 
 ---
@@ -24,6 +24,8 @@
 
 ### scarico tutte le tabelle dal sito web
 
+- sito web: https://www.tuttitalia.it/statistiche/cittadini-stranieri-2018/
+
 ```bash
 curl -L "https://www.tuttitalia.it/statistiche/cittadini-stranieri-2018/" | \
 scrape -be '//table[contains(@class, 'ip')]' >tabelle.html
@@ -39,6 +41,8 @@ scrape -be '//table[contains(@class, 'ip')]' | vd -f html
 ![scrape](./imgs/scrape_01.png)
 
 ### visualizzo solo la tabella con intestazione EUROPA
+
+![scrape](./imgs/scrape_00.png)
 
 ```bash
 curl -L "https://www.tuttitalia.it/statistiche/cittadini-stranieri-2018/" | \
@@ -69,3 +73,5 @@ per visualizzare la tabella premere `invio`
 +----------------------+-------------------------+---------+---------+-----------+--------+
 ```
 ---
+
+Per maggiori dettagli leggere Issue correlata [#79](https://github.com/opendatasicilia/tansignari/issues/79)
