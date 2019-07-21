@@ -11,8 +11,11 @@
 - [Scraping tabella da sito web con molte tabelle html](#Scraping-tabella-da-sito-web-con-molte-tabelle-html)
   - [In Bash](#In-Bash)
     - [scarico tutte le tabelle dal sito web](#scarico-tutte-le-tabelle-dal-sito-web)
+      - [dove:](#dove)
     - [visualizzo tutte le tabelle con VisiData](#visualizzo-tutte-le-tabelle-con-VisiData)
+      - [dove:](#dove-1)
     - [visualizzo solo la tabella con intestazione EUROPA](#visualizzo-solo-la-tabella-con-intestazione-EUROPA)
+      - [dove:](#dove-2)
 
 <!-- /TOC -->
 
@@ -30,6 +33,11 @@
 curl -L "https://www.tuttitalia.it/statistiche/cittadini-stranieri-2018/" | \
 scrape -be '//table[contains(@class, 'ip')]' >tabelle.html
 ```
+#### dove:
+- `curl -L` scarica la pagina html
+- `scrape -be` gratta dalla pagina appena scaricata tutte le tabelle _(table)_ la cui classe _(@class)_ contiene `ip`
+- `>tabelle.html` salvo in formato html
+
 
 ### visualizzo tutte le tabelle con VisiData
 
@@ -37,6 +45,11 @@ scrape -be '//table[contains(@class, 'ip')]' >tabelle.html
 curl -L "https://www.tuttitalia.it/statistiche/cittadini-stranieri-2018/" | \
 scrape -be '//table[contains(@class, 'ip')]' | vd -f html
 ```
+
+#### dove:
+- `curl -L` scarica la pagina html
+- `scrape -be` gratta dalla pagina appena scaricata tutte le tabelle _(table)_ la cui classe _(@class)_ contiene `ip`
+- `vd -f html` apro l'elenco delle tabelle html con VisiData
 
 ![scrape](./imgs/scrape_01.png)
 
@@ -49,6 +62,11 @@ curl -L "https://www.tuttitalia.it/statistiche/cittadini-stranieri-2018/" | \
 scrape -be '//table[.//th/b[contains(., "EUROPA")]]' | \
 vd -f html
 ```
+
+#### dove:
+- `curl -L` scarica la pagina html
+- `scrape -be` gratta dalla pagina appena scaricata la tabella _(table)_ la cui intestazione _(th/b)_ contiene `EUROPA`
+- `vd -f html` apro l'elenco delle tabelle html con VisiData
 
 ottenendo:
 
