@@ -2,7 +2,7 @@
 
 * autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_
 * issue: [#84](https://github.com/opendatasicilia/tansignari/issues/84) fornitore ricetta *[Andrea Borruso](https://twitter.com/aborruso?lang=it)* e *[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)*
-* ingredienti: [curl](https://curl.haxx.se/), [GDAL/OGR](https://gdal.org/programs/ogr2ogr.html)
+* ingredienti: [curl](https://curl.haxx.se/), [GDAL/OGR](https://gdal.org/programs/ogr2ogr.html), [7z](https://manpages.debian.org/jessie/p7zip-full/7za.1.en.html)
 
 ---
 
@@ -66,13 +66,13 @@ do
   #unisco (merge) i file kml
 	ogr2ogr -f KML -update -append merged.kml ./"$filename".kml -nln merged
 done;
-
+#☺cancello tutti i file kml inutili
 rm ./toto*.kml
 ```
 
 #### osservazioni
 
-Il file KMZ è il formato zippato del file KML; un metodo per ottenere KML da KMZ è un-zipparlo (`7z e ./$i`) ma questa procedura crea un file `doc.kml` (è una convenzione), quindi occorre rinominarlo (`mv ./doc.kml ./"$filename".kml `).
+Il file **KMZ** è il formato zippato del file **KML**; un metodo per ottenere KML da KMZ è un-zipparlo (`7z e ./$i`) ma questa procedura crea un file `doc.kml` (è una convenzione), quindi occorre rinominarlo (`mv ./doc.kml ./"$filename".kml `).
 
 ### scarico e unisco in un unico loop
 
