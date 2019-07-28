@@ -17,3 +17,4 @@ Script
    Join_tra_file_testuali_usando_Miller
    Da_TSV_a_gpl
    Capoluoghi_di_provincia
+   Scaricare_kmz_in_loop_server_arcgis
