@@ -66,13 +66,13 @@ do
   #unisco (merge) i file kml
 	ogr2ogr -f KML -update -append merged.kml ./"$filename".kml -nln merged
 done;
-#☺cancello tutti i file kml inutili
+#cancello tutti i file kml inutili
 rm ./toto*.kml
 ```
 
 #### osservazioni
 
-Il file **KMZ** è il formato zippato del file **KML**; un metodo per ottenere KML da KMZ è un-zipparlo (`7z e ./$i`) ma questa procedura crea un file `doc.kml` (è una convenzione), quindi occorre rinominarlo (`mv ./doc.kml ./"$filename".kml `).
+Il file **KMZ** è il formato zippato del file **KML**; un metodo per ottenere **KML** da **KMZ** è un-zipparlo (`7z e ./$i`) ma questa procedura crea un file `doc.kml` (è una convenzione), quindi occorre rinominarlo (`mv ./doc.kml ./"$filename".kml `).
 
 ### scarico e unisco in un unico loop
 
