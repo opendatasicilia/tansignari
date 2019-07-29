@@ -11,3 +11,4 @@ Prendendo spunto dalla domanda posta da [Piersof](https://twitter.com/Piersoft) 
 
 ho fatto un qualche prova veloce, utilizzando sempre il famoso campo  **_umap_options**
 
+
