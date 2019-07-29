@@ -12,7 +12,7 @@ Prendendo spunto dalla domanda posta da [Piersoft](https://twitter.com/Piersoft)
 ho fatto un qualche prova veloce, utilizzando sempre il famoso campo  **_umap_options**
 
 ## Tematizzare un punto 
-Usando il campo  **_umap_options** possiamo usare il seguente codice:
+Usando il campo  **_umap_options** che aggiungiamo al nostro db possiamo usare il seguente codice:
 
 ```
 { "color": "Blue", "iconClass": "Default", "iconUrl": "http:\/\/gbvitrano.it\/clip\/umap\/accessible_beach_white.png" }
