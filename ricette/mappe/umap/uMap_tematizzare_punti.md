@@ -25,3 +25,11 @@ I **valori** sono a titolo di esempio e vanno adattati alle proprie esigenze.
 
 - **iconClass": "Default"**  per l'icona classica quadrata
 - **"iconClass": "Drop"** per l'icona a goccia
+
+Ma [Piersoft](https://twitter.com/Piersoft) cerca come prima opzione di usare il testo di un campo del suo db, in questo caso basta sostituire **iconUrl** invece di far caricare un'immagine interna o esterna ad [Umap](http://umap.openstreetmap.fr/it/) facciamo caricare un campo del db
+
+```
+{ "color": "Blue", "iconClass": "Drop", "iconUrl": "{id}" }
+```
+dove il campo **{id}** delnostro db sostituisce **url**
+
