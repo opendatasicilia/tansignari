@@ -26,14 +26,17 @@ I **valori** sono a titolo di esempio e vanno adattati alle proprie esigenze.
 - **iconClass": "Default"**  per l'icona classica quadrata
 - **"iconClass": "Drop"** per l'icona a goccia
 
-Ma [Piersoft](https://twitter.com/Piersoft) cerca come prima opzione di usare il testo di un campo del suo db, in questo caso basta sostituire **iconUrl** invece di far caricare un'immagine interna o esterna ad [Umap](http://umap.openstreetmap.fr/it/) facciamo caricare un campo del db
+Ma [Piersoft](https://twitter.com/Piersoft) cerca come prima opzione di usare il testo di un campo del suo db, in questo caso basta sostituire **iconUrl** invece di far caricare un'immagine interna o esterna ad [Umap](http://umap.openstreetmap.fr/it/) facciamo caricare un **campo** del db
 
 ```
 { "color": "Blue", "iconClass": "Drop", "iconUrl": "{id}" }
 ```
-dove il campo **{id}** delnostro db sostituisce **url**
+dove il campo **{id}** del nostro db sostituisce **url**
 
 ## Esempio
+Creiamo un nuovo layer temporaneo, aggiungiamo il campo **_umap_options** e il campo **{id}** con i dati da mostrare nel marker di [Umap](http://umap.openstreetmap.fr/it/)
+
+NB: il mio campo **{id}** deve essere sostituito dal campo con i valori da mostrare del vostro db
 
 ![](/img/uMap/qgis_test.png)
 
