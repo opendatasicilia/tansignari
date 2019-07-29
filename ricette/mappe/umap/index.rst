@@ -10,6 +10,7 @@ Umap
    :maxdepth: 3
    
    uMap
+   uMap_tematizzare_punti
    
    
    
