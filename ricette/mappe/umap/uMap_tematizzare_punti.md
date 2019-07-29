@@ -33,3 +33,14 @@ Ma [Piersoft](https://twitter.com/Piersoft) cerca come prima opzione di usare il
 ```
 dove il campo **{id}** delnostro db sostituisce **url**
 
+## Esempio
+
+![](/img/uMap/qgis_test.png)
+
+Esportiamo il [geojson](https://it.wikipedia.org/wiki/GeoJSON) da [QGIS](https://www.qgis.org/it/site/) e lo importiamo in [Umap](http://umap.openstreetmap.fr/it/) come si vede dall'immagine il valore del campo **{id}** è esposto nel marker 
+
+![](/img/uMap/test_umap_punti.png)
+
+
+
+
