@@ -41,4 +41,4 @@ Esportiamo il [geojson](https://it.wikipedia.org/wiki/GeoJSON) da [QGIS](https:/
 
 ![](/img/uMap/test_umap_punti.png)
 
-![](/img/uMap/umap_punti_dettaglio.jpg)
+![](/img/uMap/umap_punti_dettaglio2.jpg)
