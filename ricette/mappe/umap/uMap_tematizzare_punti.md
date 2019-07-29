@@ -47,3 +47,5 @@ Esportiamo il [geojson](https://it.wikipedia.org/wiki/GeoJSON) da [QGIS](https:/
 in dettaglio 
 
 ![](/img/uMap/umap_punti_dettaglio2.jpg)
+
+**N.B. questo metodo funziona solo con file geojson, non funziona con file csv o google sheet**
