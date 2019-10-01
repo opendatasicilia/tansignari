@@ -23,7 +23,7 @@ Con la sintassi di base...
 
 ... otteniamo questo risultato 
 
-![2019-08-29_11h20_29](https://user-images.githubusercontent.com/20488693/63928050-32803180-ca4f-11e9-84ea-56568ff8decb.png)
+![](https://user-images.githubusercontent.com/20488693/63928050-32803180-ca4f-11e9-84ea-56568ff8decb.png)
 
 Per far caricare correttamente il file occorre specificare nella formula che il separatore di campo è **semicolon** (**;**)
 
@@ -37,7 +37,7 @@ Qui la nuova sintassi della formula:
 
  Ps. Impostazioni internazionali: **Regno Unito** e *usate sempre nomi di funzioni inglesi* **fleggato**
 
-![2019-08-29_12h28_53](https://user-images.githubusercontent.com/20488693/63932951-91967400-ca58-11e9-9185-5914cfcbe341.png)
+![](https://user-images.githubusercontent.com/20488693/63932951-91967400-ca58-11e9-9185-5914cfcbe341.png)
 
 ### Con Impostazioni internazionali: Italia
 
