@@ -46,3 +46,6 @@ Qui la nuova sintassi della formula:
 `=IMPORTDATA("https://opendata.comune.palermo.it/ws.php?id=1907&fmt=csv"; ";")`
 
 Fatto... :-)
+
+Ps: con la stessa logica si possono importare file con altri tipi di separatori.
+
