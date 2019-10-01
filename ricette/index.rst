@@ -4,6 +4,7 @@ Indice delle ricette
 .. toctree::
   :maxdepth: 2
   
+  csv/index
   feedrss/index
   geocoder/index
   opendatakit/index
