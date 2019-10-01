@@ -35,7 +35,7 @@ Qui la nuova sintassi della formula:
 
 ![2019-08-29_11h27_46](https://user-images.githubusercontent.com/20488693/63928548-074a1200-ca50-11e9-8043-ef01818d5b9e.png)
 
- Ps. Impostazioni internazionali: **Regno Unito** e Usa sempre nomi di funzioni inglesi **fleggato**
+ Ps. Impostazioni internazionali: **Regno Unito** e usate sempre *nomi di funzioni inglesi* **fleggato**
 
 ![2019-08-29_12h28_53](https://user-images.githubusercontent.com/20488693/63932951-91967400-ca58-11e9-9185-5914cfcbe341.png)
 
