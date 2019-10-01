@@ -33,7 +33,7 @@ Qui la nuova sintassi della formula:
 
 `=IMPORTDATA("https://opendata.comune.palermo.it/ws.php?id=1905&fmt=csv", ";")`
 
-![2019-08-29_11h27_46](https://user-images.githubusercontent.com/20488693/63928548-074a1200-ca50-11e9-8043-ef01818d5b9e.png)
+![](https://user-images.githubusercontent.com/20488693/63928548-074a1200-ca50-11e9-8043-ef01818d5b9e.png)
 
  Ps. Impostazioni internazionali: **Regno Unito** e *usate sempre nomi di funzioni inglesi* **fleggato**
 
