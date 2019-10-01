@@ -47,5 +47,7 @@ Qui la nuova sintassi della formula:
 
 Fatto... :-)
 
+Nella [documentazione ufficle](https://support.google.com/docs/answer/3093335?hl=it) non è riportata alcuna informazione sull'argomento.
+
 Ps: con la stessa logica si possono importare file con altri tipi di separatori.
 
