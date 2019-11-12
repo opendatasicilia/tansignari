@@ -29,3 +29,5 @@ Per personalizzare la `wt` (windows terminal) occorre modificare il file `profil
 - per lanciare il terminale da una qualsiasi cartella windows, occorre impostare `"startingDirectory" : null`, ecco un esempio:
 
 ![gif](./imgs/wt_ok.gif)
+
+Issue correlata [#94](https://github.com/opendatasicilia/tansignari/issues/94)
