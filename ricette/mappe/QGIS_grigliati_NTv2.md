@@ -14,7 +14,7 @@ Grazie all’Ing. [`Ernesto Sferlazza`](http://osgeo-org.1560.x6.nabble.com/grig
 
 ---
 
-## Come integrarlo in QGIS
+## Come integrarlo in QGIS 3.10
 
 Scaricato l’archivio `*.gsb` e incollarlo nella sotto-cartella dell’installazione di **QGIS**, in particolare per chi usa:
 
@@ -40,6 +40,33 @@ NULL,
 NULL,NULL,NULL,NULL,NULL,NULL,NULL,0);
 ```
 Il grigliato `ItalyRome40ToWGS84_NTV2_GN.gsb` viene utilizzato automaticamente in **QGIS 3.10.1** senza ulteriori necessità di impostare alcuna _Default Datum Trasformation_.
+
+## Come integrarlo in QGIS 3.4.14
+
+Scaricato l’archivio `*.gsb` e incollarlo nella sotto-cartella dell’installazione di **QGIS**, in particolare per chi usa:
+
+- **OSGeo4W Network Installer (64 bit)**: `C:\OSGeo4W64\share\proj`
+- **Standalone (64 bit)**: `C:\Program Files\QGIS 3.10\share\proj`
+
+Successivamente occorre aggiungere una riga al database di QGIS che gestisce i CRS, in particolare al db che si trova qui: ‪`C:\OSGeo4W64\apps\qgis-ltr\resources\srs.db` (per la standalone `C:\Program Files\qgis-ltr\resources\srs.db`)
+
+quindi aprire il db con **SpatiaLite_gui** e usare:
+
+```sql
+INSERT INTO "tbl_datum_transform"
+VALUES(NULL,NULL,4265,4258,9615,'ItalyRome40ToWGS84_NTV2_GN.gsb',NULL,NULL,NULL,NULL,NULL,NULL,'Crea
+una griglia di scostamenti (grid shift) nel formato NTv2 per proiettare "al
+volo" temi geografici dal sistema di coordinate geografiche ROMA40 (o Monte
+Mario, che è lo stesso, ma occorre creare due differenti trasformazioni, una
+per i temi dichiaratamente Monte Mario ed una per quelli per i quali sia
+stato dichiarato il sistema ROMA40) al sistema WGS84 per tutto il territorio
+siciliano, isole minori comprese ',NULL,1,0,NULL);
+```
+
+lasciare **NULL** il campo `epsg_nr`, il campo `coord_op_code` verrà valorizzato automaticamente, inserire il valore `4265` (è il codice epsg del GCRS Monte Mario) nel campo `source_crs_code`, il valore `4258` (è il codice epsg del GCRS ETRS89) nel campo `target_crs_code`, il valore `9615` (è il codice che identifica le trasformazioni NTv2) nel campo `coord_op_method_code` e il nome del file del grigliato NTv2 nel campo `p1`.
+
+A questo punto in **QGIS**, nel tuo progetto, dal menu `Project→Properties→CRS`, nel riquadro `Datum Transformations`, aggiungi una nuova trasformazione di datum, impostando come `Source CRS` il crs `EPSG:3004` - Monte Mario / Italy 2, come `Destination CRS` il crs `EPSG:25833` - ETRS89 / UTM zone 33N, scegliendo come trasformazione da usare quella che contiene la stringa "`+nadgrids=`" con il nome del file del grigliato NTv2.
+
 
 ## RINGRAZIAMENTI
 
