@@ -1,4 +1,4 @@
-# QGIS e i grigliati NTv2 per la Sicilia
+# QGIS e i grigliati NTv2 per l'Italia
 
 - issue correlata: [#100](https://github.com/opendatasicilia/tansignari/issues/100)
 - autore: [Totò Fiandaca](https://twitter.com/totofiandaca); fornitore della ricetta: [Andrea Giudiceandrea](https://github.com/agiudiceandrea); 
@@ -8,7 +8,7 @@
 
 <!-- TOC -->
 
-- [QGIS e i grigliati NTv2 per la Sicilia](#qgis-e-i-grigliati-ntv2-per-la-sicilia)
+- [QGIS e i grigliati NTv2 per l'Italia](#qgis-e-i-grigliati-ntv2-per-litalia)
   - [Come integrarlo in QGIS 3.10](#come-integrarlo-in-qgis-310)
   - [Come integrarlo in QGIS 3.4.14](#come-integrarlo-in-qgis-3414)
   - [RINGRAZIAMENTI](#ringraziamenti)
@@ -72,7 +72,7 @@ volo" temi geografici dal sistema di coordinate geografiche ROMA40 (o Monte
 Mario, che è lo stesso, ma occorre creare due differenti trasformazioni, una
 per i temi dichiaratamente Monte Mario ed una per quelli per i quali sia
 stato dichiarato il sistema ROMA40) al sistema WGS84 per tutto il territorio
-siciliano, isole minori comprese ',NULL,1,0,NULL);
+italiano, isole minori comprese ',NULL,1,0,NULL);
 ```
 
 lasciare **NULL** il campo `epsg_nr`, il campo `coord_op_code` verrà valorizzato automaticamente, inserire il valore `4265` (è il codice epsg del GCRS Monte Mario) nel campo `source_crs_code`, il valore `4258` (è il codice epsg del GCRS ETRS89) nel campo `target_crs_code`, il valore `9615` (è il codice che identifica le trasformazioni NTv2) nel campo `coord_op_method_code` e il nome del file del grigliato NTv2 nel campo `p1`.
