@@ -6,6 +6,18 @@
   
 ---
 
+<!-- TOC -->
+
+- [QGIS e i grigliati NTv2 per la Sicilia](#qgis-e-i-grigliati-ntv2-per-la-sicilia)
+  - [Come integrarlo in QGIS 3.10](#come-integrarlo-in-qgis-310)
+  - [Come integrarlo in QGIS 3.4.14](#come-integrarlo-in-qgis-3414)
+  - [RINGRAZIAMENTI](#ringraziamenti)
+  - [Chi ha cucinato questa ricetta o ne ha tratto ispirazione](#chi-ha-cucinato-questa-ricetta-o-ne-ha-tratto-ispirazione)
+
+<!-- /TOC -->
+
+---
+
 Lo standard **NTv2** (_National Transformation versione 2_) è stato definito nel 1995 dal [servizio geodetico del governo canadese](http://webapp.geod.nrcan.gc.ca/geod/) per archiviare le traslazioni da apportare alle coordinate geografiche per il passaggio tra datum diversi (originariamente da NAD27 a NAD83). Questo standard si è ora diffuso in tutto il mondo ed è utilizzato da tutti i più diffusi software GIS, sia [proprietari](https://it.wikipedia.org/wiki/Software_proprietario) che [Open Source](https://it.wikipedia.org/wiki/Open_source).
 
 Per gli scopi di numerosi progetti GIS, non è necessario raggiungere la precisione fornita dai grigliati calcolati da IGM, ma è comunque estremamente utile poter operare trasformazioni sull’intero territorio nazionale con precisione submetrica.
