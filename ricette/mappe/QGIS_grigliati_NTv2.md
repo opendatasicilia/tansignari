@@ -14,8 +14,8 @@
   - [OSSERVAZIONI](#osservazioni)
   - [RINGRAZIAMENTI](#ringraziamenti)
   - [<ul>
-<li>[Trasformazione tra Sistemi di riferimento e GIS: quali precisioni?]</li>
-</ul>](#ul-litrasformazione-tra-sistemi-di-riferimento-e-gis-quali-precisionili-ul)
+<li>Trasformazione tra Sistemi di riferimento e GIS: quali precisioni? di Mattia De Agostino</li>
+</ul>](#ul-litrasformazione-tra-sistemi-di-riferimento-e-gis-quali-precisioni-di-mattia-de-agostinoli-ul)
   - [Chi ha cucinato questa ricetta o ne ha tratto ispirazione](#chi-ha-cucinato-questa-ricetta-o-ne-ha-tratto-ispirazione)
 
 <!-- /TOC -->
@@ -95,7 +95,7 @@ La presente ricetta spiega come usare i file NTv2, per le caratteristiche del gr
 - [Lista gvSIG Italian 2009](https://lists.osgeo.org/pipermail/gvsig-italian/2009-July/000757.html)
 - [Lista QGIS-it](http://osgeo-org.1560.x6.nabble.com/Integrare-i-grigliati-NTv2-in-QGIS-3-10-futura-LTR-td5426354.html)
 
-- [Trasformazione tra Sistemi di riferimento e GIS: quali precisioni?]
+- [Trasformazione tra Sistemi di riferimento e GIS: quali precisioni? di Mattia De Agostino](https://github.com/opendatasicilia/tansignari/raw/master/ricette/mappe/De%20Agostino%20et%20al.%20-%20Trasformazione%20tra%20SR.pdf)
 ---
 
 ## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
