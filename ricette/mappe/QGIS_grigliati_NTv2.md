@@ -11,6 +11,7 @@
 - [QGIS e i grigliati NTv2 per l'Italia](#qgis-e-i-grigliati-ntv2-per-litalia)
   - [Come integrarlo in QGIS 3.10](#come-integrarlo-in-qgis-310)
   - [Come integrarlo in QGIS 3.4.14](#come-integrarlo-in-qgis-3414)
+  - [OSSERVAZIONI](#osservazioni)
   - [RINGRAZIAMENTI](#ringraziamenti)
   - [Chi ha cucinato questa ricetta o ne ha tratto ispirazione](#chi-ha-cucinato-questa-ricetta-o-ne-ha-tratto-ispirazione)
 
@@ -22,7 +23,7 @@ Lo standard **NTv2** (_National Transformation versione 2_) è stato definito ne
 
 Per gli scopi di numerosi progetti GIS, non è necessario raggiungere la precisione fornita dai grigliati calcolati da IGM, ma è comunque estremamente utile poter operare trasformazioni sull’intero territorio nazionale con precisione submetrica.
 
-Grazie all’Ing. [`Ernesto Sferlazza`](http://osgeo-org.1560.x6.nabble.com/grigliato-NTV2-per-la-Sicilia-td4182271.html) ([Descrizione procedura per la generazione di griglie NTV2](http://www.provincia.agrigento.it/flex/cm/pages/ServeAttachment.php/L/IT/D/D.6360cf6e7857e4788f2f/P/BLOB%3AID%3D309)) per aver creato e condiviso una griglia di scostamenti (grid shift: dal sistema di coordinate geografiche ROMA40  al sistema WGS84 ) nel formato NTv2 per tutto il territorio siciliano, isole minori comprese
+Grazie all’Ing. [`Ernesto Sferlazza`](http://osgeo-org.1560.x6.nabble.com/grigliato-NTV2-per-la-Sicilia-td4182271.html) ([Descrizione procedura per la generazione di griglie NTV2](http://www.provincia.agrigento.it/flex/cm/pages/ServeAttachment.php/L/IT/D/D.6360cf6e7857e4788f2f/P/BLOB%3AID%3D309)) per aver creato e condiviso una griglia di scostamenti (grid shift: dal sistema di coordinate geografiche ROMA40  al sistema WGS84 ) nel formato NTv2 per tutto il territorio italiano, isole minori comprese
 
 ---
 
@@ -41,7 +42,7 @@ quindi aprire il db con **SpatiaLite_gui** e usare:
 INSERT INTO "grid_transformation"
 VALUES ('PROJ','EPSG_4265_TO_EPSG_4258','Monte Mario (ROMA40) TO
 ETRS89/ETRF89 (GN)',
-'Per tutto il territorio siciliano, isole minori comprese - Ing.Sferlazza',
+'Per tutto il territorio italiano, isole minori comprese - Ing.Sferlazza',
 'LOCALE',
 'EPSG','9615','NTv2',
 'EPSG','4265','EPSG','4258',
@@ -79,12 +80,16 @@ lasciare **NULL** il campo `epsg_nr`, il campo `coord_op_code` verrà valorizzat
 
 A questo punto in **QGIS**, nel tuo progetto, dal menu `Project→Properties→CRS`, nel riquadro `Datum Transformations`, aggiungi una nuova trasformazione di datum, impostando come `Source CRS` il crs `EPSG:3004` - Monte Mario / Italy 2, come `Destination CRS` il crs `EPSG:25833` - ETRS89 / UTM zone 33N, scegliendo come trasformazione da usare quella che contiene la stringa "`+nadgrids=`" con il nome del file del grigliato NTv2.
 
+## OSSERVAZIONI
+
+La presente ricetta spiega come usare i file NTv2, per le caratteristiche del grigliato e per approfondimenti, si rimanda ai vari URL.
 
 ## RINGRAZIAMENTI
 
 - [Andrea Giudiceandrea](https://github.com/agiudiceandrea)
-- [Ing. Sferlazza](http://osgeo-org.1560.x6.nabble.com/grigliato-NTV2-per-la-Sicilia-td4182271.html)
-- [Lista gvSIG Italian](http://osgeo-org.1560.x6.nabble.com/gvSIG-Italian-f4178756.html)
+- [Ing. E. Sferlazza](https://www.facebook.com/ernesto.sferlazza)
+- [Lista gvSIG Italian 2008](http://osgeo-org.1560.x6.nabble.com/gvSIG-Italian-f4178756.html)
+- [Lista gvSIG Italian 2009](https://lists.osgeo.org/pipermail/gvsig-italian/2009-July/000757.html)
 - [Lista QGIS-it](http://osgeo-org.1560.x6.nabble.com/Integrare-i-grigliati-NTv2-in-QGIS-3-10-futura-LTR-td5426354.html)
 
 
