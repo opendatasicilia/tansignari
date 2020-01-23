@@ -1,7 +1,7 @@
 Read the Docs
 =============
 
-In questa sezione vengono illustrate ricette utili che concernono la pubblicazione di documentazione e contenuti sulla piattaforma di **[Read the Docs](https://docs.readthedocs.io/en/stable/)**.
+In questa sezione vengono illustrate ricette utili che concernono la pubblicazione di documentazione e contenuti sulla piattaforma di Read the Docs (https://docs.readthedocs.io/en/stable).
 
 **Elenco Ricette**
 
