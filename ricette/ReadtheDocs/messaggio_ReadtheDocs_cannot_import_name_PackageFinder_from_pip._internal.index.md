@@ -20,7 +20,7 @@ In uno di questi casi (e molti altri), la soluzione potrebbe essere semplicement
 Seguire questi passaggi per cancellare l'ambiente di compilazione: 
 - Vai alle **“Versioni”** 
 - Fare clic sul pulsante **“Modifica”** della versione che si desidera cancellare sul lato destro della pagina 
-- Vai in fondo alla pagina e fai clic sul collegamento di **Swype** (cancellazione), accanto al pulsante **"Salva"**.
+- Vai in fondo alla pagina e fai clic sul collegamento di **Wype** (cancellazione), accanto al pulsante **"Salva"**.
 
 **Nota**: Pulendo l'ambiente di creazione della documentazione, verranno rimossi tutti i file ``rst``, ``md`` e ``code`` associati ma non la documentazione già creata (file ``HTML`` e ``PDF``). La documentazione sarà ancora online dopo aver cancellato l'ambiente di compilazione.
 
