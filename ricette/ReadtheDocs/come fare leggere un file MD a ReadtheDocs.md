@@ -15,7 +15,7 @@ Bisogna guardare questi due file `requirements.txt` e `conf.py`.
 
 **`requirements.txt`**
 
-requirements con i requisiti di moduli da installare, vedi ad esempio: https://github.com/opendatasicilia/tansignari/blob/master/requirements.txt e bisogna inserire
+requirements è il file che contiene i requisiti dei moduli da installare. Vedi ad esempio: https://github.com/opendatasicilia/tansignari/blob/master/requirements.txt. Bisogna inserire nel file:
 - `sphinx-rtd-theme` 
 - `sphinx` 
 - `recommonmark` 
@@ -24,5 +24,21 @@ requirements con i requisiti di moduli da installare, vedi ad esempio: https://g
 
 
 **`conf.py`**
-`conf.py`, il file di configurazione in linguaggio python. In queste linee si imposta la configurazione che abilita il markdown:
-- 
+
+`conf.py`, è il file di configurazione in linguaggio python. In queste linee si imposta la configurazione che abilita il markdown
+
+```bash
+import recommonmark
+from recommonmark.transform import AutoStructify
+
+from recommonmark.parser import CommonMarkParser
+
+source_parsers = {
+    '.md': 'recommonmark.parser.CommonMarkParser',
+}
+
+source_suffix = ['.rst', '.md']
+
+extensions = ['sphinx.ext.ifconfig','sphinx_markdown_tables']
+```
+
