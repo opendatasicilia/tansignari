@@ -51,7 +51,7 @@ Bisogna inserire queste righe di codice nel file `conf.py`.
 ### Se il progetto su Read the Docs non dovesse compilare 
 In questo periodo (gennaio 2020) c'è un bug, seguire la procedura illustrata di seguito per permettere a Read the Docs di compilare il progetto ospitato su Github.
 
-A questo link https://docs.readthedocs.io/en/stable/guides/wipe-environment.html viene spiegato come agire in maniera semplice.
+A questo link [https://docs.readthedocs.io/en/stable/guides/wipe-environment.html](https://docs.readthedocs.io/en/stable/guides/wipe-environment.html) viene spiegato come agire in maniera semplice.
 
 **Wiping a Build Environment**
 
