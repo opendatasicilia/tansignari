@@ -23,7 +23,7 @@ Bisogna guardare questi due file `requirements.txt` e `conf.py` sul progetto osp
 - `markdown`  
 - `sphinx-markdown-tables` 
 
--
+--
 
 **`conf.py`**
 
