@@ -11,18 +11,17 @@ Se voglio far leggere un file .MD, oltre ai file .RTS, a ReadtheDocs quali impos
 
 ## Soluzione
 
-Bisogna guardare questi due file:
+Bisogna guardare questi due file `requirements.txt` e `conf.py`.
+
+**`requirements.txt`**
 
 - requirements con i requisiti di moduli da installare, vedi ad esempio: https://github.com/opendatasicilia/tansignari/blob/master/requirements.txt e bisogna inserire
- 
-  sphinx-rtd-theme
-
-  sphinx
-
-  recommonmark
- 
-  markdown
-
-  sphinx-markdown-tables
-
-- `conf.py`, il file di configurazione, in cui in queste linee si imposta la configurazione che abilita il markdown:
+- `sphinx-rtd-theme` 
+- `sphinx` 
+- `recommonmark` 
+- `markdown`  
+- `sphinx-markdown-tables` 
+  
+**`conf.py`**
+`conf.py`, il file di configurazione in linguaggio python. In queste linee si imposta la configurazione che abilita il markdown:
+- 
