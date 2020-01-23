@@ -1,4 +1,4 @@
-# Come fare leggere un file in formato `.MD` a **ReadtheDocs** (in un progetto su Github) 
+# Come fare leggere un file in formato `.MD` a ReadtheDocs (in un progetto su Github) 
 
 
 * autore: [Ciro Spataro](https://twitter.com/cirospat)
@@ -28,7 +28,7 @@ sphinx-markdown-tables
 
 **`conf.py`**
 
-`conf.py`, è il file di configurazione in linguaggio python. In queste linee si imposta la configurazione che abilita il markdown
+`conf.py`, è il file di configurazione in linguaggio **Python**. In queste linee si imposta la configurazione che abilita il **Markdown** (`.MD`) su **Read the Docs**..
 
 ```bash
 import recommonmark
