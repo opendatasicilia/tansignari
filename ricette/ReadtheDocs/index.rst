@@ -3,6 +3,10 @@ Read the Docs
 
 In questa sezione vengono illustrate ricette utili che concernono la pubblicazione di documentazione e contenuti sulla piattaforma di **Read the Docs** (https://docs.readthedocs.io/en/stable).
 
+.. figure:: https://googledocs.readthedocs.io/it/latest/_images/gdocs-rtd_6.png
+        :target: https://docs.readthedocs.io/en/stable
+
+
 **Elenco Ricette**
 
 
