@@ -59,10 +59,10 @@ Sometimes it happen that your Builds start failing because the build environment
 In any of these cases (and many others), the solution could be just wiping out the existing build environment files and allow Read the Docs to create a new fresh one.
 
 **Follow these steps to wipe the build environment**:
-- Go to Versions
-- Click on the Edit button of the version you want to wipe on the right side of the page
-- Go to the bottom of the page and click the wipe link, next to the “Save” button
+- Go to `Versions`
+- Click on the **Edit** button of the version you want to wipe on the right side of the page
+- Go to the bottom of the page and click the **wipe link**, next to the **“Save”** button
 
-**NOTE**: By wiping the documentation build environment, all the rst, md, and code files associated with it will be removed but not the documentation already built (HTML and PDF files). Your documentation will still be online after wiping the build environment.
+**NOTE**: By wiping the documentation build environment, all the `rst`, `md`, and `code` files associated with it will be removed but not the documentation already built (`HTML` and `PDF` files). Your documentation will still be online after wiping the build environment.
 
 Now you can re-build the version with a fresh build environment!
