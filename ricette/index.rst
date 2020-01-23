@@ -14,3 +14,4 @@ Indice delle ricette
   script/index
   scraping/index
   mappe/index
+  ReadtheDocs/index
