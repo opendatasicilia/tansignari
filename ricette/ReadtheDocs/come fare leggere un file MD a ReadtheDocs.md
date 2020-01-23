@@ -1,5 +1,5 @@
-# Come fare leggere un file in formato .MD a ReadtheDocs 
-(in un progetto su Github)
+# Come fare leggere un file in formato .MD a ReadtheDocs (in un progetto su Github) 
+
 
 * autore: [Ciro Spataro](https://twitter.com/cirospat)
 * issue: [#106](https://github.com/opendatasicilia/tansignari/issues/106) fornitore ricetta [mastro Andrea Borruso](https://twitter.com/aborruso?lang=it)
@@ -8,11 +8,11 @@
 
 ## Problema
 
-Se voglio far leggere un file .MD, oltre ai file .RTS, a ReadtheDocs quali impostazioni devo settare e dove li devo settare?
+Se voglio far leggere un file .MD a ReadtheDocs, oltre ai file .RTS, quali impostazioni devo settare e dove li devo settare su Github?
 
 ## Soluzione
 
-Bisogna guardare questi due file `requirements.txt` e `conf.py`.
+Bisogna guardare questi due file `requirements.txt` e `conf.py` sul progetto ospitato da **Github**.
 
 **`requirements.txt`**
 
@@ -23,6 +23,7 @@ Bisogna guardare questi due file `requirements.txt` e `conf.py`.
 - `markdown`  
 - `sphinx-markdown-tables` 
 
+-
 
 **`conf.py`**
 
