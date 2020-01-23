@@ -1,6 +1,6 @@
 # Messaggio Read the Docs di “build fails”: [cannot import name “PackageFinder” from “pip._internal.index”]
 
-Può capitare che durante la procedura di compilazione del progetto su ReadtheDocs appaia un messaggio: *“cannot import name “PackageFinder” from “pip._internal.index”*.
+Può capitare che durante la procedura di compilazione del progetto su **Read the Docs** appaia un messaggio: *“cannot import name “PackageFinder” from “pip._internal.index”*. Cio comporta la non colmpilazione del progetto su Read the Docs, quindi gli aggiornamenti apportati sulle pagine di Github non vengono renderizzate sulle pagine HTML di Read the Docs.
 
 ## La causa
 
