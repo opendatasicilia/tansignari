@@ -17,12 +17,13 @@ Bisogna guardare questi due file `requirements.txt` e `conf.py` sul progetto osp
 **`requirements.txt`**
 
 `requirements.txt` è il file che contiene i requisiti dei moduli da installare. Vedi ad esempio: https://github.com/opendatasicilia/tansignari/blob/master/requirements.txt. Bisogna inserire nel file:
-- `sphinx-rtd-theme` 
-- `sphinx` 
-- `recommonmark` 
-- `markdown`  
-- `sphinx-markdown-tables` 
-
+```bash
+sphinx-rtd-theme 
+sphinx 
+recommonmark 
+markdown  
+sphinx-markdown-tables
+```
 --
 
 **`conf.py`**
