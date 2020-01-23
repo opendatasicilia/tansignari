@@ -1,5 +1,5 @@
 Read the Docs
-=====
+=============
 
 
 **Elenco Ricette**
@@ -8,6 +8,6 @@ Read the Docs
 .. toctree::
    :maxdepth: 3
    
-   umap/uMap
-   umap/uMap_tematizzare_punti
+   come_fare_leggere_un_file_MD_a_ReadtheDocs
+   
    
