@@ -11,7 +11,7 @@ Può capitare che durante la procedura di compilazione del progetto su **Read th
 
 
 ## La soluzione 
-[(da Read the Docs / Wiping a Build Environment)](https://docs.readthedocs.io/en/stable/guides/wipe-environment.html)
+[Da Read the Docs / Wiping a Build Environment](https://docs.readthedocs.io/en/stable/guides/wipe-environment.html)
 
 A volte capita che le tue build inizino a fallire perché l'ambiente di build in cui viene creata la documentazione è obsoleto o danneggiato.
 
