@@ -1,4 +1,5 @@
-# Come fare leggere un file in formato .MD a ReadtheDocs
+# Come fare leggere un file in formato .MD a ReadtheDocs 
+(in un progetto su Github)
 
 * autore: [Ciro Spataro](https://twitter.com/cirospat)
 * issue: [#106](https://github.com/opendatasicilia/tansignari/issues/106) fornitore ricetta [mastro Andrea Borruso](https://twitter.com/aborruso?lang=it)
@@ -15,7 +16,7 @@ Bisogna guardare questi due file `requirements.txt` e `conf.py`.
 
 **`requirements.txt`**
 
-requirements è il file che contiene i requisiti dei moduli da installare. Vedi ad esempio: https://github.com/opendatasicilia/tansignari/blob/master/requirements.txt. Bisogna inserire nel file:
+`requirements.txt` è il file che contiene i requisiti dei moduli da installare. Vedi ad esempio: https://github.com/opendatasicilia/tansignari/blob/master/requirements.txt. Bisogna inserire nel file:
 - `sphinx-rtd-theme` 
 - `sphinx` 
 - `recommonmark` 
@@ -41,4 +42,4 @@ source_suffix = ['.rst', '.md']
 
 extensions = ['sphinx.ext.ifconfig','sphinx_markdown_tables']
 ```
-
+Bisogna inserire queste righe di codice nel file `conf.py`.
