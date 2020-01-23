@@ -1,4 +1,4 @@
-# Come fare leggere un file in formato .MD a ReadtheDocs (in un progetto su Github) 
+# Come fare leggere un file in formato `.MD` a **ReadtheDocs** (in un progetto su Github) 
 
 
 * autore: [Ciro Spataro](https://twitter.com/cirospat)
@@ -8,7 +8,7 @@
 
 ## Problema
 
-Se voglio far leggere un file .MD a ReadtheDocs, oltre ai file .RTS, quali impostazioni devo settare e dove li devo settare su Github?
+Se voglio far leggere un file `.MD` a **ReadtheDocs**, oltre ai file `.RST`, quali impostazioni devo settare e dove li devo settare su **Github**?
 
 ## Soluzione
 
