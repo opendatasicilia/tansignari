@@ -1,7 +1,7 @@
 # Messaggio Read the Docs di “build fails”: [cannot import name “PackageFinder” from “pip._internal.index”]
 
 * autore: [Ciro Spataro](https://twitter.com/cirospat)
-* issue: [#106](https://github.com/opendatasicilia/tansignari/issues/106#issuecomment-577152591) aiuto nell'individuazione della  soluzione [Andrea Borruso](https://twitter.com/aborruso?lang=it)
+* issue: [#106](https://github.com/opendatasicilia/tansignari/issues/106#issuecomment-577152591) - aiuto nell'individuazione della  soluzione: [Andrea Borruso](https://twitter.com/aborruso?lang=it)
 
 Può capitare che durante la procedura di compilazione del progetto su **Read the Docs** appaia un messaggio: *“cannot import name “PackageFinder” from “pip._internal.index”*. Ciò comporta la ***non compilazione del progetto** su Read the Docs, quindi gli aggiornamenti apportati sulle pagine di Github non vengono renderizzati sulle pagine HTML di Read the Docs.
 
