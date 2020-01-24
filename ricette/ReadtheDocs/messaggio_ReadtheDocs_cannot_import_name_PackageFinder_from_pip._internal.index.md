@@ -1,6 +1,9 @@
 # Messaggio Read the Docs di “build fails”: [cannot import name “PackageFinder” from “pip._internal.index”]
 
-Può capitare che durante la procedura di compilazione del progetto su **Read the Docs** appaia un messaggio: *“cannot import name “PackageFinder” from “pip._internal.index”*. Cio comporta la non compilazione del progetto su Read the Docs, quindi gli aggiornamenti apportati sulle pagine di Github non vengono renderizzate sulle pagine HTML di Read the Docs.
+* autore: [Ciro Spataro](https://twitter.com/cirospat)
+* issue: [#106](https://github.com/opendatasicilia/tansignari/issues/106#issuecomment-577152591) aiuto nell'individuazione della  soluzione [Andrea Borruso](https://twitter.com/aborruso?lang=it)
+
+Può capitare che durante la procedura di compilazione del progetto su **Read the Docs** appaia un messaggio: *“cannot import name “PackageFinder” from “pip._internal.index”*. Ciò comporta la ***non compilazione del progetto** su Read the Docs, quindi gli aggiornamenti apportati sulle pagine di Github non vengono renderizzati sulle pagine HTML di Read the Docs.
 
 
 ## La causa
@@ -22,6 +25,6 @@ Seguire questi passaggi per cancellare l'ambiente di compilazione:
 - Fare clic sul pulsante **“Modifica”** della versione che si desidera cancellare sul lato destro della pagina 
 - Vai in fondo alla pagina e fai clic sul collegamento di **Wype** (cancellazione), accanto al pulsante **"Salva"**.
 
-**Nota**: Pulendo l'ambiente di creazione della documentazione, verranno rimossi tutti i file ``rst``, ``md`` e ``code`` associati ma non la documentazione già creata (file ``HTML`` e ``PDF``). La documentazione sarà ancora online dopo aver cancellato l'ambiente di compilazione.
+**Nota**: Pulendo l'ambiente di creazione della documentazione (attraverso il "Wype"), verranno rimossi tutti i file ``rst``, ``md`` e ``code`` associati ma non la documentazione già creata (file ``HTML`` e ``PDF``). La documentazione sarà ancora online dopo aver cancellato l'ambiente di compilazione.
 
-Ora puoi ricostruire la versione con un nuovo ambiente di compilazione!
+Ora è possibile ricostruire la versione con un nuovo ambiente di compilazione! Nella pagina "compilazioni" del progeto Read the Docs cliccare su"Versione di Compilazione" e una uova compilazione sarà avviata.
