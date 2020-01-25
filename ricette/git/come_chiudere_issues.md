@@ -6,8 +6,16 @@
   
 ---
 
-Questa ricetta nasce perché è molto utile chiudere le issues tramite `commit`
+Per chiudere una issue è possibile seguire due vie:
 
-Basta che nel messaggio di commit, fai riferimento alla issue e usi uno dei verbi previsti: https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords
+1. usando l'apposito bottone `Close issue` che si trova in basso a destra nella finestra delle issue aperte;
+2. tramite messaggio di commit, quindi per chiudere la issue #43, basterà scrivere nel messaggio di commit `close #43`
 
-Esempio, per chiudere questa issue ho scritto, nel messaggio di commit, `close #109`
+
+## Riferimento
+
+- https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords
+
+## Esempio
+
+Per chiudere questa issue ho scritto, nel messaggio di commit, `close #109`
