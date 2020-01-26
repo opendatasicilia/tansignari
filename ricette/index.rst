@@ -15,3 +15,4 @@ Indice delle ricette
   scraping/index
   mappe/index
   ReadtheDocs/index
+  utilities/index
