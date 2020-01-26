@@ -15,4 +15,6 @@ Indice delle ricette
   scraping/index
   mappe/index
   ReadtheDocs/index
+  sqlite/index
   utilities/index
+  git/index
