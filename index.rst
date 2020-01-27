@@ -108,7 +108,10 @@ Mappa del sito
 
   aperte <https://github.com/opendatasicilia/tansignari/issues>
   chiuse <https://github.com/opendatasicilia/tansignari/issues?q=is%3Aissue+is%3Aclosed>
-  
+
+.. image:: https://img.shields.io/github/issues/opendatasicilia/tansignari   :alt: GitHub issues
+.. image:: https://img.shields.io/github/issues-closed-raw/opendatasicilia/tansignari   :alt: GitHub closed issues
+
 -------------
 
 | **Per visualizzare e consultare correttamente i contenuti di T'ansignari
