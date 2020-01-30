@@ -82,7 +82,7 @@ cd ../../../../
 - [**Index of /qgis/win64/**](http://download.osgeo.org/qgis/win64/)
 - [**repository**](https://github.com/pigreco/QGIS_portable_3x)
 - [**Impara X in Y minuti**](https://learnxinyminutes.com/docs/it-it/bash-it/)
-- [**QGIS**(https://qgis.org/it/site/)
+- [**QGIS**](https://qgis.org/it/site/)
 
 ## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
 
