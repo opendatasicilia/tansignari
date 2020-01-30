@@ -5,6 +5,7 @@ Indice delle ricette
   :maxdepth: 2
   
   riga_comando/index
+  bash/index
   csv/index
   feedrss/index
   geocoder/index
