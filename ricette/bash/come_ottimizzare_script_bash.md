@@ -86,4 +86,4 @@ cd ../../../../
 
 ## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
 
-- **Come creare una versione Portable di QGIS 3.x** : mettere link
+- **Come creare una versione Portable di QGIS 3.x** : http://tansignari.opendatasicilia.it/it/latest/ricette/utilities/come%20_creare_portable_QGIS.html
