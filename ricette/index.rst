@@ -4,17 +4,19 @@ Indice delle ricette
 .. toctree::
   :maxdepth: 2
   
+  riga_comando/index
+  bash/index
   csv/index
   feedrss/index
   geocoder/index
+  git/index
+  mappe/index
   opendatakit/index
   query/index
-  regex/index
-  riga_comando/index
-  script/index
-  scraping/index
-  mappe/index
   ReadtheDocs/index
+  regex/index
+  scraping/index
+  script/index
   sqlite/index
   utilities/index
-  git/index
+  

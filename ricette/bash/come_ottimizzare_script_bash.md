@@ -79,11 +79,11 @@ cd ../../../../
 ```
 
 ## Riferimenti
-- **Index of /qgis/win64/** : http://download.osgeo.org/qgis/win64/
-- **repository** : https://github.com/pigreco/QGIS_portable_3x
-- **Impara X in Y minuti** : https://learnxinyminutes.com/docs/it-it/bash-it/
-- **QGIS** : https://qgis.org/it/site/
+- [**Index of /qgis/win64/**](http://download.osgeo.org/qgis/win64/)
+- [**repository**](https://github.com/pigreco/QGIS_portable_3x)
+- [**Impara X in Y minuti**](https://learnxinyminutes.com/docs/it-it/bash-it/)
+- [**QGIS**](https://qgis.org/it/site/)
 
 ## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
 
-- **Come creare una versione Portable di QGIS 3.x** : mettere link
+- [**Come creare una versione Portable di QGIS 3.x**](http://tansignari.opendatasicilia.it/it/latest/ricette/utilities/come_creare_portable_QGIS.html)
