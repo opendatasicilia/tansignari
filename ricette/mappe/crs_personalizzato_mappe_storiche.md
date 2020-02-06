@@ -81,7 +81,7 @@ quindi la stringa **proj** da usare è:
 
 `+proj=lcc +lat_0=45.90 +lon_0=14 +lat_1=45.90 +x_0=800000 +y_0=601000 +k_0=0.998992911 +ellps=bessel +towgs84=656.5,138.2,506.5,5.187,-2.540,5.256,-12.61 +units=m +no_defs"`
 
-La georeferenziazione sarà tanto migliore quanto più punti di controllo verranno tracciati. Come metodo di ricampionamento suggerito è il **Thin Plate Spline**.
+La georeferenziazione sarà tanto migliore quanto più punti di controllo verranno tracciati. Come metodo di ricampionamento suggerito è il [**Thin Plate Spline**](https://it.wikipedia.org/wiki/Thin_plate_spline).
 
 Sul numero di punti di controllo e sul metodo di ricampionamento è probabile che ci sia da fare un po' di test, per capire quale sia la scelta ottimale.
 
