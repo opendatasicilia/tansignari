@@ -2,13 +2,13 @@
 
 - issue correlata: [#113](https://github.com/opendatasicilia/tansignari/issues/113)
 - autore: [Totò Fiandaca](https://twitter.com/totofiandaca); fornitore della ricetta: [Andrea Borruso](https://github.com/aborruso); 
-- ingredienti: [QGIS](https://qgis.org/it/site/), [PROJ](https://proj.org/about.html), [GDAL](https://gdal.org/)
+- ingredienti: [PROJ](https://proj.org/about.html), [GDAL](https://gdal.org/)
   
 ---
 
 <!-- TOC -->
 
-- [Come creare Sistema di Riferimento personalizzato delle coordinate per mappe storiche](#come-creare-sistema-di-riferimento-personalizzato-delle-coordinate-per-mappe-storiche)
+- [Come creare un Sistema di Riferimento personalizzato: un esempio con mappe storiche](#come-creare-un-sistema-di-riferimento-personalizzato-un-esempio-con-mappe-storiche)
   - [Introduzione](#introduzione)
   - [Come creare SR personalizzato a partire dalla GRID DATA](#come-creare-sr-personalizzato-a-partire-dalla-grid-data)
   - [Test su Milano](#test-su-milano)
@@ -26,7 +26,7 @@ La [biblioteca dell’università del Texas (USA)](https://legacy.lib.utexas.edu
 Sono mappe che rappresentano un contenuto geografico storico molto importante e per un proficuo riuso occorre georeferenziarle in modo da visualizzarle perfettamente sovrapposte alle mappe attuali. Il processo di georeferenziazione è complesso e passa per queste fasi:
 
 1. lettura dei parametri della mappa direttamente nella cartografica;
-2. determinazione dei gcp, tramite l'uso di un software GIS;
+2. determinazione dei gcp (Ground Control Points);
 3. creazione di una stringa proj personalizzata, con tutti i parametri necessari (metodo di ricampionamento, di trasformazione, ecc...).
 
 Osservando le mappa ci si accorge che hanno una doppia parametratura:
