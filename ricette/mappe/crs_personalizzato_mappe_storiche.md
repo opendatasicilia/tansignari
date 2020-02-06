@@ -1,4 +1,4 @@
-# Come creare Sistema di Riferimento personalizzato delle coordinate per mappe storiche
+# Come creare un Sistema di Riferimento personalizzato: un esempio con mappe storiche
 
 - issue correlata: [#113](https://github.com/opendatasicilia/tansignari/issues/113)
 - autore: [Totò Fiandaca](https://twitter.com/totofiandaca); fornitore della ricetta: [Andrea Borruso](https://github.com/aborruso); 
