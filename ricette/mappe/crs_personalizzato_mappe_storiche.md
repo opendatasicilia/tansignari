@@ -1,9 +1,9 @@
 # Come creare un Sistema di Riferimento personalizzato: un esempio con mappe storiche
 
 - issue correlata: [#113](https://github.com/opendatasicilia/tansignari/issues/113)
-- autore: [Totò Fiandaca](https://twitter.com/totofiandaca); fornitore della ricetta: [Andrea Borruso](https://github.com/aborruso); 
+- autore: [Totò Fiandaca](https://twitter.com/totofiandaca); fornitore della ricetta: [Andrea Borruso](https://github.com/aborruso);
 - ingredienti: [PROJ](https://proj.org/about.html), [GDAL](https://gdal.org/)
-  
+
 ---
 
 <!-- TOC -->
@@ -13,6 +13,7 @@
   - [Come creare SR personalizzato a partire dalla GRID DATA](#come-creare-sr-personalizzato-a-partire-dalla-grid-data)
   - [Test su Milano](#test-su-milano)
     - [Output Milano georeferenziato](#output-milano-georeferenziato)
+  - [Utilizzando le coordinate geografiche](#utilizzando-le-coordinate-geografiche)
   - [Riferimenti](#riferimenti)
 
 <!-- /TOC -->
@@ -53,10 +54,10 @@ Projection - Lambert Conical Orthomorphic  →    +proj=lcc
 Spheroid : Bessel 1841                     →    +ellps=bessel
 False Easting : 800000                     →    +x_0=800000
 False Northing : 601000                    →    +y_0=601000
-Central Meridian : 14° E                   →    +lon_0=14 
+Central Meridian : 14° E                   →    +lon_0=14
 Central Parallel : 45° 54'N                →    +lat_0=45.90 +lat_1=45.90
 Scale Factor : 0.998992911                 →    +k_0=0.998992911
-                       (other proj.4 terms)     +units=m +no_defs 
+                       (other proj.4 terms)     +units=m +no_defs
 ```
 
 Occorre tenere conto anche del **datum**: quello di **Monte Mario** basato su Hayford (International 1909) è stato adottato nel 1940, ma queste mappe sono basate sull'ellissoide di **Bessel** e bisogna applicare quindi i parametri di trasformazione legati a quest'ultimo.
@@ -66,12 +67,12 @@ Un riferimento bibliografico prezioso, per applicare i parametri di trasformazio
 I parametri "generici" per l'Italia sono:
 
 ```
-dX= +656.5 m; 
-dY= +138.2 m; 
-dZ= +506.5 m; 
-rotX= –5.187 arc sec; 
-rotY= +2.540 arc sec; 
-rotZ= –5.256 arc sec; 
+dX= +656.5 m;
+dY= +138.2 m;
+dZ= +506.5 m;
+rotX= –5.187 arc sec;
+rotY= +2.540 arc sec;
+rotZ= –5.256 arc sec;
 scale factor= –12.61 ppm (according to ‘coordinate frame rotation’;
 average horizontal error, except Sicilia and Southern Italy: 2.5 m;
 maximum horizontal error: 5.6 m.)
@@ -103,9 +104,24 @@ gdalwarp -r near -tps -co COMPRESS=PACKBITS  -t_srs "+proj=lcc +lat_0=45.90 +lon
 
 ![](./imgs/img_04.png)
 
+## Utilizzando le coordinate geografiche
+
+Nei 4 vertici di queste mappe sono indicate le coordinate geografiche, rispetto a Monte Mario. Facendo quindi riferimento sempre all'ellissoide di Bessel e ai parametri di trasformazione relativi (descritti sopra), si possono aggiungere alla mappa i 4 punti di controllo degli angoli in coordinate geografiche e definire la stringa `proj` in questo modo: `+proj=longlat +ellps=bessel +towgs84=656.5,138.2,506.5,5.187,-2.540,5.256,-12.61 +units=m +pm=rome +no_defs`.
+
+A seguire un esempio di comandi con cui realizzare quanto descritto.
+
+```bash
+# scarica la mappa
+curl -L "http://legacy.lib.utexas.edu/maps/ams/italy_50k/txu-pclmaps-oclc-6540719-milano-45-iii.jpg" >./output.jpg
+# aggiungi i punti di controllo
+gdal_translate -of GTiff -gcp 418.832 2486.39 -3.5 45.3333 -gcp 2689.8 2501.38 -3.25 45.3333 -gcp 2686.8 349.879 -3.25 45.5 -gcp 425.704 337.633 -3.5 45.5 ./output.jpg ./output_mm.tif
+# riproietta la mappa
+gdalwarp -r near -order 1 -co COMPRESS=PACKBITS  -t_srs "+proj=longlat +ellps=bessel +towgs84=656.5,138.2,506.5,5.187,-2.540,5.256,-12.61 +units=m +pm=rome +no_defs" ./output_mm.tif ./output_mm_warped.tif
+```
+
 ---
 
 ## Riferimenti
 
-- **gis.stackexchange** : https://gis.stackexchange.com/questions/349635/setting-proj-parameters-of-old-map
+- **gis.stackexchange** : <https://gis.stackexchange.com/questions/349635/setting-proj-parameters-of-old-map>
 - **Geodetic datums of the Italian cadastral systems** : [https://www.researchgate.net/profile/Gabor_Timar/publication/233406023_Geodetic_datums_of_the_Italian_cadastral_systems/links/0fcfd50a4ac50986ef000000/Geodetic-datums-of-the-Italian-cadastral-systems.pdf](https://www.researchgate.net/profile/Gabor_Timar/publication/233406023_Geodetic_datums_of_the_Italian_cadastral_systems/links/0fcfd50a4ac50986ef000000/Geodetic-datums-of-the-Italian-cadastral-systems.pdf)
