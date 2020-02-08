@@ -61,4 +61,4 @@ https://pigreco.github.io/gdal2tiles_su_github/index50kP2/{z}/{x}/{-y}.png
 
 ## Chi ha cucinato questa ricetta o ne ha tratto ispirazione
 
-- **Blog Pigrecoinfinito** : 
+- **Blog Pigrecoinfinito** : <https://pigrecoinfinito.com/2020/02/08/pubblicare-mappe-a-tiles-xyz-su-github/>
