@@ -13,3 +13,4 @@ Mappe
    estrarre_punti_di_interesse_da_OSM
    QGIS_grigliati_NTv2
    crs_personalizzato_mappe_storiche
+   pubblicare_mappe_tilesXYZ_github
