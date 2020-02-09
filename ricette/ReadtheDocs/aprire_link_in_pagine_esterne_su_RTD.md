@@ -1,7 +1,9 @@
+# Dove è (e qual è) l'istruzione da dare su Github per fare aprire su RTD i link in una pagina esterna?
 
-[issue 116](https://github.com/opendatasicilia/tansignari/issues/116)
+* autore: [Ciro Spataro](https://twitter.com/cirospat)
+* issue: [#116](https://github.com/opendatasicilia/tansignari/issues/116) fornitore ricetta [Giovan Battista Vitrano](https://twitter.com/gbvitrano?lang=it)
 
-
+---
 
 # Obiettivo
 
