@@ -16,6 +16,8 @@ Read the Docs è una piattaforma per la pubblicazione online di documentazione, 
    :maxdepth: 1
    
    come_fare_leggere_un_file_MD_a_ReadtheDocs
+   aprire_link_in_pagine_esterne_su_RTD
    messaggio_ReadtheDocs_cannot_import_name_PackageFinder_from_pip._internal.index
+   
    
    
