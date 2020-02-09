@@ -19,7 +19,7 @@ html_theme_options = {
 }
 ```
 
-Se si vogliono forzare tutte le pagine ad aprirsi in una nuova finestra, uno script su stackoverflow.com soddisfa l'esigenza. Basta aggiungere questo script nella pagina layout.html, prima della chiusara del blocco finale:
+Se si vogliono forzare tutte le pagine ad aprirsi in una nuova finestra, uno script su stackoverflow.com soddisfa l'esigenza. Basta aggiungere questo script nel file **``layout.html``**, prima della chiusara del blocco finale:
 
 ```bash
 <!-- Adds target=_blank to external links -->
