@@ -21,7 +21,7 @@
 
 ## Introduzione
 
-In questa nuova piattaforma la redazione e pubblicazione di una ricetta viene fatta usando solo il linguaggio Markdown e quindi risulta particolarmente semplice e veloce.
+In questa nuova piattaforma `Docsy` la redazione e pubblicazione di una ricetta viene fatta usando solo il linguaggio `Markdown` semplificando notevolemente i vari processi.
 
 ## Corpo ricetta
 
@@ -29,11 +29,11 @@ Le nuove ricette vanno aggiunte in `content/it/ricette` che contiene tante carte
 
 ### le fasi da rispettare sono:
 
-- se la categoria esistesse allora:
+- in presenza di categoria:
   - se nella ricetta fossero previste immagini è obbligatorio creare una **_cartella_**  (`content/it/ricette/nuova-cartella`) con nome simile al titolo della ricetta, all'interno mettere tutte le immagini e il file `index.md` che rappresenta la vera ricetta scritta in `markdown`;
-  - l'indice interno della ricetta è creata in automatico dal sistema qualora si utilizzassero i livelli con i #;
+  - l'indice interno della ricetta è creata in automatico dal sistema qualora si utilizzassero i livelli (`#` primo livello; `##` secondo livello, ecc...);
   - se la ricetta non prevedesse immagini non occorre creare cartelle, basta il solo file `nome-ricetta.md` scritto sempre in `markdown`;
-- se la categoria non esistesse allora:
+- in assenza di categoria:
   - va creata una **_cartella_** per ogni nuova categoria di ricette (`Mappe`, `Bash`, `Utilities`, ecc..), all'interno va creato in file `_index.md`;
 
 ### file `index.md`
@@ -47,10 +47,15 @@ linkTitle: "nome descrittivo ricetta - breve"
 date: 2019-01-05
 description: >
   Descrizione della ricetta.
+tags:
+- PROJ
+- GDAL
+autore: "Nome Cognome"
+fornitore ricetta: "Nome Cognome"
 ---
 ```
 
-subito sotto il corpo della ricetta.
+subito sotto, il corpo della ricetta (vedi template).
 
 ### file `_index.md`
 
@@ -68,3 +73,4 @@ description: >
 
 Elenco Ricette
 
+(verranno aggiunte automaticamente le ricette della categoria)
