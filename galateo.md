@@ -11,7 +11,7 @@ E poi:
 - nel titolo della _issue_ per favore **inserisci** un'"**etichetta**" per classificare i post (ad esempio `[scripting] Come fare a rimuovere i duplicati di una tabella`);
 - ove possibile **fai richieste "strette"**, non troppo generiche e su temi ricchi e estesi. Una richiesta più verticale e circoscritta ha molte più possibilità di ricevere risposta;
 - se sei **soddisfatta/o** della risposta, sei invitata/o a **rimborsare**, creando un testo, una **ricetta**, che racconti per bene il problema che hai riscontrato e come è possibile risolverlo (vedi sotto);
-- quando **rispondi**, fornisci gli elementi di base utili a comprendere quanto hai scritto;
+- quando **rispondi**, fornisci gli elementi di base utili a comprendere quanto hai scritto ed evita risposte tipo chat;
 - tansignari **non è un servizio per richiedere la scrittura gratuita di script, procedure, testi, ecc.**. Se ci dici cosa hai provato/creato fino ad ora e dove ti sei bloccato, possiamo provare ad aiutarti.
 
 ## Ricette
