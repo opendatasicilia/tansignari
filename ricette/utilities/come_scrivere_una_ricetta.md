@@ -1,4 +1,4 @@
-# Come scrivere una ricetta -- in costruzione
+# Come scrivere una ricetta
 
 - issue correlata: [#120](https://github.com/opendatasicilia/tansignari/issues/120)
 - autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_; fornitore della ricetta: *[Andrea Borruso](https://twitter.com/aborruso?lang=it)*;
@@ -8,7 +8,7 @@
 
 <!-- TOC -->
 
-- [Come scrivere una ricetta -- in costruzione](#come-scrivere-una-ricetta----in-costruzione)
+- [Come scrivere una ricetta](#come-scrivere-una-ricetta)
   - [Introduzione](#introduzione)
   - [Corpo ricetta](#corpo-ricetta)
     - [le fasi da rispettare sono:](#le-fasi-da-rispettare-sono)
