@@ -50,8 +50,10 @@ description: >
 tags:
 - PROJ
 - GDAL
-autore: "Nome Cognome"
-fornitore ricetta: "Nome Cognome"
+- ... altri tag (non è case sensitive)
+issue: [1,2,3]
+autore: ["Nome Cognome","Nome Cognome2"]
+chef: ["Nome Cognome",[Nome Cognome2"]
 ---
 ```
 
