@@ -13,8 +13,8 @@
   - [Corpo ricetta](#corpo-ricetta)
     - [le fasi da rispettare sono:](#le-fasi-da-rispettare-sono)
     - [file `index.md`](#file-indexmd)
-      - [elementi del front matter](#elementi-del-front-matter)
-    - [file `_index.md` del file index.md](#file-indexmd-del-file-indexmd)
+      - [elementi del front matter del file index.md](#elementi-del-front-matter-del-file-indexmd)
+    - [file `_index.md`](#file-indexmd-1)
       - [elementi del front matter file _index.md](#elementi-del-front-matter-file-indexmd)
 
 <!-- /TOC -->
@@ -67,7 +67,7 @@ riga vuota
 
 subito sotto, il corpo della ricetta (vedi template).
 
-#### elementi del front matter
+#### elementi del front matter del file index.md
 
 - `title:` il titolo della ricetta tra doppi apici "";
 - `linkTitle:` quello che compare nel menu a destra del `Docsy`, quindi puo' essere uguale al titolo, meglio se più corto.
@@ -78,7 +78,7 @@ subito sotto, il corpo della ricetta (vedi template).
 - `autori:` autore della ricetta, scritte dentro parentesi quadre e separate da virgola ["a","b"];
 - `chefs:` fornitore della ricetta, scritte dentro parentesi quadre e separate da virgola ["c","d"]
 
-### file `_index.md` del file index.md
+### file `_index.md`
 
 Ogni cartella che rappresenta una categoria deve contenere, oltre tutte le altre cartelle/ricette, il file `_index.md`, questo file inizia con il `front matter`:
 
