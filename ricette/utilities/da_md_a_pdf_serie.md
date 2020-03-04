@@ -1,4 +1,4 @@
-# Convertire molti file markdown in PDF -- in costruzione
+# Convertire molti file markdown in PDF
 
 - issue correlata: [#93](https://github.com/opendatasicilia/tansignari/issues/93)
 - autore: _[Totò Fiandaca](https://twitter.com/totofiandaca?lang=it)_; fornitore della ricetta: *[Andrea Borruso](https://twitter.com/aborruso?lang=it)*;
@@ -7,20 +7,21 @@
 ---
 <!-- TOC -->
 
-- [Convertire molti file markdown in PDF -- in costruzione](#convertire-molti-file-markdown-in-pdf----in-costruzione)
+- [Convertire molti file markdown in PDF](#convertire-molti-file-markdown-in-pdf)
   - [Introduzione](#introduzione)
   - [Usando Pandoc](#usando-pandoc)
     - [Opzione 1](#opzione-1)
     - [Opzione 2](#opzione-2)
     - [Installare Pandoc](#installare-pandoc)
   - [Usando VS Code e estensioni](#usando-vs-code-e-estensioni)
+  - [Riferimenti utili](#riferimenti-utili)
 
 <!-- /TOC -->
 
 ---
 ## Introduzione
 
-Utilizzando molto [GitHub](https://github.com/) è altrettanto frequente l'utilizzo del linguaggio [`markdowm`](https://it.wikipedia.org/wiki/Markdown) (`md`), un linguaggio semplice da usare che permette la formattazione del testo in brevissimo tempo. Alcune volte nasce l'esigenza di convertire molti file `*.md` in `PDF`: esistono varie estensioni (sono stati testati alcuni in [VS code](https://code.visualstudio.com/)) oppure facendo uso della riga di comando in bash (usando `Pandoc`) con passaggio intermedio, cioè creazione di file `odt` ([Libre Office Writer](https://it.wikipedia.org/wiki/LibreOffice_Writer)).
+Utilizzando molto [GitHub](https://github.com/) è altrettanto frequente l'utilizzo del linguaggio [`markdowm`](https://it.wikipedia.org/wiki/Markdown) (`md`), un linguaggio semplice da usare che permette la formattazione del testo in brevissimo tempo. Alcune volte nasce l'esigenza di convertire molti file `*.md` in `PDF`: esistono varie estensioni (sono stati testati alcuni in [VS code](https://code.visualstudio.com/) oppure facendo uso della riga di comando in _bash_ (usando `Pandoc`) con passaggio intermedio, cioè creazione di file `odt` ([Libre Office Writer](https://it.wikipedia.org/wiki/LibreOffice_Writer)).
 
 ## Usando Pandoc
 
@@ -28,7 +29,7 @@ Utilizzando molto [GitHub](https://github.com/) è altrettanto frequente l'utili
 
 ### Opzione 1
 
-Il tool da utilizzare è pandoc (che quindi nel caso è da installare). È a riga di comando, open source e disponibile per tutti i sistemi operativi.
+Il tool da utilizzare è **pandoc** (nel caso è da installare). È a riga di comando, open source e disponibile per tutti i sistemi operativi.
 
 Il comando è:
 
@@ -65,7 +66,7 @@ e lanciare il comando
 pandoc -o output.odt --lua-filter=imgWidth.lua --reference-doc=myPandocTemplate.odt input.md
 ```
 
-Verrà prodotto un file `odt`, con tutte le immagini che riempono in larghezza il `100%` dello spazio disponibile (esclusi eventuali margini). L'altezza si modificherà in proporzione.
+Verrà prodotto un file `odt`, con tutte le immagini che riempiono in larghezza il `100%` dello spazio disponibile (esclusi eventuali margini). L'altezza si modificherà in proporzione.
 
 ### Installare Pandoc
 
@@ -76,11 +77,29 @@ Verrà prodotto un file `odt`, con tutte le immagini che riempono in larghezza i
 5. controllo versione, lanciare il comando `pandoc --version`
 6. lanciare il comando `sudo apt-get install texlive-xetex` per installare `--pdf-engine`
 
+## Usando VS Code e estensioni
+
+Una estensione molto potente è [**Markdown Converter**](https://marketplace.visualstudio.com/items?itemName=manuth.markdown-converter) un'estensione del codice di Visual Studio che consente di esportare il file Markdown come file PDF, HTML o immagine.
+Offre molte funzionalità, come la formattazione di DateTime, la configurazione dei propri stili CSS, l'impostazione di intestazioni e piè di pagina, FrontMatter e molto altro.
+
+![](./mdTOpdf/img_01.png)
+
+dopo l'installazione, premendo `F1` (Tasto funzione) e digitando **Markdown**:
+
+![](./mdTOpdf/img_02.png)
+
+menu a tendina con le varie possibilità per convertire: export (pdf, export (html), export (all:pdf, html, png, jpg)
+
+Il plugin automaticamente converte tutti i file `.md` che si trovano nella cartella radice e sottocartelle varie.
 
 ---
 
-## Usando VS Code e estensioni
+## Riferimenti utili
 
-corpo ricetta 
-
-per le immagini creare una cartella all'interno della cartella `img`
+1. [Pandoc](https://pandoc.org/)
+2. [lua](https://pandoc.org/lua-filters.html)
+3. [VS code](https://code.visualstudio.com/)
+4. [Markdown Converter](https://marketplace.visualstudio.com/items?itemName=manuth.markdown-converter)
+5. [GitHub](https://github.com/)
+6. [markdowm](https://it.wikipedia.org/wiki/Markdown)
+7. [Libre Office Writer](https://it.wikipedia.org/wiki/LibreOffice_Writer)

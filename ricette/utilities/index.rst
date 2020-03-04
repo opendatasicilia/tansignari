@@ -11,3 +11,4 @@ Utilities
    come _creare_portable_QGIS
    come_usare_matrice_pendolarismo_ISTAT11
    come_scrivere_una_ricetta
+   da_md_a_pdf_serie
