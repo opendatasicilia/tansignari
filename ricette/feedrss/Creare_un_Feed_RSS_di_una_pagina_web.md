@@ -4,7 +4,7 @@
 - autore: [Ciro Spataro](https://github.com/cirospat); fornitore della ricetta: [Andrea Borruso](https://github.com/aborruso); 
 ---
 
-![image](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/40px-Feed-icon.svg.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/40px-Feed-icon.svg.png)
 
 Per **creare un Feed RSS di una pagina web** ci sono diversi modi.
 
@@ -39,7 +39,7 @@ Nel codice HTML devi cercare le parti variabili e sostituirle con `{%}`. Quindi 
 ```html
 <div class="event clearfix"><img width="60" src="{%}"/><div class="text"><h4 class="date">{%}</h4><h3><a href="{%}">{%}</a></h3><div class="button-link button-detail clearfix"><a href="{%}">SCOPRI</a></div></div></div>
 ```
-![image](https://user-images.githubusercontent.com/30607/52532163-7401f700-2d20-11e9-9ba2-8ecca90450b2.png)
+![](https://user-images.githubusercontent.com/30607/52532163-7401f700-2d20-11e9-9ba2-8ecca90450b2.png)
 
 A quel punto potrai estrarre i vari item con feed43
 
