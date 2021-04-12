@@ -67,11 +67,11 @@ out skel qt;
 
 Da una domanda [di Ciro Spataro](https://github.com/opendatasicilia/tansignari/issues/178).
 
-La prima domanda è: come si etichetta (tagga) una <caserma>?
+La prima domanda è: come si etichetta (tagga) una ``caserma``?
 
 Sul web openstreetmap cercando il tag <caserma> militare, ottieni tra le pagine questa: [https://wiki.openstreetmap.org/wiki/Template:IT:Map_Features:military](https://wiki.openstreetmap.org/wiki/Template:IT:Map_Features:military).
 
-In OverPass un tag di riferimento è <barracks>.
+In OverPass un tag di riferimento è ``barracks``.
 
 ![](https://user-images.githubusercontent.com/30607/112823165-39d34b00-9089-11eb-82b4-55302a5fcf69.png)
 
@@ -94,7 +94,7 @@ e potrai esportare in vari formati:
 
 Questo è solo per iniziare.
 
-<Ricetta fornita da Andrea Borruso>
+``Ricetta fornita da Andrea Borruso``
 
 
 
