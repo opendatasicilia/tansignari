@@ -61,3 +61,42 @@ out body center;
 out skel qt;
 
 ```
+
+
+## Esempio: come estrarre i punti geografici delle caserme di Palermo
+
+Da una domanda [di Ciro Spataro](https://github.com/opendatasicilia/tansignari/issues/178).
+
+La prima domanda è: come si etichetta (tagga) una <caserma>?
+
+Sul web openstreetmap cercando il tag <caserma> militare, ottieni tra le pagine questa: [https://wiki.openstreetmap.org/wiki/Template:IT:Map_Features:military](https://wiki.openstreetmap.org/wiki/Template:IT:Map_Features:military).
+
+In OverPass un tag di riferimento è <barracks>.
+
+![](https://user-images.githubusercontent.com/30607/112823165-39d34b00-9089-11eb-82b4-55302a5fcf69.png)
+
+
+**La prima modalità, per iniziare è questa**:
+
+- apri [https://overpass-turbo.eu/](https://overpass-turbo.eu/)
+- zoommi su Palermo
+- fai click su Wizard, nel pop-up inserisci barracks e poi lanci la query
+
+![](https://user-images.githubusercontent.com/30607/112823515-ae0dee80-9089-11eb-8f2c-03a4a9bd59bf.png)
+
+in mappa avrai qualcosa come:
+
+![](https://user-images.githubusercontent.com/30607/112823571-c0882800-9089-11eb-9579-f65395cd73a7.png)
+
+e potrai esportare in vari formati:
+
+![](https://user-images.githubusercontent.com/30607/112823667-ddbcf680-9089-11eb-8e3b-f1d6139c44ef.png)
+
+Questo è solo per iniziare.
+
+<Ricetta fornita da Andrea Borruso>
+
+
+
+
+
