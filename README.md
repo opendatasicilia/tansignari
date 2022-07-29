@@ -10,6 +10,19 @@ Molto spesso **disperdiamo richieste di aiuto** ("Come faccio a ...") e le relat
 
 Questo repository nasce per **mettere a fattore comune scambi di conoscenza/esperienza** su questi temi: dati aperti, trasparenza, _Linked Open Data_, analisi e trasformazione di dati.
 
+## Come funziona
+
+- se non lo hai già fatto, [**leggi il galateo**](https://festive-bohr-4ac225.netlify.com/galateo/);
+- fai la tua [**domanda qui**](https://github.com/opendatasicilia/tansignari/issues/new) (se non hai un account github, createlo);
+- se sei **soddisfatta/o** della risposta, sei **invitata/o a rimborsare**, **creando** un testo, una **ricetta**, in cui descrivere il problema/dubbio che avevi e come si possa risolvere. La ricettà dovrà essere importata nel repo di [opendatasicilia/tansignari-md](https://github.com/opendatasicilia/tansignari-md)
+
+
+## Glossario minimo di T'ansignari
+
+- **ricetta**: è il cuore del progetto, è un testo, una miniguida che descrive come si fa una determinata cosa (convertire un JSON in CSV, esportare da OpenStreetMap le fontane, ecc.);
+- **guide**: sono i "maestri di ricetta", quelli che rispondendo a una domanda (a una issue), danno una mano a chi l'ha fatta nel comprendere i propri dubbi;
+- **chef**: è colui che scrive la ricetta, che nella gran parte dei casi lo farà dopo avere fatto una domanda.
+
 ## Il nome di questo spazio
 
 "**T'ansignari e t'appeddiri!**", ti devo insegnare a fare qualcosa e ti devo perdere.
