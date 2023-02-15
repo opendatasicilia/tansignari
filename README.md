@@ -2,7 +2,9 @@
 [![](https://img.shields.io/github/issues/opendatasicilia/tansignari.svg?style=flat)](https://github.com/opendatasicilia/tansignari/issues)
 [![chat https://gitter.im/opendatasicilia/tansignari](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/opendatasicilia/tansignari)
 
----
+
+
+Sei in difficoltà? Usa questo repo per fare una domanda 👉 [Apri una issue](https://github.com/opendatasicilia/tansignari/issues/new)
 
 ## Benvenuti
 
